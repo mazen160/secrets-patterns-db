@@ -1,0 +1,3065 @@
+patterns:
+  - pattern:
+    name: Generic - 1001
+    regex: "zopim[_-]?account[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1002
+    regex: "zhuliang[_-]?gh[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1003
+    regex: "zensonatypepassword(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1004
+    regex: "zendesk[_-]?travis[_-]?github(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1005
+    regex: "yt[_-]?server[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1006
+    regex: "yt[_-]?partner[_-]?refresh[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1007
+    regex: "yt[_-]?partner[_-]?client[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1008
+    regex: "yt[_-]?client[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1009
+    regex: "yt[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1010
+    regex: "yt[_-]?account[_-]?refresh[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1011
+    regex: "yt[_-]?account[_-]?client[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1012
+    regex: "yangshun[_-]?gh[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1013
+    regex: "yangshun[_-]?gh[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1014
+    regex: "www[_-]?googleapis[_-]?com(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1015
+    regex: "wpt[_-]?ssh[_-]?private[_-]?key[_-]?base64(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1016
+    regex: "wpt[_-]?ssh[_-]?connect(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1017
+    regex: "wpt[_-]?report[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1018
+    regex: "wpt[_-]?prepare[_-]?dir(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1019
+    regex: "wpt[_-]?db[_-]?user(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1020
+    regex: "wpt[_-]?db[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1021
+    regex: "wporg[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1022
+    regex: "wpjm[_-]?phpunit[_-]?google[_-]?geocode[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1023
+    regex: "wordpress[_-]?db[_-]?user(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1024
+    regex: "wordpress[_-]?db[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1025
+    regex: "wincert[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1026
+    regex: "widget[_-]?test[_-]?server(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1027
+    regex: "widget[_-]?fb[_-]?password[_-]?3(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1028
+    regex: "widget[_-]?fb[_-]?password[_-]?2(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1029
+    regex: "widget[_-]?fb[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1030
+    regex: "widget[_-]?basic[_-]?password[_-]?5(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1031
+    regex: "widget[_-]?basic[_-]?password[_-]?4(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1032
+    regex: "widget[_-]?basic[_-]?password[_-]?3(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1033
+    regex: "widget[_-]?basic[_-]?password[_-]?2(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1034
+    regex: "widget[_-]?basic[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1035
+    regex: "watson[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1036
+    regex: "watson[_-]?device[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1037
+    regex: "watson[_-]?conversation[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1038
+    regex: "wakatime[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1039
+    regex: "vscetoken(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1040
+    regex: "visual[_-]?recognition[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1041
+    regex: "virustotal[_-]?apikey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1042
+    regex: "vip[_-]?github[_-]?deploy[_-]?key[_-]?pass(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1043
+    regex: "vip[_-]?github[_-]?deploy[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1044
+    regex: "vip[_-]?github[_-]?build[_-]?repo[_-]?deploy[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1045
+    regex: "v[_-]?sfdc[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1046
+    regex: "v[_-]?sfdc[_-]?client[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1047
+    regex: "usertravis(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1048
+    regex: "user[_-]?assets[_-]?secret[_-]?access[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1049
+    regex: "user[_-]?assets[_-]?access[_-]?key[_-]?id(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1050
+    regex: "use[_-]?ssh(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1051
+    regex: "us[_-]?east[_-]?1[_-]?elb[_-]?amazonaws[_-]?com(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1052
+    regex: "urban[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1053
+    regex: "urban[_-]?master[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1054
+    regex: "urban[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1055
+    regex: "unity[_-]?serial(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1056
+    regex: "unity[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1057
+    regex: "twitteroauthaccesstoken(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1058
+    regex: "twitteroauthaccesssecret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1059
+    regex: "twitter[_-]?consumer[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1060
+    regex: "twitter[_-]?consumer[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1061
+    regex: "twine[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1062
+    regex: "twilio[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1063
+    regex: "twilio[_-]?sid(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1064
+    regex: "twilio[_-]?configuration[_-]?sid(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1065
+    regex: "twilio[_-]?chat[_-]?account[_-]?api[_-]?service(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1066
+    regex: "twilio[_-]?api[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1067
+    regex: "twilio[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1068
+    regex: "trex[_-]?okta[_-]?client[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1069
+    regex: "trex[_-]?client[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1070
+    regex: "travis[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1071
+    regex: "travis[_-]?secure[_-]?env[_-]?vars(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1072
+    regex: "travis[_-]?pull[_-]?request(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1073
+    regex: "travis[_-]?gh[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1074
+    regex: "travis[_-]?e2e[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1075
+    regex: "travis[_-]?com[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1076
+    regex: "travis[_-]?branch(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1077
+    regex: "travis[_-]?api[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1078
+    regex: "travis[_-]?access[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1079
+    regex: "token[_-]?core[_-]?java(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1080
+    regex: "thera[_-]?oss[_-]?access[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1081
+    regex: "tester[_-]?keys[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1082
+    regex: "test[_-]?test(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1083
+    regex: "test[_-]?github[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1084
+    regex: "tesco[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1085
+    regex: "svn[_-]?pass(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1086
+    regex: "surge[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1087
+    regex: "surge[_-]?login(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1088
+    regex: "stripe[_-]?public(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1089
+    regex: "stripe[_-]?private(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1090
+    regex: "strip[_-]?secret[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1091
+    regex: "strip[_-]?publishable[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1092
+    regex: "stormpath[_-]?api[_-]?key[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1093
+    regex: "stormpath[_-]?api[_-]?key[_-]?id(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1094
+    regex: "starship[_-]?auth[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1095
+    regex: "starship[_-]?account[_-]?sid(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1096
+    regex: "star[_-]?test[_-]?secret[_-]?access[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1097
+    regex: "star[_-]?test[_-]?location(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1098
+    regex: "star[_-]?test[_-]?bucket(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1099
+    regex: "star[_-]?test[_-]?aws[_-]?access[_-]?key[_-]?id(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1100
+    regex: "staging[_-]?base[_-]?url[_-]?runscope(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1101
+    regex: "ssmtp[_-]?config(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1102
+    regex: "sshpass(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1103
+    regex: "srcclr[_-]?api[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1104
+    regex: "square[_-]?reader[_-]?sdk[_-]?repository[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1105
+    regex: "sqssecretkey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1106
+    regex: "sqsaccesskey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1107
+    regex: "spring[_-]?mail[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1108
+    regex: "spotify[_-]?api[_-]?client[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1109
+    regex: "spotify[_-]?api[_-]?access[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1110
+    regex: "spaces[_-]?secret[_-]?access[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1111
+    regex: "spaces[_-]?access[_-]?key[_-]?id(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1112
+    regex: "soundcloud[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1113
+    regex: "soundcloud[_-]?client[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1114
+    regex: "sonatypepassword(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1115
+    regex: "sonatype[_-]?token[_-]?user(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1116
+    regex: "sonatype[_-]?token[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1117
+    regex: "sonatype[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1118
+    regex: "sonatype[_-]?pass(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1119
+    regex: "sonatype[_-]?nexus[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1120
+    regex: "sonatype[_-]?gpg[_-]?passphrase(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1121
+    regex: "sonatype[_-]?gpg[_-]?key[_-]?name(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1122
+    regex: "sonar[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1123
+    regex: "sonar[_-]?project[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1124
+    regex: "sonar[_-]?organization[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1125
+    regex: "socrata[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1126
+    regex: "socrata[_-]?app[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1127
+    regex: "snyk[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1128
+    regex: "snyk[_-]?api[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1129
+    regex: "snoowrap[_-]?refresh[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1130
+    regex: "snoowrap[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1131
+    regex: "snoowrap[_-]?client[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1132
+    regex: "slate[_-]?user[_-]?email(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1133
+    regex: "slash[_-]?developer[_-]?space[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1134
+    regex: "slash[_-]?developer[_-]?space(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1135
+    regex: "signing[_-]?key[_-]?sid(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1136
+    regex: "signing[_-]?key[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1137
+    regex: "signing[_-]?key[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1138
+    regex: "signing[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1139
+    regex: "setsecretkey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1140
+    regex: "setdstsecretkey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1141
+    regex: "setdstaccesskey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1142
+    regex: "ses[_-]?secret[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1143
+    regex: "ses[_-]?access[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1144
+    regex: "service[_-]?account[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1145
+    regex: "sentry[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1146
+    regex: "sentry[_-]?endpoint(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1147
+    regex: "sentry[_-]?default[_-]?org(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1148
+    regex: "sentry[_-]?auth[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1149
+    regex: "sendwithus[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1150
+    regex: "sendgrid[_-]?username(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1151
+    regex: "sendgrid[_-]?user(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1152
+    regex: "sendgrid[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1153
+    regex: "sendgrid[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1154
+    regex: "sendgrid[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1155
+    regex: "sendgrid(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1156
+    regex: "selion[_-]?selenium[_-]?host(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1157
+    regex: "selion[_-]?log[_-]?level[_-]?dev(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1158
+    regex: "segment[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1159
+    regex: "secretkey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1160
+    regex: "secretaccesskey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1161
+    regex: "secret[_-]?key[_-]?base(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1162
+    regex: "secret[_-]?9(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1163
+    regex: "secret[_-]?8(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1164
+    regex: "secret[_-]?7(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1165
+    regex: "secret[_-]?6(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1166
+    regex: "secret[_-]?5(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1167
+    regex: "secret[_-]?4(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1168
+    regex: "secret[_-]?3(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1169
+    regex: "secret[_-]?2(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1170
+    regex: "secret[_-]?11(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1171
+    regex: "secret[_-]?10(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1172
+    regex: "secret[_-]?1(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1173
+    regex: "secret[_-]?0(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1174
+    regex: "sdr[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1175
+    regex: "scrutinizer[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1176
+    regex: "sauce[_-]?access[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1177
+    regex: "sandbox[_-]?aws[_-]?secret[_-]?access[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1178
+    regex: "sandbox[_-]?aws[_-]?access[_-]?key[_-]?id(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1179
+    regex: "sandbox[_-]?access[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1180
+    regex: "salesforce[_-]?bulk[_-]?test[_-]?security[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1181
+    regex: "salesforce[_-]?bulk[_-]?test[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1182
+    regex: "sacloud[_-]?api(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1183
+    regex: "sacloud[_-]?access[_-]?token[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1184
+    regex: "sacloud[_-]?access[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1185
+    regex: "s3[_-]?user[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1186
+    regex: "s3[_-]?secret[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1187
+    regex: "s3[_-]?secret[_-]?assets(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1188
+    regex: "s3[_-]?secret[_-]?app[_-]?logs(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1189
+    regex: "s3[_-]?key[_-]?assets(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1190
+    regex: "s3[_-]?key[_-]?app[_-]?logs(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1191
+    regex: "s3[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1192
+    regex: "s3[_-]?external[_-]?3[_-]?amazonaws[_-]?com(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1193
+    regex: "s3[_-]?bucket[_-]?name[_-]?assets(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1194
+    regex: "s3[_-]?bucket[_-]?name[_-]?app[_-]?logs(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1195
+    regex: "s3[_-]?access[_-]?key[_-]?id(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1196
+    regex: "s3[_-]?access[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1197
+    regex: "rubygems[_-]?auth[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1198
+    regex: "rtd[_-]?store[_-]?pass(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1199
+    regex: "rtd[_-]?key[_-]?pass(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1200
+    regex: "route53[_-]?access[_-]?key[_-]?id(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1201
+    regex: "ropsten[_-]?private[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1202
+    regex: "rinkeby[_-]?private[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1203
+    regex: "rest[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1204
+    regex: "repotoken(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1205
+    regex: "reporting[_-]?webdav[_-]?url(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1206
+    regex: "reporting[_-]?webdav[_-]?pwd(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1207
+    regex: "release[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1208
+    regex: "release[_-]?gh[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1209
+    regex: "registry[_-]?secure(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1210
+    regex: "registry[_-]?pass(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1211
+    regex: "refresh[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1212
+    regex: "rediscloud[_-]?url(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1213
+    regex: "redis[_-]?stunnel[_-]?urls(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1214
+    regex: "randrmusicapiaccesstoken(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1215
+    regex: "rabbitmq[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1216
+    regex: "quip[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1217
+    regex: "qiita[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1218
+    regex: "pypi[_-]?passowrd(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1219
+    regex: "pushover[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1220
+    regex: "publish[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1221
+    regex: "publish[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1222
+    regex: "publish[_-]?access(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1223
+    regex: "project[_-]?config(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1224
+    regex: "prod[_-]?secret[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1225
+    regex: "prod[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1226
+    regex: "prod[_-]?access[_-]?key[_-]?id(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1227
+    regex: "private[_-]?signing[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1228
+    regex: "pring[_-]?mail[_-]?username(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1229
+    regex: "preferred[_-]?username(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1230
+    regex: "prebuild[_-]?auth(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1231
+    regex: "postgresql[_-]?pass(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1232
+    regex: "postgresql[_-]?db(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1233
+    regex: "postgres[_-]?env[_-]?postgres[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1234
+    regex: "postgres[_-]?env[_-]?postgres[_-]?db(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1235
+    regex: "plugin[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1236
+    regex: "plotly[_-]?apikey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1237
+    regex: "places[_-]?apikey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1238
+    regex: "places[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1239
+    regex: "pg[_-]?host(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1240
+    regex: "pg[_-]?database(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1241
+    regex: "personal[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1242
+    regex: "personal[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1243
+    regex: "percy[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1244
+    regex: "percy[_-]?project(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1245
+    regex: "paypal[_-]?client[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1246
+    regex: "passwordtravis(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1247
+    regex: "parse[_-]?js[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1248
+    regex: "pagerduty[_-]?apikey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1249
+    regex: "packagecloud[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1250
+    regex: "ossrh[_-]?username(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1251
+    regex: "ossrh[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1252
+    regex: "ossrh[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1253
+    regex: "ossrh[_-]?pass(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1254
+    regex: "ossrh[_-]?jira[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1255
+    regex: "os[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1256
+    regex: "os[_-]?auth[_-]?url(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1257
+    regex: "org[_-]?project[_-]?gradle[_-]?sonatype[_-]?nexus[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1258
+    regex: "org[_-]?gradle[_-]?project[_-]?sonatype[_-]?nexus[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1259
+    regex: "openwhisk[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1260
+    regex: "open[_-]?whisk[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1261
+    regex: "onesignal[_-]?user[_-]?auth[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1262
+    regex: "onesignal[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1263
+    regex: "omise[_-]?skey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1264
+    regex: "omise[_-]?pubkey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1265
+    regex: "omise[_-]?pkey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1266
+    regex: "omise[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1267
+    regex: "okta[_-]?oauth2[_-]?clientsecret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1268
+    regex: "okta[_-]?oauth2[_-]?client[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1269
+    regex: "okta[_-]?client[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1270
+    regex: "ofta[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1271
+    regex: "ofta[_-]?region(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1272
+    regex: "ofta[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1273
+    regex: "octest[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1274
+    regex: "octest[_-]?app[_-]?username(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1275
+    regex: "octest[_-]?app[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1276
+    regex: "oc[_-]?pass(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1277
+    regex: "object[_-]?store[_-]?creds(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1278
+    regex: "object[_-]?store[_-]?bucket(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1279
+    regex: "object[_-]?storage[_-]?region[_-]?name(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1280
+    regex: "object[_-]?storage[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1281
+    regex: "oauth[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1282
+    regex: "numbers[_-]?service[_-]?pass(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1283
+    regex: "nuget[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1284
+    regex: "nuget[_-]?apikey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1285
+    regex: "nuget[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1286
+    regex: "npm[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1287
+    regex: "npm[_-]?secret[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1288
+    regex: "npm[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1289
+    regex: "npm[_-]?email(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1290
+    regex: "npm[_-]?auth[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1291
+    regex: "npm[_-]?api[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1292
+    regex: "npm[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1293
+    regex: "now[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1294
+    regex: "non[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1295
+    regex: "node[_-]?pre[_-]?gyp[_-]?secretaccesskey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1296
+    regex: "node[_-]?pre[_-]?gyp[_-]?github[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1297
+    regex: "node[_-]?pre[_-]?gyp[_-]?accesskeyid(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1298
+    regex: "node[_-]?env(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1299
+    regex: "ngrok[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1300
+    regex: "ngrok[_-]?auth[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1301
+    regex: "nexuspassword(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1302
+    regex: "nexus[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1303
+    regex: "new[_-]?relic[_-]?beta[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1304
+    regex: "netlify[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1305
+    regex: "nativeevents(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1306
+    regex: "mysqlsecret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1307
+    regex: "mysqlmasteruser(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1308
+    regex: "mysql[_-]?username(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1309
+    regex: "mysql[_-]?user(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1310
+    regex: "mysql[_-]?root[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1311
+    regex: "mysql[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1312
+    regex: "mysql[_-]?hostname(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1313
+    regex: "mysql[_-]?database(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1314
+    regex: "my[_-]?secret[_-]?env(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1315
+    regex: "multi[_-]?workspace[_-]?sid(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1316
+    regex: "multi[_-]?workflow[_-]?sid(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1317
+    regex: "multi[_-]?disconnect[_-]?sid(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1318
+    regex: "multi[_-]?connect[_-]?sid(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1319
+    regex: "multi[_-]?bob[_-]?sid(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1320
+    regex: "minio[_-]?secret[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1321
+    regex: "minio[_-]?access[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1322
+    regex: "mile[_-]?zero[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1323
+    regex: "mh[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1324
+    regex: "mh[_-]?apikey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1325
+    regex: "mg[_-]?public[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1326
+    regex: "mg[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1327
+    regex: "mapboxaccesstoken(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1328
+    regex: "mapbox[_-]?aws[_-]?secret[_-]?access[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1329
+    regex: "mapbox[_-]?aws[_-]?access[_-]?key[_-]?id(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1330
+    regex: "mapbox[_-]?api[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1331
+    regex: "mapbox[_-]?access[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1332
+    regex: "manifest[_-]?app[_-]?url(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1333
+    regex: "manifest[_-]?app[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1334
+    regex: "mandrill[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1335
+    regex: "managementapiaccesstoken(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1336
+    regex: "management[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1337
+    regex: "manage[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1338
+    regex: "manage[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1339
+    regex: "mailgun[_-]?secret[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1340
+    regex: "mailgun[_-]?pub[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1341
+    regex: "mailgun[_-]?pub[_-]?apikey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1342
+    regex: "mailgun[_-]?priv[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1343
+    regex: "mailgun[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1344
+    regex: "mailgun[_-]?apikey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1345
+    regex: "mailgun[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1346
+    regex: "mailer[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1347
+    regex: "mailchimp[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1348
+    regex: "mailchimp[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1349
+    regex: "mail[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1350
+    regex: "magento[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1351
+    regex: "magento[_-]?auth[_-]?username (=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1352
+    regex: "magento[_-]?auth[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1353
+    regex: "lottie[_-]?upload[_-]?cert[_-]?key[_-]?store[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1354
+    regex: "lottie[_-]?upload[_-]?cert[_-]?key[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1355
+    regex: "lottie[_-]?s3[_-]?secret[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1356
+    regex: "lottie[_-]?happo[_-]?secret[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1357
+    regex: "lottie[_-]?happo[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1358
+    regex: "looker[_-]?test[_-]?runner[_-]?client[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1359
+    regex: "ll[_-]?shared[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1360
+    regex: "ll[_-]?publish[_-]?url(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1361
+    regex: "linux[_-]?signing[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1362
+    regex: "linkedin[_-]?client[_-]?secretor lottie[_-]?s3[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1363
+    regex: "lighthouse[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1364
+    regex: "lektor[_-]?deploy[_-]?username(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1365
+    regex: "lektor[_-]?deploy[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1366
+    regex: "leanplum[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1367
+    regex: "kxoltsn3vogdop92m(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1368
+    regex: "kubeconfig(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1369
+    regex: "kubecfg[_-]?s3[_-]?path(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1370
+    regex: "kovan[_-]?private[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1371
+    regex: "keystore[_-]?pass(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1372
+    regex: "kafka[_-]?rest[_-]?url(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1373
+    regex: "kafka[_-]?instance[_-]?name(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1374
+    regex: "kafka[_-]?admin[_-]?url(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1375
+    regex: "jwt[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1376
+    regex: "jdbc:mysql(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1377
+    regex: "jdbc[_-]?host(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1378
+    regex: "jdbc[_-]?databaseurl(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1379
+    regex: "itest[_-]?gh[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1380
+    regex: "ios[_-]?docs[_-]?deploy[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1381
+    regex: "internal[_-]?secrets(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1382
+    regex: "integration[_-]?test[_-]?appid(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1383
+    regex: "integration[_-]?test[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1384
+    regex: "index[_-]?name(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1385
+    regex: "ij[_-]?repo[_-]?username(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1386
+    regex: "ij[_-]?repo[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1387
+    regex: "hub[_-]?dxia2[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1388
+    regex: "homebrew[_-]?github[_-]?api[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1389
+    regex: "hockeyapp[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1390
+    regex: "heroku[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1391
+    regex: "heroku[_-]?email(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1392
+    regex: "heroku[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1393
+    regex: "hb[_-]?codesign[_-]?key[_-]?pass(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1394
+    regex: "hb[_-]?codesign[_-]?gpg[_-]?pass(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1395
+    regex: "hab[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1396
+    regex: "hab[_-]?auth[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1397
+    regex: "grgit[_-]?user(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1398
+    regex: "gren[_-]?github[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1399
+    regex: "gradle[_-]?signing[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1400
+    regex: "gradle[_-]?signing[_-]?key[_-]?id(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1401
+    regex: "gradle[_-]?publish[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1402
+    regex: "gradle[_-]?publish[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1403
+    regex: "gpg[_-]?secret[_-]?keys(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1404
+    regex: "gpg[_-]?private[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1405
+    regex: "gpg[_-]?passphrase(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1406
+    regex: "gpg[_-]?ownertrust(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1407
+    regex: "gpg[_-]?keyname(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1408
+    regex: "gpg[_-]?key[_-]?name(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1409
+    regex: "google[_-]?private[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1410
+    regex: "google[_-]?maps[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1411
+    regex: "google[_-]?client[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1412
+    regex: "google[_-]?client[_-]?id(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1413
+    regex: "google[_-]?client[_-]?email(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1414
+    regex: "google[_-]?account[_-]?type(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1415
+    regex: "gogs[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1416
+    regex: "gitlab[_-]?user[_-]?email(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1417
+    regex: "github[_-]?tokens(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1418
+    regex: "github[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1419
+    regex: "github[_-]?repo(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1420
+    regex: "github[_-]?release[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1421
+    regex: "github[_-]?pwd(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1422
+    regex: "github[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1423
+    regex: "github[_-]?oauth[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1424
+    regex: "github[_-]?oauth(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1425
+    regex: "github[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1426
+    regex: "github[_-]?hunter[_-]?username(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1427
+    regex: "github[_-]?hunter[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1428
+    regex: "github[_-]?deployment[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1429
+    regex: "github[_-]?deploy[_-]?hb[_-]?doc[_-]?pass(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1430
+    regex: "github[_-]?client[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1431
+    regex: "github[_-]?auth[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1432
+    regex: "github[_-]?auth(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1433
+    regex: "github[_-]?api[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1434
+    regex: "github[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1435
+    regex: "github[_-]?access[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1436
+    regex: "git[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1437
+    regex: "git[_-]?name(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1438
+    regex: "git[_-]?email(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1439
+    regex: "git[_-]?committer[_-]?name(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1440
+    regex: "git[_-]?committer[_-]?email(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1441
+    regex: "git[_-]?author[_-]?name(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1442
+    regex: "git[_-]?author[_-]?email(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1443
+    regex: "ghost[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1444
+    regex: "ghb[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1445
+    regex: "gh[_-]?unstable[_-]?oauth[_-]?client[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1446
+    regex: "gh[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1447
+    regex: "gh[_-]?repo[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1448
+    regex: "gh[_-]?oauth[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1449
+    regex: "gh[_-]?oauth[_-]?client[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1450
+    regex: "gh[_-]?next[_-]?unstable[_-]?oauth[_-]?client[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1451
+    regex: "gh[_-]?next[_-]?unstable[_-]?oauth[_-]?client[_-]?id(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1452
+    regex: "gh[_-]?next[_-]?oauth[_-]?client[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1453
+    regex: "gh[_-]?email(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1454
+    regex: "gh[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1455
+    regex: "gcs[_-]?bucket(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1456
+    regex: "gcr[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1457
+    regex: "gcloud[_-]?service[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1458
+    regex: "gcloud[_-]?project(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1459
+    regex: "gcloud[_-]?bucket(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1460
+    regex: "ftp[_-]?username(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1461
+    regex: "ftp[_-]?user(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1462
+    regex: "ftp[_-]?pw(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1463
+    regex: "ftp[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1464
+    regex: "ftp[_-]?login(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1465
+    regex: "ftp[_-]?host(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1466
+    regex: "fossa[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1467
+    regex: "flickr[_-]?api[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1468
+    regex: "flickr[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1469
+    regex: "flask[_-]?secret[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1470
+    regex: "firefox[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1471
+    regex: "firebase[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1472
+    regex: "firebase[_-]?project[_-]?develop(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1473
+    regex: "firebase[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1474
+    regex: "firebase[_-]?api[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1475
+    regex: "firebase[_-]?api[_-]?json(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1476
+    regex: "file[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1477
+    regex: "exp[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1478
+    regex: "eureka[_-]?awssecretkey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1479
+    regex: "env[_-]?sonatype[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1480
+    regex: "env[_-]?secret[_-]?access[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1481
+    regex: "env[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1482
+    regex: "env[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1483
+    regex: "env[_-]?heroku[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1484
+    regex: "env[_-]?github[_-]?oauth[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1485
+    regex: "end[_-]?user[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1486
+    regex: "encryption[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1487
+    regex: "elasticsearch[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1488
+    regex: "elastic[_-]?cloud[_-]?auth(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1489
+    regex: "dsonar[_-]?projectkey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1490
+    regex: "dsonar[_-]?login(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1491
+    regex: "droplet[_-]?travis[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1492
+    regex: "dropbox[_-]?oauth[_-]?bearer(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1493
+    regex: "doordash[_-]?auth[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1494
+    regex: "dockerhubpassword(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1495
+    regex: "dockerhub[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1496
+    regex: "docker[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1497
+    regex: "docker[_-]?postgres[_-]?url(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1498
+    regex: "docker[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1499
+    regex: "docker[_-]?passwd(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1500
+    regex: "docker[_-]?pass(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1501
+    regex: "docker[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1502
+    regex: "docker[_-]?hub[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1503
+    regex: "digitalocean[_-]?ssh[_-]?key[_-]?ids(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1504
+    regex: "digitalocean[_-]?ssh[_-]?key[_-]?body(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1505
+    regex: "digitalocean[_-]?access[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1506
+    regex: "dgpg[_-]?passphrase(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1507
+    regex: "deploy[_-]?user(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1508
+    regex: "deploy[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1509
+    regex: "deploy[_-]?secure(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1510
+    regex: "deploy[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1511
+    regex: "ddgc[_-]?github[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1512
+    regex: "ddg[_-]?test[_-]?email[_-]?pw(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1513
+    regex: "ddg[_-]?test[_-]?email(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1514
+    regex: "db[_-]?username(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1515
+    regex: "db[_-]?user(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1516
+    regex: "db[_-]?pw(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1517
+    regex: "db[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1518
+    regex: "db[_-]?host(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1519
+    regex: "db[_-]?database(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1520
+    regex: "db[_-]?connection(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1521
+    regex: "datadog[_-]?app[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1522
+    regex: "datadog[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1523
+    regex: "database[_-]?username(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1524
+    regex: "database[_-]?user(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1525
+    regex: "database[_-]?port(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1526
+    regex: "database[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1527
+    regex: "database[_-]?name(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1528
+    regex: "database[_-]?host(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1529
+    regex: "danger[_-]?github[_-]?api[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1530
+    regex: "cypress[_-]?record[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1531
+    regex: "coverity[_-]?scan[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1532
+    regex: "coveralls[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1533
+    regex: "coveralls[_-]?repo[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1534
+    regex: "coveralls[_-]?api[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1535
+    regex: "cos[_-]?secrets(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1536
+    regex: "conversation[_-]?username(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1537
+    regex: "conversation[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1538
+    regex: "contentful[_-]?v2[_-]?access[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1539
+    regex: "contentful[_-]?test[_-]?org[_-]?cma[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1540
+    regex: "contentful[_-]?php[_-]?management[_-]?test[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1541
+    regex: "contentful[_-]?management[_-]?api[_-]?access[_-]?token[_-]?new(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1542
+    regex: "contentful[_-]?management[_-]?api[_-]?access[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1543
+    regex: "contentful[_-]?integration[_-]?management[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1544
+    regex: "contentful[_-]?cma[_-]?test[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1545
+    regex: "contentful[_-]?access[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1546
+    regex: "consumerkey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1547
+    regex: "consumer[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1548
+    regex: "conekta[_-]?apikey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1549
+    regex: "coding[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1550
+    regex: "codecov[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1551
+    regex: "codeclimate[_-]?repo[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1552
+    regex: "codacy[_-]?project[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1553
+    regex: "cocoapods[_-]?trunk[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1554
+    regex: "cocoapods[_-]?trunk[_-]?email(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1555
+    regex: "cn[_-]?secret[_-]?access[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1556
+    regex: "cn[_-]?access[_-]?key[_-]?id(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1557
+    regex: "clu[_-]?ssh[_-]?private[_-]?key[_-]?base64(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1558
+    regex: "clu[_-]?repo[_-]?url(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1559
+    regex: "cloudinary[_-]?url[_-]?staging(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1560
+    regex: "cloudinary[_-]?url(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1561
+    regex: "cloudflare[_-]?email(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1562
+    regex: "cloudflare[_-]?auth[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1563
+    regex: "cloudflare[_-]?auth[_-]?email(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1564
+    regex: "cloudflare[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1565
+    regex: "cloudant[_-]?service[_-]?database(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1566
+    regex: "cloudant[_-]?processed[_-]?database(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1567
+    regex: "cloudant[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1568
+    regex: "cloudant[_-]?parsed[_-]?database(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1569
+    regex: "cloudant[_-]?order[_-]?database(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1570
+    regex: "cloudant[_-]?instance(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1571
+    regex: "cloudant[_-]?database(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1572
+    regex: "cloudant[_-]?audited[_-]?database(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1573
+    regex: "cloudant[_-]?archived[_-]?database(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1574
+    regex: "cloud[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1575
+    regex: "clojars[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1576
+    regex: "client[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1577
+    regex: "cli[_-]?e2e[_-]?cma[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1578
+    regex: "claimr[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1579
+    regex: "claimr[_-]?superuser(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1580
+    regex: "claimr[_-]?db(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1581
+    regex: "claimr[_-]?database(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1582
+    regex: "ci[_-]?user[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1583
+    regex: "ci[_-]?server[_-]?name(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1584
+    regex: "ci[_-]?registry[_-]?user(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1585
+    regex: "ci[_-]?project[_-]?url(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1586
+    regex: "ci[_-]?deploy[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1587
+    regex: "chrome[_-]?refresh[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1588
+    regex: "chrome[_-]?client[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1589
+    regex: "cheverny[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1590
+    regex: "cf[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1591
+    regex: "certificate[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1592
+    regex: "censys[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1593
+    regex: "cattle[_-]?secret[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1594
+    regex: "cattle[_-]?agent[_-]?instance[_-]?auth(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1595
+    regex: "cattle[_-]?access[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1596
+    regex: "cargo[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1597
+    regex: "cache[_-]?s3[_-]?secret[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1598
+    regex: "bx[_-]?username(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1599
+    regex: "bx[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1600
+    regex: "bundlesize[_-]?github[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1601
+    regex: "built[_-]?branch[_-]?deploy[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1602
+    regex: "bucketeer[_-]?aws[_-]?secret[_-]?access[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1603
+    regex: "bucketeer[_-]?aws[_-]?access[_-]?key[_-]?id(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1604
+    regex: "browserstack[_-]?access[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1605
+    regex: "browser[_-]?stack[_-]?access[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1606
+    regex: "brackets[_-]?repo[_-]?oauth[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1607
+    regex: "bluemix[_-]?username(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1608
+    regex: "bluemix[_-]?pwd(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1609
+    regex: "bluemix[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1610
+    regex: "bluemix[_-]?pass[_-]?prod(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1611
+    regex: "bluemix[_-]?pass(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1612
+    regex: "bluemix[_-]?auth(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1613
+    regex: "bluemix[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1614
+    regex: "bintraykey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1615
+    regex: "bintray[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1616
+    regex: "bintray[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1617
+    regex: "bintray[_-]?gpg[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1618
+    regex: "bintray[_-]?apikey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1619
+    regex: "bintray[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1620
+    regex: "b2[_-]?bucket(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1621
+    regex: "b2[_-]?app[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1622
+    regex: "awssecretkey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1623
+    regex: "awscn[_-]?secret[_-]?access[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1624
+    regex: "awscn[_-]?access[_-]?key[_-]?id(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1625
+    regex: "awsaccesskeyid(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1626
+    regex: "aws[_-]?ses[_-]?secret[_-]?access[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1627
+    regex: "aws[_-]?ses[_-]?access[_-]?key[_-]?id(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1628
+    regex: "aws[_-]?secrets(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1629
+    regex: "aws[_-]?secret[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1630
+    regex: "aws[_-]?secret[_-]?access[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1631
+    regex: "aws[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1632
+    regex: "aws[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1633
+    regex: "aws[_-]?config[_-]?secretaccesskey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1634
+    regex: "aws[_-]?config[_-]?accesskeyid(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1635
+    regex: "aws[_-]?access[_-]?key[_-]?id(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1636
+    regex: "aws[_-]?access[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1637
+    regex: "aws[_-]?access(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1638
+    regex: "author[_-]?npm[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1639
+    regex: "author[_-]?email[_-]?addr(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1640
+    regex: "auth0[_-]?client[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1641
+    regex: "auth0[_-]?api[_-]?clientsecret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1642
+    regex: "auth[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1643
+    regex: "assistant[_-]?iam[_-]?apikey(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1644
+    regex: "artifacts[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1645
+    regex: "artifacts[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1646
+    regex: "artifacts[_-]?bucket(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1647
+    regex: "artifacts[_-]?aws[_-]?secret[_-]?access[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1648
+    regex: "artifacts[_-]?aws[_-]?access[_-]?key[_-]?id(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1649
+    regex: "artifactory[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1650
+    regex: "argos[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1651
+    regex: "apple[_-]?id[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1652
+    regex: "appclientsecret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1653
+    regex: "app[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1654
+    regex: "app[_-]?secrete(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1655
+    regex: "app[_-]?report[_-]?token[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1656
+    regex: "app[_-]?bucket[_-]?perm(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1657
+    regex: "apigw[_-]?access[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1658
+    regex: "apiary[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1659
+    regex: "api[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1660
+    regex: "api[_-]?key[_-]?sid(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1661
+    regex: "api[_-]?key[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1662
+    regex: "api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1663
+    regex: "aos[_-]?sec(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1664
+    regex: "aos[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1665
+    regex: "ansible[_-]?vault[_-]?password(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1666
+    regex: "android[_-]?docs[_-]?deploy[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1667
+    regex: "anaconda[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1668
+    regex: "amazon[_-]?secret[_-]?access[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1669
+    regex: "amazon[_-]?bucket[_-]?name(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1670
+    regex: "alicloud[_-]?secret[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1671
+    regex: "alicloud[_-]?access[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1672
+    regex: "alias[_-]?pass(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1673
+    regex: "algolia[_-]?search[_-]?key[_-]?1(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1674
+    regex: "algolia[_-]?search[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1675
+    regex: "algolia[_-]?search[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1676
+    regex: "algolia[_-]?api[_-]?key[_-]?search(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1677
+    regex: "algolia[_-]?api[_-]?key[_-]?mcm(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1678
+    regex: "algolia[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1679
+    regex: "algolia[_-]?admin[_-]?key[_-]?mcm(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1680
+    regex: "algolia[_-]?admin[_-]?key[_-]?2(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1681
+    regex: "algolia[_-]?admin[_-]?key[_-]?1(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1682
+    regex: "adzerk[_-]?api[_-]?key(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1683
+    regex: "admin[_-]?email(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1684
+    regex: "account[_-]?sid(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1685
+    regex: "access[_-]?token(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1686
+    regex: "access[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1687
+    regex: "access[_-]?key[_-]?secret(=| =|:| :)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1688
+    regex: "TOKEN[\\\\-|_|A-Z0-9]*(\\'|\\\")?(:|=)(\\'|\\\")?[\\\\-|_|A-Z0-9]{10}"
+    confidence: informative
+  - pattern:
+    name: Generic - 1689
+    regex: "API[\\\\-|_|A-Z0-9]*(\\'|\\\")?(:|=)(\\'|\\\")?[\\\\-|_|A-Z0-9]{10}"
+    confidence: informative
+  - pattern:
+    name: Generic - 1690
+    regex: "KEY[\\\\-|_|A-Z0-9]*(\\'|\\\")?(:|=)(\\'|\\\")?[\\\\-|_|A-Z0-9]{10}"
+    confidence: informative
+  - pattern:
+    name: Generic - 1691
+    regex: "SECRET[\\\\-|_|A-Z0-9]*(\\'|\\\")?(:|=)(\\'|\\\")?[\\\\-|_|A-Z0-9]{10}"
+    confidence: informative
+  - pattern:
+    name: Generic - 1692
+    regex: "AUTHORIZATION[\\\\-|_|A-Z0-9]*(\\'|\\\")?(:|=)(\\'|\\\")?[\\\\-|_|A-Z0-9]{10}"
+    confidence: informative
+  - pattern:
+    name: Generic - 1693
+    regex: "PASSWORD[\\\\-|_|A-Z0-9]*(\\'|\\\")?(:|=)(\\'|\\\")?[\\\\-|_|A-Z0-9]{10}"
+    confidence: informative
+  - pattern:
+    name: Generic - 1694
+    regex: "(T|t)(O|o)(K|k)(E|e)(N|n)[\\-|_|A-Za-z0-9]*(\\''|\")?( )*(:|=)+()*(\\''|\")?[ 0-9A-Za-z\\-_]+(\\''|\")?"
+    confidence: informative
+  - pattern:
+    name: Generic - 1695
+    regex: "(A|a)(P|p)(Ii)[\\-|_|A-Za-z0-9]*(\\''|\")?( )*(:|=)( )*(\\''|\")?[0-9A-Za-z\\-_]+(\\''|\")?"
+    confidence: informative
+  - pattern:
+    name: Generic - 1696
+    regex: "(K|k)(E|e)(Y|y)[\\-|_|A-Za-z0-9]*(\\''|\")?( )*(:|=)( )*(\\''|\")?[0-9A-Za-z\\-_]+(\\''|\")?"
+    confidence: informative
+  - pattern:
+    name: Generic - 1697
+    regex: "(S|s)(E|e)(C|c)(R|r)(E|e)(T|t)[\\-|_|A-Za-z0-9]*(\\''|\")?( )*(:|=)()*(\\''|\")?[ 0-9A-Za-z\\-_]+(\\''|\")?"
+    confidence: informative
+  - pattern:
+    name: Generic - 1698
+    regex: "(A|a)(U|u)(T|t)(H|h)(O|o)(R|r)(I|i)(Z|z)(A|a)(T|t)(I|i)(O|o)(N|n)[\\-|_|A-Za-z0-9]*(\\''|\")?()*(:|=)( )*(\\''|\")?[ 0-9A-Za-z\\-_]+(\\''|\")?"
+    confidence: informative
+  - pattern:
+    name: Generic - 1699
+    regex: "(P|p)(A|a)(S|s)(S|s)(W|w)(O|o)(R|r)(D|d)[\\-|_|A-Za-z0-9]*(\\''|\")?()*(:|=)( )*(\\''|\")?[ 0-9A-Za-z\\-_]+(\\''|\")?"
+    confidence: informative
+  - pattern:
+    name: Generic - 1700
+    regex: "BEGIN OPENSSH PRIVATE KEY"
+    confidence: informative
+  - pattern:
+    name: Generic - 1701
+    regex: "BEGIN PRIVATE KEY"
+    confidence: informative
+  - pattern:
+    name: Generic - 1702
+    regex: "BEGIN RSA PRIVATE KEY"
+    confidence: informative
+  - pattern:
+    name: Generic - 1703
+    regex: "BEGIN DSA PRIVATE KEY"
+    confidence: informative
+  - pattern:
+    name: Generic - 1704
+    regex: "BEGIN EC PRIVATE KEY"
+    confidence: informative
+  - pattern:
+    name: Generic - 1705
+    regex: "BEGIN PGP PRIVATE KEY BLOCK"
+    confidence: informative
+  - pattern:
+    name: Generic - 1706
+    regex: "ssh-rsa"
+    confidence: informative
+  - pattern:
+    name: Generic - 1707
+    regex: ""
+    confidence: informative
+  - pattern:
+    name: Generic - 1706
+    regex: "[a-z0-9.-]+\\.s3\\.amazonaws\\.com"
+    confidence: informative
+  - pattern:
+    name: Generic - 1707
+    regex: "[a-z0-9.-]+\\.s3-[a-z0-9-]\\.amazonaws\\.com"
+    confidence: informative
+  - pattern:
+    name: Generic - 1708
+    regex: "[a-z0-9.-]+\\.s3-website[.-](eu|ap|us|ca|sa|cn)"
+    confidence: informative
+  - pattern:
+    name: Generic - 1709
+    regex: "s3\\.amazonaws\\.com/[a-z0-9._-]+"
+    confidence: informative
+  - pattern:
+    name: Generic - 1710
+    regex: "s3-[a-z0-9-]+\\.amazonaws\\.com/[a-z0-9._-]+"
+    confidence: informative
+  - pattern:
+    name: Generic - 1710
+    regex: "algolia_api_key"
+    confidence: informative
+  - pattern:
+    name: Generic - 1711
+    regex: "asana_access_token"
+    confidence: informative
+  - pattern:
+    name: Generic - 1712
+    regex: "aws_secret"
+    confidence: informative
+  - pattern:
+    name: Generic - 1713
+    regex: "azure_tenant"
+    confidence: informative
+  - pattern:
+    name: Generic - 1714
+    regex: "bitly_access_token"
+    confidence: informative
+  - pattern:
+    name: Generic - 1715
+    regex: "branchio_secret"
+    confidence: informative
+  - pattern:
+    name: Generic - 1716
+    regex: "browserstack_access_key"
+    confidence: informative
+  - pattern:
+    name: Generic - 1717
+    regex: "buildkite_access_token"
+    confidence: informative
+  - pattern:
+    name: Generic - 1718
+    regex: "comcast_access_token"
+    confidence: informative
+  - pattern:
+    name: Generic - 1719
+    regex: "datadog_api_key"
+    confidence: informative
+  - pattern:
+    name: Generic - 1720
+    regex: "deviantart_secret"
+    confidence: informative
+  - pattern:
+    name: Generic - 1721
+    regex: "deviantart_access_token"
+    confidence: informative
+  - pattern:
+    name: Generic - 1722
+    regex: "dropbox_api_token"
+    confidence: informative
+  - pattern:
+    name: Generic - 1723
+    regex: "facebook_appsecret"
+    confidence: informative
+  - pattern:
+    name: Generic - 1724
+    regex: "facebook_access_token"
+    confidence: informative
+  - pattern:
+    name: Generic - 1725
+    regex: "firebase_custom_token"
+    confidence: informative
+  - pattern:
+    name: Generic - 1726
+    regex: "firebase_id_token"
+    confidence: informative
+  - pattern:
+    name: Generic - 1727
+    regex: "github_client"
+    confidence: informative
+  - pattern:
+    name: Generic - 1728
+    regex: "github_ssh_key"
+    confidence: informative
+  - pattern:
+    name: Generic - 1729
+    regex: "github_token"
+    confidence: informative
+  - pattern:
+    name: Generic - 1730
+    regex: "gitlab_private_token"
+    confidence: informative
+  - pattern:
+    name: Generic - 1731
+    regex: "google_cm"
+    confidence: informative
+  - pattern:
+    name: Generic - 1732
+    regex: "google_maps_key"
+    confidence: informative
+  - pattern:
+    name: Generic - 1733
+    regex: "heroku_api_key"
+    confidence: informative
+  - pattern:
+    name: Generic - 1734
+    regex: "instagram_access_token"
+    confidence: informative
+  - pattern:
+    name: Generic - 1735
+    regex: "mailchimp_api_key"
+    confidence: informative
+  - pattern:
+    name: Generic - 1736
+    regex: "mailgun_api_key"
+    confidence: informative
+  - pattern:
+    name: Generic - 1737
+    regex: "mailjet"
+    confidence: informative
+  - pattern:
+    name: Generic - 1738
+    regex: "mapbox_access_token"
+    confidence: informative
+  - pattern:
+    name: Generic - 1739
+    regex: "pagerduty_api_token"
+    confidence: informative
+  - pattern:
+    name: Generic - 1740
+    regex: "paypal_key_sb"
+    confidence: informative
+  - pattern:
+    name: Generic - 1741
+    regex: "paypal_key_live"
+    confidence: informative
+  - pattern:
+    name: Generic - 1742
+    regex: "paypal_token_sb"
+    confidence: informative
+  - pattern:
+    name: Generic - 1743
+    regex: "paypal_token_live"
+    confidence: informative
+  - pattern:
+    name: Generic - 1744
+    regex: "pendo_integration_key"
+    confidence: informative
+  - pattern:
+    name: Generic - 1745
+    regex: "salesforce_access_token"
+    confidence: informative
+  - pattern:
+    name: Generic - 1746
+    regex: "saucelabs_ukey"
+    confidence: informative
+  - pattern:
+    name: Generic - 1747
+    regex: "sendgrid_api_key"
+    confidence: informative
+  - pattern:
+    name: Generic - 1748
+    regex: "slack_api_token"
+    confidence: informative
+  - pattern:
+    name: Generic - 1749
+    regex: "slack_webhook"
+    confidence: informative
+  - pattern:
+    name: Generic - 1750
+    regex: "square_secret"
+    confidence: informative
+  - pattern:
+    name: Generic - 1751
+    regex: "square_auth_token"
+    confidence: informative
+  - pattern:
+    name: Generic - 1752
+    regex: "travisci_api_token"
+    confidence: informative
+  - pattern:
+    name: Generic - 1753
+    regex: "twilio_sid_token"
+    confidence: informative
+  - pattern:
+    name: Generic - 1754
+    regex: "twitter_api_secret"
+    confidence: informative
+  - pattern:
+    name: Generic - 1755
+    regex: "twitter_bearer_token"
+    confidence: informative
+  - pattern:
+    name: Generic - 1756
+    regex: "spotify_access_token"
+    confidence: informative
+  - pattern:
+    name: Generic - 1757
+    regex: "stripe_key_live"
+    confidence: informative
+  - pattern:
+    name: Generic - 1758
+    regex: "wakatime_api_key"
+    confidence: informative
+  - pattern:
+    name: Generic - 1759
+    regex: "wompi_auth_bearer_sb"
+    confidence: informative
+  - pattern:
+    name: Generic - 1760
+    regex: "wompi_auth_bearer_live"
+    confidence: informative
+  - pattern:
+    name: Generic - 1761
+    regex: "wpengine_api_key"
+    confidence: informative
+  - pattern:
+    name: Generic - 1762
+    regex: "zapier_webhook"
+    confidence: informative
+  - pattern:
+    name: Generic - 1763
+    regex: "zendesk_access_token"
+    confidence: informative
