@@ -44,7 +44,7 @@ for r in rules_yaml:
     r = r.get("pattern", {})
     if not r:
         continue
-    name = r.get("name", "").lower()
+    name = r.get("name", "")
     confidence = r.get("confidence", "").lower()
     if name and confidence:
         regex = r.get("regex", "")
