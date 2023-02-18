@@ -884,6 +884,10 @@ patterns:
       regex: (?i)(?:dandelion).{0,40}\b([a-z0-9]{32})\b
       confidence: high
   - pattern:
+      name: Databricks
+      regex: \b(?i)dapi[a-f0-9]{32}\b
+      confidence: high
+  - pattern:
       name: Datadogtoken - 1
       regex: (?i)(?:datadog).{0,40}\b([a-zA-Z-0-9]{32})\b
       confidence: high
