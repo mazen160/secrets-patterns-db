@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cat "$1" | regexploit
+<"$1" regexploit
