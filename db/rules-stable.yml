@@ -885,7 +885,7 @@ patterns:
       confidence: high
   - pattern:
       name: Databricks
-      regex: \b(?i)dapi[a-f0-9]{32}\b
+      regex: (?i)dapi[a-f0-9]{32}\b
       confidence: high
   - pattern:
       name: Datadogtoken - 1
