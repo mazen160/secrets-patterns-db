@@ -28,12 +28,23 @@ def print_gitleaks_output(y):
 """
     print(s)
 
+def print_talisman_output(y):
+    s = 'title = "talisman config"'
+    for i in y["patterns"]:
+        if i["pattern"]["confidence"] != "high":
+            continue
+        s += f"""
+     {{'Pattern: regexp.MustCompile(`(?i)( '''{{i["pattern"]["name"]}}'''
+    `), Severity: severity.SeverityConfiguration["  '''{{i["pattern"]["regex"]}}",}}'''}}
+"""
+    print(s)
+
 
 def main():
 
     if len(sys.argv) < 3:
         print(f"\nUsage:\n\t{sys.argv[0]} [regex-db.yml] [output-type]")
-        print("Supported output types: trufflehog, gitleaks")
+        print("Supported output types: trufflehog, gitleaks and talisman")
         exit(1)
 
     f = open(sys.argv[1], "r")
@@ -41,13 +52,16 @@ def main():
     f.close()
 
     OUTPUT_TYPE = sys.argv[2]
-    if OUTPUT_TYPE not in ("trufflehog", "gitleaks"):
+    if OUTPUT_TYPE not in ("trufflehog", "gitleaks","talisman"):
         print("Invalid output type")
         exit(1)
     if OUTPUT_TYPE == "trufflehog":
         print_trufflehog_output(y)
+    elif OUTPUT_TYPE == "talisman":
+        print_talisman_output(y)
     elif OUTPUT_TYPE == "gitleaks":
         print_gitleaks_output(y)
+    
 
 
 if __name__ == "__main__":
