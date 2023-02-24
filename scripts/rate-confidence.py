@@ -11,16 +11,15 @@ import random
 import subprocess
 from math import ceil
 from pathlib import Path
+from contextlib import suppress
 from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor, as_completed
 
-# how many of the top git repos to clone
-num_repos = 20
-# how many random file samples to take from each repo
-files_per_repo = 500
 # how many of the top websites to visit
-num_websites = 1000
+num_websites = 2000
 # how many files to check in a single batch
 batch_size = 100
+# skip these files
+file_ext_blacklist = (".png", ".jpg", ".jpeg", ".woff")
 
 project_root = Path(__file__).resolve().parent.parent
 temp_dir = Path.home() / ".cache" / "secret-patterns-db"
@@ -45,8 +44,7 @@ for r in rules_yaml:
     if not r:
         continue
     name = r.get("name", "")
-    confidence = r.get("confidence", "").lower()
-    if name and confidence:
+    if name:
         regex = r.get("regex", "")
         try:
             compiled_regex = re.compile(regex)
@@ -58,53 +56,27 @@ for r in rules_yaml:
 ### VISIT WEBSITES ###
 
 errprint(f"Visiting websites")
-top_websites_file = project_root / "datasets" / "top-websites.txt"
-top_websites = open(top_websites_file).read().splitlines()
+top_domains_file = project_root / "datasets" / "top-1m-alexa-domains.csv"
+with open(top_domains_file) as f:
+    top_domains = [l.split(",")[-1] for l in f.read().splitlines()[:num_websites]]
 websites_dir = temp_dir / "websites"
 websites_dir.mkdir(exist_ok=True)
 
+def get_webpage(url):
+    command = ["wget", "-q", "--convert-links", "--adjust-extension", "--page-requisites", "--no-parent", "--header=User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36", url]
+    with suppress(subprocess.TimeoutExpired):
+        subprocess.run(command, cwd=websites_dir, timeout=10)
+
 with ThreadPoolExecutor(max_workers=25) as e:
-    for url in top_websites[:num_websites]:
-        domain = url.split("/")[2]
-        output_file = websites_dir / f"{domain}.txt"
-        command = ["curl", "--connect-timeout", "10", "--max-time", "10", "-s", "-L", "-i", "-H", "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36", "-o", output_file, url]
-        if not output_file.is_file():
-            e.submit(subprocess.run, command, cwd=websites_dir)
+    for domain in top_domains[:num_websites]:
+        e.submit(get_webpage, f"https://{domain}")
 
-files = list(websites_dir.glob("*"))
-
-### CLONE REPOS ###
-
-top_github_repos_file = project_root / "datasets" / "top-github-repos.txt"
-top_github_repos = open(top_github_repos_file).read().splitlines()
-git_repos_dir = temp_dir / "git"
-git_repos_dir.mkdir(exist_ok=True)
-
-top_github_repos = [(git_repos_dir / (r.split("/")[-2] + "-" + r.split("/")[-1]), r) for r in top_github_repos]
-
-errprint(f"Cloning git repos")
-with ThreadPoolExecutor(max_workers=5) as e:
-    for repo_dir, repo in list(set(top_github_repos[:num_repos])):
-        command = ["git", "clone", "--depth", "1", "--filter=blob:limit=1m", repo, repo_dir.name]
-        if not repo_dir.is_dir():
-            e.submit(subprocess.run, command, cwd=git_repos_dir, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-
-for repo_dir, repo in top_github_repos:
-    if not repo_dir.is_dir():
-        continue
-    repo_files = repo_dir.glob("**/*")
-    # files only
-    repo_files = [f for f in repo_files if f.is_file()]
-    # not git database
-    repo_files = [f for f in repo_files if not str(f.relative_to(git_repos_dir)).split('/')[1] == ".git"]
-    # files 1MB or less in size
-    repo_files = [f for f in repo_files if 0 < f.stat().st_size < 10**6]
-    errprint(f"Found {len(repo_files):,} files in {repo_dir}")
-    random.shuffle(repo_files)
-    files += repo_files[:files_per_repo]
-
-
+files = list(websites_dir.glob("**/*"))
+files = [f for f in files if f.is_file() and f.suffix.lower() not in file_ext_blacklist]
 random.shuffle(files)
+if not files:
+    errprint(f"No websites loaded")
+    exit(1)
 
 def split(list_a, chunk_size):
     for i in range(0, len(list_a), chunk_size):
@@ -125,7 +97,8 @@ def test_batch(regex, *files):
 
 errprint(f"Testing {len(rules):,} rules against {len(files):,} files")
 futures = dict()
-total_checks = len(files) * len(rules)
+total_checks = max(1, len(files) * len(rules))
+batch_size = min(len(files), batch_size)
 with ProcessPoolExecutor() as e:
     for file_batch in split(files, batch_size):
         for name, r in rules.items():
