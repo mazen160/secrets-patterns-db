@@ -7,7 +7,7 @@ if len(sys.argv) < 2:
     print(f"\nUsage:\n\t{sys.argv[0]} [regex-db.yml]")
     exit(1)
 
-with open(sys.argv[1], 'r') as stream:
+with open(sys.argv[1], "r") as stream:
     y = yaml.safe_load(stream)
 
 
@@ -30,7 +30,7 @@ for i in y["patterns"]:
 
     # check for duplicated names
     # if name.lower() in all_names:
-        # print(f"DUP: {name}")
+    # print(f"DUP: {name}")
 
     all_names.append(name.lower())
 
@@ -43,7 +43,7 @@ for i in y["patterns"]:
 
 
 # Sort output
-output = sorted(output, key=lambda i: i['pattern']['name'])
+output = sorted(output, key=lambda i: i["pattern"]["name"])
 
 
 newData = {"patterns": output}

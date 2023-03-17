@@ -10,6 +10,7 @@ import yaml
 import random
 import subprocess
 from math import ceil
+from hashlib import md5
 from pathlib import Path
 from contextlib import suppress
 from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor, as_completed
@@ -19,7 +20,7 @@ num_websites = 2000
 # how many files to check in a single batch
 batch_size = 100
 # skip these files
-file_ext_blacklist = (".png", ".jpg", ".jpeg", ".woff")
+file_ext_blacklist = (".png", ".jpg", ".bmp", ".ico", ".jpeg", ".gif", ".svg", ".css", ".woff", ".woff2", ".ttf", ".mp3", ".m4a", ".wav", ".flac", ".mp4", ".mkv", ".avi", ".wmv", ".mov", ".flv", ".webm")
 
 project_root = Path(__file__).resolve().parent.parent
 temp_dir = Path.home() / ".cache" / "secret-patterns-db"
@@ -31,6 +32,13 @@ def errprint(*args, **kwargs):
     kwargs["file"] = sys.stderr
     kwargs["flush"] = True
     print(*args, **kwargs)
+
+
+def hash_file(file):
+    with open(file, 'rb') as f:
+        content = f.read()
+        return md5(content).digest()
+
 
 ### PARSE TEMPLATES ###
 
@@ -67,12 +75,22 @@ def get_webpage(url):
     with suppress(subprocess.TimeoutExpired):
         subprocess.run(command, cwd=websites_dir, timeout=10)
 
-with ThreadPoolExecutor(max_workers=25) as e:
-    for domain in top_domains[:num_websites]:
-        e.submit(get_webpage, f"https://{domain}")
+# with ThreadPoolExecutor(max_workers=25) as e:
+#     for domain in top_domains[:num_websites]:
+#         e.submit(get_webpage, f"https://{domain}")
 
+# get all files
 files = list(websites_dir.glob("**/*"))
+# filter out unwanted ones
 files = [f for f in files if f.is_file() and f.suffix.lower() not in file_ext_blacklist]
+# dedupe
+files_before = len(files)
+errprint(f"Deduplicating {len(files):,} files")
+file_hashes = {hash_file(f): f for f in files}
+files = list(file_hashes.values())
+files_after = len(files)
+errprint(f"Deduplicated {files_before:,} --> {files_after:,}")
+# shuffle
 random.shuffle(files)
 if not files:
     errprint(f"No websites loaded")
