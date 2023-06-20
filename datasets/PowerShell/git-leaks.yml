@@ -1,0 +1,245 @@
+patterns:
+  - pattern:
+      name: AWS Access Key
+      regex: "(A3T[A-Z0-9]|AKIA|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{16}"
+      confidence: high
+  - pattern:
+      name: AWS Secret Key
+      regex: "(?i)aws(.{0,20})?(?-i)['\\\"][0-9a-zA-Z\\/+]{40}['\\\"]"
+      confidence: high
+  - pattern:
+      name: AWS MWS key
+      regex: "amzn\\.mws\\.[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
+      confidence: high
+  - pattern:
+      name: Facebook Secret Key
+      regex: "(?i)(facebook|fb)(.{0,20})?(?-i)['\\\"][0-9a-f]{32}['\\\"]"
+      confidence: high
+  - pattern:
+      name: Facebook Client ID
+      regex: "(?i)(facebook|fb)(.{0,20})?['\\\"][0-9]{13,17}['\\\"]"
+      confidence: high
+  - pattern:
+      name: Twitter Secret Key
+      regex: "(?i)twitter(.{0,20})?[0-9a-z]{35,44}"
+      confidence: high
+  - pattern:
+      name: Twitter Client ID
+      regex: "(?i)twitter(.{0,20})?[0-9a-z]{18,25}"
+      confidence: high
+  - pattern:
+      name: Github Personal Access Token
+      regex: "ghp_[0-9a-zA-Z]{36}"
+      confidence: high
+  - pattern:
+      name: Github OAuth Access Token
+      regex: "gho_[0-9a-zA-Z]{36}"
+      confidence: high
+  - pattern:
+      name: Github App Token
+      regex: "(ghu|ghs)_[0-9a-zA-Z]{36}"
+      confidence: high
+  - pattern:
+      name: Github Refresh Token
+      regex: "ghr_[0-9a-zA-Z]{76}"
+      confidence: high
+  - pattern:
+      name: LinkedIn Client ID
+      regex: "(?i)linkedin(.{0,20})?(?-i)[0-9a-z]{12}"
+      confidence: high
+  - pattern:
+      name: LinkedIn Secret Key
+      regex: "(?i)linkedin(.{0,20})?[0-9a-z]{16}"
+      confidence: high
+  - pattern:
+      name: Slack
+      regex: "xox[baprs]-([0-9a-zA-Z]{10,48})?"
+      confidence: high
+  - pattern:
+      name: Asymmetric Private Key
+      regex: "-----BEGIN ((EC|PGP|DSA|RSA|OPENSSH) )?PRIVATE KEY( BLOCK)?-----"
+      confidence: high
+  - pattern:
+      name: Google API key
+      regex: "AIza[0-9A-Za-z\\\\-_]{35}"
+      confidence: high
+  - pattern:
+      name: Google (GCP) Service Account
+      regex: "\"type\": \"service_account\""
+      confidence: high
+  - pattern:
+      name: Heroku API key
+      regex: "(?i)heroku(.{0,20})?[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
+      confidence: high
+  - pattern:
+      name: MailChimp API key
+      regex: "(?i)(mailchimp|mc)(.{0,20})?[0-9a-f]{32}-us[0-9]{1,2}"
+      confidence: high
+  - pattern:
+      name: Mailgun API key
+      regex: "((?i)(mailgun|mg)(.{0,20})?)?key-[0-9a-z]{32}"
+      confidence: high
+  - pattern:
+      name: PayPal Braintree access token
+      regex: "access_token\\$production\\$[0-9a-z]{16}\\$[0-9a-f]{32}"
+      confidence: high
+  - pattern:
+      name: Picatic API key
+      regex: "sk_live_[0-9a-z]{32}"
+      confidence: high
+  - pattern:
+      name: SendGrid API Key
+      regex: "SG\\.[\\w_]{16,32}\\.[\\w_]{16,64}"
+      confidence: high
+  - pattern:
+      name: Slack Webhook
+      regex: "https://hooks.slack.com/services/T[a-zA-Z0-9_]{8}/B[a-zA-Z0-9_]{8,12}/[a-zA-Z0-9_]{24}"
+      confidence: high
+  - pattern:
+      name: Stripe API key
+      regex: "(?i)stripe(.{0,20})?[sr]k_live_[0-9a-zA-Z]{24}"
+      confidence: high
+  - pattern:
+      name: Square access token
+      regex: "sq0atp-[0-9A-Za-z\\-_]{22}"
+      confidence: high
+  - pattern:
+      name: Square OAuth secret
+      regex: "sq0csp-[0-9A-Za-z\\\\-_]{43}"
+      confidence: high
+  - pattern:
+      name: Twilio API key
+      regex: "(?i)twilio(.{0,20})?SK[0-9a-f]{32}"
+      confidence: high
+  - pattern:
+      name: Dynatrace ttoken
+      regex: "dt0[a-zA-Z]{1}[0-9]{2}\\.[A-Z0-9]{24}\\.[A-Z0-9]{64}"
+      confidence: high
+  - pattern:
+      name: Shopify shared secret
+      regex: "shpss_[a-fA-F0-9]{32}"
+      confidence: high
+  - pattern:
+      name: Shopify access token
+      regex: "shpat_[a-fA-F0-9]{32}"
+      confidence: high
+  - pattern:
+      name: Shopify custom app access token
+      regex: "shpca_[a-fA-F0-9]{32}"
+      confidence: high
+  - pattern:
+      name: Shopify private app access token
+      regex: "shppa_[a-fA-F0-9]{32}"
+      confidence: high
+  - pattern:
+      name: PyPI upload token
+      regex: "pypi-AgEIcHlwaS5vcmc[A-Za-z0-9-_]{50,1000}"
+      confidence: high
+  - pattern:
+      name: AWS Access Key
+      regex: "(A3T[A-Z0-9]|AKIA|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{16}"
+      confidence: high
+  - pattern:
+      name: AWS cred file info
+      regex: "(?i)(aws_access_key_id|aws_secret_access_key)(.{0,20})?=.[0-9a-zA-Z\\/+]{20,40}"
+      confidence: high
+  - pattern:
+      name: AWS Secret Key
+      regex: "(?i)aws(.{0,20})?(?-i)['\\\"][0-9a-zA-Z\\/+]{40}['\\\"]"
+      confidence: high
+  - pattern:
+      name: AWS MWS key
+      regex: "amzn\\.mws\\.[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
+      confidence: high
+  - pattern:
+      name: Facebook Secret Key
+      regex: "(?i)(facebook|fb)(.{0,20})?(?-i)['\\\"][0-9a-f]{32}['\\\"]"
+      confidence: high
+  - pattern:
+      name: Facebook Client ID
+      regex: "(?i)(facebook|fb)(.{0,20})?['\\\"][0-9]{13,17}['\\\"]"
+      confidence: high
+  - pattern:
+      name: Twitter Secret Key
+      regex: "(?i)twitter(.{0,20})?['\\\"][0-9a-z]{35,44}['\\\"]"
+      confidence: high
+  - pattern:
+      name: Twitter Client ID
+      regex: "(?i)twitter(.{0,20})?['\\\"][0-9a-z]{18,25}['\\\"]"
+      confidence: high
+  - pattern:
+      name: Github
+      regex: "(?i)github(.{0,20})?(?-i)['\\\"][0-9a-zA-Z]{35,40}['\\\"]"
+      confidence: high
+  - pattern:
+      name: LinkedIn Client ID
+      regex: "(?i)linkedin(.{0,20})?(?-i)['\\\"][0-9a-z]{12}['\\\"]"
+      confidence: high
+  - pattern:
+      name: LinkedIn Secret Key
+      regex: "(?i)linkedin(.{0,20})?['\\\"][0-9a-z]{16}['\\\"]"
+      confidence: high
+  - pattern:
+      name: Slack
+      regex: "xox[baprs]-([0-9a-zA-Z]{10,48})?"
+      confidence: high
+  - pattern:
+      name: EC
+      regex: "-----BEGIN EC PRIVATE KEY-----"
+      confidence: high
+  - pattern:
+      name: Google API key
+      regex: "AIza[0-9A-Za-z\\\\-_]{35}"
+      confidence: high
+  - pattern:
+      name: Heroku API key
+      regex: "(?i)heroku(.{0,20})?['\"][0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}['\"]"
+      confidence: high
+  - pattern:
+      name: MailChimp API key
+      regex: "(?i)(mailchimp|mc)(.{0,20})?['\"][0-9a-f]{32}-us[0-9]{1,2}['\"]"
+      confidence: high
+  - pattern:
+      name: Mailgun API key
+      regex: "(?i)(mailgun|mg)(.{0,20})?['\"][0-9a-z]{32}['\"]"
+      confidence: high
+  - pattern:
+      name: PayPal Braintree access token
+      regex: "access_token\\$production\\$[0-9a-z]{16}\\$[0-9a-f]{32}"
+      confidence: high
+  - pattern:
+      name: Picatic API key
+      regex: "sk_live_[0-9a-z]{32}"
+      confidence: high
+  - pattern:
+      name: Slack Webhook
+      regex: "https://hooks.slack.com/services/T[a-zA-Z0-9_]{8}/B[a-zA-Z0-9_]{8}/[a-zA-Z0-9_]{24}"
+      confidence: high
+  - pattern:
+      name: Stripe API key
+      regex: "(?i)stripe(.{0,20})?['\\\"][sk|rk]_live_[0-9a-zA-Z]{24}"
+      confidence: high
+  - pattern:
+      name: Square access token
+      regex: "sq0atp-[0-9A-Za-z\\-_]{22}"
+      confidence: high
+  - pattern:
+      name: Square OAuth secret
+      regex: "sq0csp-[0-9A-Za-z\\\\-_]{43}"
+      confidence: high
+  - pattern:
+      name: Twilio API key
+      regex: "(?i)twilio(.{0,20})?['\\\"][0-9a-f]{32}['\\\"]"
+      confidence: high
+  - pattern:
+      name: Env Var
+      regex: "(?i)(apikey|secret|key|api|password|pass|pw|host)=[0-9a-zA-Z-_.{}]{4,120}"
+      confidence: high
+  - pattern:
+      name: Generic Credential
+      regex: "(?i)(dbpasswd|dbuser|dbname|dbhost|api_key|apikey|secret|key|api|password|user|guid|hostname|pw|auth)(.{0,20})?['|\"]([0-9a-zA-Z-_\\/+!{}/=]{4,120})['|\"]"
+      confidence: high
+  - pattern:
+      name: WP-Config
+      regex: "define(.{0,20})?(DB_CHARSET|NONCE_SALT|LOGGED_IN_SALT|AUTH_SALT|NONCE_KEY|DB_HOST|DB_PASSWORD|AUTH_KEY|SECURE_AUTH_KEY|LOGGED_IN_KEY|DB_NAME|DB_USER)(.{0,20})?['|\"].{10,120}['|\"]"
+      confidence: high
