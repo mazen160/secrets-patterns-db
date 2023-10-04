@@ -1,0 +1,253 @@
+patterns:
+  - pattern:
+      name: Amazon MWS Auth Token
+      regex: "amzn\\.mws\\.[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
+      confidence: low
+  - pattern:
+      name: Amazon MWS Auth Token
+      regex: "amzn\\.mws\\.[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
+      confidence: low
+  - pattern:
+      name:  Amazon SNS Topic Disclosure
+      regex: "arn:aws:sns:[a-z0-9\\-]+:[0-9]+:[A-Za-z0-9\\-_]+"
+      confidence: low
+  - pattern:
+      name:  AWS Access Key ID Value
+      regex: "(A3T[A-Z0-9]|AKIA|AGPA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{16}"
+      confidence: low
+  - pattern:
+      name:  Artifactory Password Disclosure
+      regex: '(?:\s|=|:|"|^)AP[\dABCDEF][a-zA-Z0-9]{8,}'
+      confidence: low
+  - pattern:
+      name:   Artifactory API Token Disclosure
+      regex: '(?:\s|=|:|"|^)AKC[a-zA-Z0-9]{10,}'
+      confidence: low
+  - pattern:
+      name:  Bitly Secret Key Disclosure
+      regex: 'R_[0-9a-f]{32}'
+      confidence: low
+  - pattern:
+      name:  Cloudinary Credentials Disclosure
+      regex: 'cloudinary://[0-9]+:[A-Za-z0-9\-_\.]+@[A-Za-z0-9\-_\.]+'
+      confidence: low
+  - pattern:
+      name:  Cloudinary Credentials Disclosure
+      regex: "cloudinary://[0-9]{15}:[0-9A-Za-z\\-_]+@[0-9A-Za-z\\-_]+"
+      confidence: low
+  - pattern:
+      name:  Discord Webhook Disclosure
+      regex: 'https://discordapp\.com/api/webhooks/[0-9]+/[A-Za-z0-9\-]+'
+      confidence: low
+  - pattern:
+      name:  JDBC Connection String Disclosure
+      regex: 'jdbc:[a-z:]+://[A-Za-z0-9\.\-_:;=/@?,&]+'
+      confidence: low
+  - pattern:
+      name:  JWT Token
+      regex: 'eyJ[a-zA-Z0-9]{10,}\.eyJ[a-zA-Z0-9]{10,}\.[a-zA-Z0-9_\-]{10,}'
+      confidence: low
+  - pattern:
+      name:  Shoppable Service Auth
+      regex: 'data-shoppable-auth-token.+'
+      confidence: low
+  - pattern:
+      name:  FCM Server Key
+      regex: "AAAA[a-zA-Z0-9_-]{7}:[a-zA-Z0-9_-]{140}"
+      confidence: low
+  - pattern:
+      name:  Google Calendar URI
+      regex: 'https://www\.google\.com/calendar/embed\?src=[A-Za-z0-9%@&;=\-_\./]+'
+      confidence: low
+  - pattern:
+      name: Google OAuth Access Key
+      regex: 'ya29\.[0-9A-Za-z\-_]+'
+      confidence: low
+  - pattern:
+      name: Mailchimp API
+      regex: "[0-9a-f]{32}-us[0-9]{1,2}"
+      confidence: low
+  - pattern:
+      name: Microsoft Teams Webhook
+      regex: 'https://outlook\.office\.com/webhook/[A-Za-z0-9\-@]+/IncomingWebhook/[A-Za-z0-9\-]+/[A-Za-z0-9\-]+'
+      confidence: low
+  - pattern:
+      name: Newrelic Admin API Key
+      regex: '(?i)NRAA-[a-f0-9]{27}'
+      confidence: low
+  - pattern:
+      name: Newrelic Insights API Key
+      regex: '(?i)NRI(?:I|Q)-[A-Za-z0-9\-_]{32}'
+      confidence: low
+  - pattern:
+      name: Newrelic Insights API Key
+      regex: '(?i)NRI(?:I|Q)-[A-Za-z0-9\-_]{32}'
+      confidence: low
+  - pattern:
+      name: Newrelic REST API Key
+      regex: '(?i)NRRA-[a-f0-9]{42}'
+      confidence: low
+  - pattern:
+      name: Newrelic Synthetics Location Key
+      regex: '(?i)NRSP-[a-z]{2}[0-9]{2}[a-f0-9]{31}'
+      confidence: low
+  - pattern:
+      name: PayPal Braintree Access Token
+      regex: 'access_token\$production\$[0-9a-z]{16}\$[0-9a-f]{32}'
+      confidence: low
+  - pattern:
+      name: Picatic API Key Disclosure
+      regex: 'sk_live_[0-9a-z]{32}'
+      confidence: low
+  - pattern:
+      name: Sendgrid API Key
+      regex: 'SG\.[a-zA-Z0-9-_]{22}\.[a-zA-Z0-9_-]{43}'
+      confidence: low
+  - pattern:
+      name: Slack access token
+      regex: "xoxb-[0-9A-Za-z\\-]{51}"
+      confidence: low
+  - pattern:
+      name: Slack User token disclosure
+      regex: "xoxp-[0-9A-Za-z\\-]{72}"
+      confidence: low
+  - pattern:
+      name: Slack Webhook
+      regex: "https://hooks\\.slack\\.com/services/T[a-zA-Z0-9_]{8}/B[a-zA-Z0-9_]{8}/[a-zA-Z0-9_]{24}"
+      confidence: low
+  - pattern:
+      name: SonarQube Token
+      regex: "sonar.{0,50}(?:\"|'|`)?[0-9a-f]{40}(?:\"|'|`)?"
+      confidence: low
+  - pattern:
+      name: Stripe Restriced Key
+      regex: 'rk_(?:live|test)_[0-9a-zA-Z]{24}'
+      confidence: low
+  - pattern:
+      name: Stripe Secret Key
+      regex: 'sk_(?:live|test)_[0-9a-zA-Z]{24}'
+      confidence: low
+  - pattern:
+      name: Zapier Webhook
+      regex: 'https://(?:www.)?hooks\.zapier\.com/hooks/catch/[A-Za-z0-9]+/[A-Za-z0-9]+/'
+      confidence: low
+  - pattern:
+      name: Zoho Webhook
+      regex: 'https://creator\.zoho\.com/api/[A-Za-z0-9/\-_\.]+\?authtoken=[A-Za-z0-9]+'
+      confidence: low
+  - pattern:
+      name: Amazon MWS Auth Token
+      regex: "amzn\\.mws\\.[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
+      confidence: low
+  - pattern:
+      name: AWS Access Key ID
+      regex: "(A3T[A-Z0-9]|AKIA|AGPA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{16}"
+      confidence: low
+  - pattern:
+      name:  AWS Cognito Pool ID
+      regex: ":[0-9A-Za-z]{8}-[0-9A-Za-z]{4}-[0-9A-Za-z]{4}-[0-9A-Za-z]{4}-[0-9A-Za-z]{12}"
+      confidence: low
+  - pattern:
+      name:  Basic Auth Credentials
+      regex: "[a-zA-Z]{3,10}://[^/\\s:@]{3,20}:[^/\\s:@]{3,20}@.{1,100}[\"'\\s]"
+      confidence: low
+  - pattern:
+      name:  Dynatrace Token
+      regex: "dt0[a-zA-Z]{1}[0-9]{2}\\.[A-Z0-9]{24}\\.[A-Z0-9]{64}"
+      confidence: low
+  - pattern:
+      name: Facebook Client ID
+      regex: "(?i)(facebook|fb)(.{0,20})?['\"][0-9]{13,17}['\"]"
+      confidence: low
+  - pattern:
+      name: Facebook Secret Key
+      regex: "(?i)(facebook|fb)(.{0,20})?(?-i)['\"][0-9a-f]{32}['\"]"
+      confidence: low
+  - pattern:
+      name: Firebase Database Detect
+      regex: "[a-z0-9.-]+\\.firebaseio\\.com"
+      confidence: low
+  - pattern:
+      name: Firebase Database Detect
+      regex: "[a-z0-9.-]+\\.firebaseapp\\.com"
+      confidence: low
+  - pattern:
+      name: Google (GCP) Service-account
+      regex: "\"type\": \"service_account\""
+      confidence: low
+  - pattern:
+      name: Google API key
+      regex: "AIza[0-9A-Za-z\\-_]{35}"
+      confidence: low
+  - pattern:
+      name: Linkedin Client ID
+      regex: "(?i)linkedin(.{0,20})?(?-i)[0-9a-z]{12}"
+      confidence: low
+  - pattern:
+      name: Mailchimp API Key
+      regex: "[0-9a-f]{32}-us[0-9]{1,2}"
+      confidence: low
+  - pattern:
+      name: Mailgun API Key
+      regex: "key-[0-9a-zA-Z]{32}"
+      confidence: low
+  - pattern:
+      name: Paypal Braintree Access Token
+      regex: "access_token\\$production\\$[0-9a-z]{16}\\$[0-9a-f]{32}"
+      confidence: low
+  - pattern:
+      name: Pictatic API Key
+      regex: "sk_live_[0-9a-z]{32}"
+      confidence: low
+  - pattern:
+      name: Pictatic API Key
+      regex: "sk_live_[0-9a-z]{32}"
+      confidence: low
+  - pattern:
+      name: Sendgrid API Key
+      regex: "SG\\.[a-zA-Z0-9]{22}\\.[a-zA-Z0-9]{43}"
+      confidence: low
+  - pattern:
+      name: Shopify Custom App Access Token
+      regex: "shpca_[a-fA-F0-9]{32}"
+      confidence: low
+  - pattern:
+      name: Shopify Private App Access Token
+      regex: "shppa_[a-fA-F0-9]{32}"
+      confidence: low
+  - pattern:
+      name: Shopify Shared Secret
+      regex: "shpss_[a-fA-F0-9]{32}"
+      confidence: low
+  - pattern:
+      name: Shopify Access Token
+      regex:  "shpat_[a-fA-F0-9]{32}"
+      confidence: low
+  - pattern:
+      name: Slack API Key
+      regex:  "xox[baprs]-([0-9a-zA-Z]{10,48})?"
+      confidence: low
+  - pattern:
+      name: Slack Webhook
+      regex: "https://hooks.slack.com/services/T[0-9A-Za-z\\-_]{10}/B[0-9A-Za-z\\-_]{10}/[0-9A-Za-z\\-_]{23}"
+      confidence: low
+  - pattern:
+      name:  Square Accesss Token
+      regex: "sq0atp-[0-9A-Za-z\\-_]{22}"
+      confidence: low
+  - pattern:
+      name:  Square Accesss Token
+      regex: "sq0atp-[0-9A-Za-z\\-_]{22}"
+      confidence: low
+  - pattern:
+      name:  Square OAuth Secret
+      regex: "sq0csp-[0-9A-Za-z\\-_]{43}"
+      confidence: low
+  - pattern:
+      name:  Twilio API Key
+      regex: "(?i)twilio(.{0,20})?SK[0-9a-f]{32}"
+      confidence: low
+  - pattern:
+      name: Twitter Secret
+      regex: "(?i)twitter(.{0,20})?[0-9a-z]{35,44}"
+      confidence: low

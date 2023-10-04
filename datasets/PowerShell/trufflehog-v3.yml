@@ -1,0 +1,3138 @@
+patterns:
+  - pattern:
+      name: Ipstack
+      regex: "(?i)(?:ipstack).{0,40}\\b([a-fA-f0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Datagov
+      regex: "(?i)(?:data.gov).{0,40}\\b([a-zA-Z0-9]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Faceplusplus
+      regex: "(?i)(?:faceplusplus).{0,40}\\b([0-9a-zA-Z_-]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Dotmailer - 1
+      regex: "(?i)(?:dotmailer).{0,40}\\b(apiuser-[a-z0-9]{12}@apiconnector.com)\\b"
+      confidence: high
+  - pattern:
+      name: Dotmailer - 2
+      regex: "(?i)(?:dotmailer).{0,40}\\b([a-zA-Z0-9\\S]{8,24})\\b"
+      confidence: high
+  - pattern:
+      name: Mailchimp
+      regex: "[0-9a-f]{32}-us[0-9]{1,2}"
+      confidence: high
+  - pattern:
+      name: Geoapify
+      regex: "(?i)(?:geoapify).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Ambee
+      regex: "(?i)(?:ambee).{0,40}\\b([0-9a-f]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Fulcrum
+      regex: "(?i)(?:fulcrum).{0,40}\\b([a-z0-9]{80})\\b"
+      confidence: high
+  - pattern:
+      name: Githubapp - 1
+      regex: "(?i)(?:github).{0,40}\\b([0-9]{6})\\b"
+      confidence: high
+  - pattern:
+      name: Githubapp - 2
+      regex: "(?i)(?:github).{0,40}(-----BEGIN RSA PRIVATE KEY-----\\s[A-Za-z0-9+\\/\\s]*\\s-----END RSA PRIVATE KEY-----)"
+      confidence: high
+  - pattern:
+      name: Front
+      regex: '(?:front).{0,40}\\b([0-9a-zA-Z]{36}.[\w\.\-_\\]{188,244})\\b'
+      confidence: high
+  - pattern:
+      name: Plivo - 1
+      regex: "(?i)(?:plivo).{0,40}\\b([A-Za-z0-9_-]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Plivo - 2
+      regex: "(?i)(?:plivo).{0,40}\\b([A-Z]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Splunkobservabilitytoken
+      regex: "(?i)(?:splunk).{0,40}\\b([a-z0-9A-Z]{22})\\b"
+      confidence: high
+  - pattern:
+      name: User
+      regex: "(?i)(?:user).{0,40}\\b([a-zA-Z0-9-._+=]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Tyntec
+      regex: "(?i)(?:tyntec).{0,40}\\b([a-zA-Z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Survicate
+      regex: "(?i)(?:survicate).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: M3o
+      regex: "(?i)(?:m3o).{0,40}\\b([0-9A-Za-z]{48})\\b"
+      confidence: high
+  - pattern:
+      name: Github_old
+      regex: "(?i)(?:github)[^\\.].{0,40}[ =:'\"]+([a-f0-9]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Surveysparrow
+      regex: "(?i)(?:surveysparrow).{0,40}\\b([a-zA-Z0-9-_]{88})\\b"
+      confidence: high
+  - pattern:
+      name: Streak
+      regex: "(?i)(?:streak).{0,40}\\b([0-9Aa-f]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Shutterstockoauth
+      regex: "(?i)(?:shutterstock).{0,40}\\b(v2/[0-9A-Za-z]{388})\\b"
+      confidence: high
+  - pattern:
+      name: Unifyid
+      regex: "(?i)(?:unify).{0,40}\\b([0-9A-Za-z_=-]{44})"
+      confidence: high
+  - pattern:
+      name: Omnisend
+      regex: "(?i)(?:omnisend).{0,40}\\b([a-z0-9A-Z-]{75})\\b"
+      confidence: high
+  - pattern:
+      name: Shipday
+      regex: "(?i)(?:shipday).{0,40}\\b([a-zA-Z0-9.]{11}[a-zA-Z0-9]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Monday
+      regex: "(?i)(?:monday).{0,40}\\b(ey[a-zA-Z0-9_.]{210,225})\\b"
+      confidence: high
+  - pattern:
+      name: Mrticktock - 1
+      regex: "(?i)(?:mrticktock).{0,40}\\b([a-zA-Z0-9!=@#$%()_^]{1,50})"
+      confidence: high
+  - pattern:
+      name: Mrticktock - 2
+      regex: "\\b([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\\.[a-z]+)\\b"
+      confidence: high
+  - pattern:
+      name: Browshot
+      regex: "(?i)(?:browshot).{0,40}\\b([a-zA-Z-0-9]{28})\\b"
+      confidence: high
+  - pattern:
+      name: Avazapersonalaccesstoken
+      regex: "(?i)(?:avaza).{0,40}\\b([0-9]+-[0-9a-f]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Salesblink
+      regex: "(?i)(?:salesblink).{0,40}\\b([a-zA-Z]{16})\\b"
+      confidence: high
+  - pattern:
+      name: Guardianapi
+      regex: "\\b([0-9Aa-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Fakejson
+      regex: "(?i)(?:fakejson).{0,40}\\b([a-zA-Z0-9]{22})\\b"
+      confidence: high
+  - pattern:
+      name: Invoiceocean - 1
+      regex: "(?i)(?:invoiceocean).{0,40}\\b([0-9A-Za-z]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Invoiceocean - 2
+      regex: "\\b([0-9a-z]{1,}.invoiceocean.com)\\b"
+      confidence: high
+  - pattern:
+      name: Ipapi
+      regex: "(?i)(?:ipapi).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Swiftype
+      regex: "(?i)(?:swiftype).{0,40}\\b([a-zA-z-0-9]{6}[\\][_][a-zA-z-0-9]{6}\\-[a-zA-z-0-9]{6})\\b"
+      confidence: high
+  - pattern:
+      name: Rocketreach
+      regex: "(?i)(?:rocketreach).{0,40}\\b([a-z0-9-]{39})\\b"
+      confidence: high
+  - pattern:
+      name: Cloverly
+      regex: "(?i)(?:cloverly).{0,40}\\b([a-z0-9:_]{28})\\b"
+      confidence: high
+  - pattern:
+      name: Shotstack
+      regex: "(?i)(?:shotstack).{0,40}\\b([a-zA-Z0-9]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Pdflayer
+      regex: "(?i)(?:pdflayer).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Segmentapikey
+      regex: "(?i)(?:segment).{0,40}\\b([A-Za-z0-9_\\-a-zA-Z]{43}\\.[A-Za-z0-9_\\-a-zA-Z]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Sendbird - 1
+      regex: "(?i)(?:sendbird).{0,40}\\b([0-9a-f]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Sendbird - 2
+      regex: "(?i)(?:sendbird).{0,40}\\b([0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Sparkpost
+      regex: "\\b([a-zA-Z0-9]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Openweather
+      regex: "(?i)(?:openweather).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Pepipost
+      regex: "(?i)(?:pepipost|netcore).{0,40}\\b([a-zA-Z-0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Campayn
+      regex: "(?i)(?:campayn).{0,40}\\b([a-z0-9]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Scrapestack
+      regex: "(?i)(?:scrapestack).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Youtubeapikey - 1
+      regex: "(?i)(?:youtube).{0,40}\\b([a-zA-Z-0-9_]{39})\\b"
+      confidence: high
+  - pattern:
+      name: Youtubeapikey - 2
+      regex: "(?i)(?:youtube).{0,40}\\b([a-zA-Z-0-9]{24})\\b"
+      confidence: high
+  - pattern:
+      name: Languagelayer
+      regex: "(?i)(?:languagelayer).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Razorpay - 1
+      regex: "(?i)\\brzp_\\w{2,6}_\\w{10,20}\\b"
+      confidence: high
+  - pattern:
+      name: Razorpay - 2
+      regex: "(?:razor|secret|rzp|key)[-\\w]*[\\\" :=']*([A-Za-z0-9]{20,50})"
+      confidence: high
+  - pattern:
+      name: Getgist
+      regex: "(?i)(?:getgist).{0,40}\\b([a-z0-9A-Z+=]{68})"
+      confidence: high
+  - pattern:
+      name: Cloudelements - 1
+      regex: "(?i)(?:cloudelements).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Cloudelements - 2
+      regex: "(?i)(?:cloudelements).{0,40}\\b([a-zA-Z0-9]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Vpnapi
+      regex: "(?i)(?:vpnapi).{0,40}\\b([a-z0-9A-Z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Lastfm
+      regex: "(?i)(?:lastfm).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Zeplin
+      regex: "(?i)(?:zeplin).{0,40}\\b([a-zA-Z0-9-.]{350,400})\\b"
+      confidence: high
+  - pattern:
+      name: Chatbot
+      regex: "(?i)(?:chatbot).{0,40}\\b([a-zA-Z0-9_]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Spotifykey - 1
+      regex: "(?i)(?:key|secret).{0,40}\\b([A-Za-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Spotifykey - 2
+      regex: "(?i)(?:id).{0,40}\\b([A-Za-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Nitro
+      regex: "(?i)(?:nitro).{0,40}\\b([0-9a-f]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Hunter
+      regex: "(?i)(?:hunter).{0,40}\\b([a-z0-9_-]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Clicksendsms - 1
+      regex: "\\b([A-Z0-9]{8}-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Clicksendsms - 2
+      regex: "(?i)(?:sms).{0,40}\\b([a-zA-Z0-9]{3,20}@[a-zA-Z0-9]{2,12}.[a-zA-Z0-9]{2,5})\\b"
+      confidence: high
+  - pattern:
+      name: Gitlabv2
+      regex: "\\b(glpat-[a-zA-Z0-9\\-=_]{20,22})\\b"
+      confidence: high
+  - pattern:
+      name: Currencylayer
+      regex: "(?i)(?:currencylayer).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Goodday
+      regex: "(?i)(?:goodday).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Positionstack
+      regex: "(?i)(?:positionstack).{0,40}\\b([a-zA-Z0-9_]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Flightstats - 1
+      regex: "(?i)(?:flightstats).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Flightstats - 2
+      regex: "(?i)(?:flightstats).{0,40}\\b([0-9a-z]{8})\\b"
+      confidence: high
+  - pattern:
+      name: Vouchery - 1
+      regex: "(?i)(?:vouchery).{0,40}\\b([a-z0-9-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Vouchery - 2
+      regex: "(?i)(?:vouchery).{0,40}\\b([a-zA-Z0-9-\\S]{2,20})\\b"
+      confidence: high
+  - pattern:
+      name: Swell - 1
+      regex: "(?i)(?:swell).{0,40}\\b([a-zA-Z0-9]{6,24})\\b"
+      confidence: high
+  - pattern:
+      name: Swell - 2
+      regex: "(?i)(?:swell).{0,40}\\b([a-zA-Z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Rev - 1
+      regex: "(?i)(?:rev).{0,40}\\b([0-9a-zA-Z\\/\\+]{27}\\=[ \\r\\n]{1})"
+      confidence: high
+  - pattern:
+      name: Rev - 2
+      regex: "(?i)(?:rev).{0,40}\\b([0-9a-zA-Z\\-]{27}[ \\r\\n]{1})"
+      confidence: high
+  - pattern:
+      name: Storecove
+      regex: "(?i)(?:storecove).{0,40}\\b([a-zA-Z0-9_-]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Serpstack
+      regex: "(?i)(?:serpstack).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Theoddsapi
+      regex: "(?i)(?:theoddsapi|the-odds-api).{0,40}\\b([0-9a-f]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Shutterstock - 1
+      regex: "(?i)(?:shutterstock).{0,40}\\b([0-9a-zA-Z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Shutterstock - 2
+      regex: "(?i)(?:shutterstock).{0,40}\\b([0-9a-zA-Z]{16})\\b"
+      confidence: high
+  - pattern:
+      name: Telnyx
+      regex: "(?i)(?:telnyx).{0,40}\\b(KEY[0-9A-Za-z_-]{55})\\b"
+      confidence: high
+  - pattern:
+      name: Circleci
+      regex: "(?i)(?:circle).{0,40}([a-fA-F0-9]{40})"
+      confidence: high
+  - pattern:
+      name: Signupgenius
+      regex: "(?i)(?:signupgenius).{0,40}\\b([0-9A-Za-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: D7network
+      regex: "(?i)(?:d7network).{0,40}\\b([a-zA-Z0-9\\W\\S]{23}\\=)"
+      confidence: high
+  - pattern:
+      name: Notion
+      regex: "\\b(secret_[A-Za-z0-9]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Surveyanyplace - 1
+      regex: "(?i)(?:survey).{0,40}\\b([a-z0-9A-Z-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Surveyanyplace - 2
+      regex: "(?i)(?:survey).{0,40}\\b([a-z0-9A-Z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Hiveage
+      regex: "(?i)(?:hiveage).{0,40}\\b([0-9a-zA-Z\\-_]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Upcdatabase
+      regex: "(?i)(?:upcdatabase).{0,40}\\b([A-Z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Currencyfreaks
+      regex: "(?i)(?:currencyfreaks).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Onelogin - 1
+      regex: "(?i)id[a-zA-Z0-9_' \"=]{0,20}([a-z0-9]{64})"
+      confidence: high
+  - pattern:
+      name: Onelogin - 2
+      regex: "(?i)secret[a-zA-Z0-9_' \"=]{0,20}([a-z0-9]{64})"
+      confidence: high
+  - pattern:
+      name: Typeform
+      regex: "(?i)(?:typeform).{0,40}\\b([0-9A-Za-z]{44})\\b"
+      confidence: high
+  - pattern:
+      name: Urlscan
+      regex: "(?i)(?:urlscan).{0,40}\\b([a-z0-9-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Partnerstack
+      regex: "(?i)(?:partnerstack).{0,40}\\b([0-9A-Za-z]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Revampcrm - 1
+      regex: "(?i)(?:revamp).{0,40}\\b([a-zA-Z0-9]{40}\\b)"
+      confidence: high
+  - pattern:
+      name: Revampcrm - 2
+      regex: "(?i)(?:revamp).{0,40}\\b([a-zA-Z0-9.-@]{25,30})\\b"
+      confidence: high
+  - pattern:
+      name: Airvisual
+      regex: "(?i)(?:airvisual).{0,40}\\b([a-z0-9-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Nicereply
+      regex: "(?i)(?:nicereply).{0,40}\\b([0-9a-f]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Ipgeolocation
+      regex: "(?i)(?:ipgeolocation).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Moderation
+      regex: "(?i)(?:moderation).{0,40}\\b([a-zA-Z0-9]{36}\\.[a-zA-Z0-9]{115}\\.[a-zA-Z0-9_]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Apptivo - 1
+      regex: "(?i)(?:apptivo).{0,40}\\b([a-z0-9-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Apptivo - 2
+      regex: "(?i)(?:apptivo).{0,40}\\b([a-zA-Z0-9-]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Moosend
+      regex: "(?i)(?:moosend).{0,40}\\b([0-9Aa-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Axonaut
+      regex: "(?i)(?:axonaut).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Calendarific
+      regex: "(?i)(?:calendarific).{0,40}\\b([a-z0-9]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Confluent - 1
+      regex: "(?i)(?:confluent).{0,40}\\b([a-zA-Z-0-9]{16})\\b"
+      confidence: high
+  - pattern:
+      name: Confluent - 2
+      regex: "(?i)(?:confluent).{0,40}\\b([a-zA-Z-0-9]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Mailjetsms
+      regex: "(?i)(?:mailjet).{0,40}\\b([A-Za-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Jumpcloud
+      regex: "(?i)(?:jumpcloud).{0,40}\\b([a-zA-Z0-9]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Airtableapikey
+      regex: "\\b(key[a-zA-Z0-9_-]{14})\\b"
+      confidence: high
+  - pattern:
+      name: Adzuna - 1
+      regex: "(?i)(?:adzuna).{0,40}\\b([a-z0-9]{8})\\b"
+      confidence: high
+  - pattern:
+      name: Adzuna - 2
+      regex: "(?i)(?:adzuna).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Okta - 1
+      regex: "[a-z0-9-]{1,40}\\.okta(?:preview|-emea){0,1}\\.com"
+      confidence: high
+  - pattern:
+      name: Okta - 2
+      regex: "00[a-zA-Z0-9_-]{40}"
+      confidence: high
+  - pattern:
+      name: Numverify
+      regex: "(?i)(?:numverify).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Yousign
+      regex: "(?i)(?:yousign).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Sugester - 1
+      regex: "(?i)(?:sugester).{0,40}\\b([a-zA-Z0-9_.!+$#^*%]{3,32})\\b"
+      confidence: high
+  - pattern:
+      name: Sugester - 2
+      regex: "(?i)(?:sugester).{0,40}\\b([a-zA-Z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Tomorrowio
+      regex: "(?i)(?:tomorrow).{0,40}\\b([a-zA-Z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Polygon
+      regex: "(?i)(?:polygon).{0,40}\\b([a-z0-9A-Z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Boostnote
+      regex: "(?i)(?:boostnote).{0,40}\\b([0-9a-f]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Companyhub - 1
+      regex: "(?i)(?:companyhub).{0,40}\\b([0-9a-zA-Z]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Companyhub - 2
+      regex: "(?i)(?:companyhub).{0,40}\\b([a-zA-Z0-9$%^=-]{4,32})\\b"
+      confidence: high
+  - pattern:
+      name: Dropbox
+      regex: "\\b(sl\\.[A-Za-z0-9\\-_]{130,140})\\b"
+      confidence: high
+  - pattern:
+      name: Pandascore
+      regex: "(?i)(?:pandascore).{0,40}([ \\r\\n]{0,1}[0-9A-Za-z\\-_]{51}[ \\r\\n]{1})"
+      confidence: high
+  - pattern:
+      name: Chatfule
+      regex: "(?i)(?:chatfuel).{0,40}\\b([a-zA-Z0-9]{128})\\b"
+      confidence: high
+  - pattern:
+      name: Paymoapp
+      regex: "(?i)(?:paymoapp).{0,40}\\b([a-zA-Z0-9]{44})\\b"
+      confidence: high
+  - pattern:
+      name: Cryptocompare
+      regex: "(?i)(?:cryptocompare).{0,40}\\b([a-z-0-9]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Snipcart
+      regex: "(?i)(?:snipcart).{0,40}\\b([0-9A-Za-z_]{75})\\b"
+      confidence: high
+  - pattern:
+      name: Fleetbase
+      regex: "\\b(flb_live_[0-9a-zA-Z]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Ditto
+      regex: "(?i)(?:ditto).{0,40}\\b([a-z0-9]{8}\\-[a-z0-9]{4}\\-[a-z0-9]{4}\\-[a-z0-9]{4}\\-[a-z0-9]{12}\\.[a-z0-9]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Text2data
+      regex: "(?i)(?:text2data).{0,40}\\b([0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Teamworkspaces
+      regex: "(?i)(?:teamwork|teamworkspaces).{0,40}\\b(tkn\\.v1_[0-9A-Za-z]{71}=[ \\r\\n]{1})"
+      confidence: high
+  - pattern:
+      name: Besttime
+      regex: "(?i)(?:besttime).{0,40}\\b([0-9A-Za-z_]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Dronahq
+      regex: "(?i)(?:dronahq).{0,40}\\b([a-z0-9]{50})\\b"
+      confidence: high
+  - pattern:
+      name: Intercom
+      regex: "(?i)(?:intercom).{0,40}\\b([a-zA-Z0-9\\W\\S]{59}\\=)"
+      confidence: high
+  - pattern:
+      name: Kanban - 1
+      regex: "(?i)(?:kanban).{0,40}\\b([0-9A-Z]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Kanban - 2
+      regex: "\\b([0-9a-z]{1,}.kanbantool.com)\\b"
+      confidence: high
+  - pattern:
+      name: Scrapingbee
+      regex: "(?i)(?:scrapingbee).{0,40}\\b([A-Z0-9]{80})\\b"
+      confidence: high
+  - pattern:
+      name: Fxmarket
+      regex: "(?i)(?:fxmarket).{0,40}\\b([0-9Aa-zA-Z-_=]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Virustotal
+      regex: "(?i)(?:virustotal).{0,40}\\b([a-f0-9]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Finage
+      regex: "\\b(API_KEY[0-9A-Z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Uplead
+      regex: "(?i)(?:uplead).{0,40}\\b([a-z0-9-]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Imagekit
+      regex: "(?i)(?:imagekit).{0,40}\\b([a-zA-Z0-9_=]{36})"
+      confidence: high
+  - pattern:
+      name: Thinkific - 1
+      regex: "(?i)(?:thinkific).{0,40}\\b([0-9a-f]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Thinkific - 2
+      regex: "(?i)(?:thinkific).{0,40}\\b([0-9A-Za-z]{4,40})\\b"
+      confidence: high
+  - pattern:
+      name: Enigma
+      regex: "(?i)(?:enigma).{0,40}\\b([a-zA-Z0-9]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Pdfshift
+      regex: "(?i)(?:pdfshift).{0,40}\\b([0-9a-f]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Salesflare
+      regex: "(?i)(?:salesflare).{0,40}\\b([a-zA-Z0-9_]{45})\\b"
+      confidence: high
+  - pattern:
+      name: Bulbul
+      regex: "(?i)(?:bulbul).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Messagebird
+      regex: "(?i)(?:messagebird).{0,40}\\b([A-Za-z0-9_-]{25})\\b"
+      confidence: high
+  - pattern:
+      name: Nethunt - 1
+      regex: "(?i)(?:nethunt).{0,40}\\b([a-zA-Z0-9.-@]{25,30})\\b"
+      confidence: high
+  - pattern:
+      name: Nethunt - 2
+      regex: "(?i)(?:nethunt).{0,40}\\b([a-z0-9-\\S]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Autodesk - 1
+      regex: "(?i)(?:autodesk).{0,40}\\b([0-9A-Za-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Autodesk - 2
+      regex: "(?i)(?:autodesk).{0,40}\\b([0-9A-Za-z]{16})\\b"
+      confidence: high
+  - pattern:
+      name: Apideck - 1
+      regex: "\\b(sk_live_[a-z0-9A-Z-]{93})\\b"
+      confidence: high
+  - pattern:
+      name: Apideck - 2
+      regex: "(?i)(?:apideck).{0,40}\\b([a-z0-9A-Z]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Helpscout
+      regex: "(?i)(?:helpscout).{0,40}\\b([A-Za-z0-9]{56})\\b"
+      confidence: high
+  - pattern:
+      name: Apify
+      regex: "\\b(apify[\\][_]api[\\][_][a-zA-Z-0-9]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Baseapiio
+      regex: "(?i)(?:baseapi|base-api).{0,40}\\b([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Pastebin
+      regex: "(?i)(?:pastebin).{0,40}\\b([a-zA-Z0-9_]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Juro
+      regex: "(?i)(?:juro).{0,40}\\b([a-zA-Z0-9]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Borgbase
+      regex: "(?i)(?:borgbase).{0,40}\\b([a-zA-Z0-9/_.-]{148,152})\\b"
+      confidence: high
+  - pattern:
+      name: Algoliaadminkey - 1
+      regex: "(?i)(?:algolia).{0,40}\\b([A-Z0-9]{10})\\b"
+      confidence: high
+  - pattern:
+      name: Algoliaadminkey - 2
+      regex: "(?i)(?:algolia).{0,40}\\b([a-zA-Z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Marketstack
+      regex: "(?i)(?:marketstack).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Fileio
+      regex: "(?i)(?:fileio).{0,40}\\b([A-Z0-9.-]{39})\\b"
+      confidence: high
+  - pattern:
+      name: Exchangeratesapi
+      regex: "(?i)(?:exchangerates).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Gengo
+      regex: "(?i)(?:gengo).{0,40}([ ]{0,1}[0-9a-zA-Z\\[\\]\\-\\(\\)\\{\\}|_^@$=~]{64}[ \\r\\n]{1})"
+      confidence: high
+  - pattern:
+      name: Pushbulletapikey
+      regex: "(?i)(?:pushbullet).{0,40}\\b([A-Za-z0-9_\\.]{34})\\b"
+      confidence: high
+  - pattern:
+      name: Linearapi
+      regex: "\\b(lin_api_[0-9A-Za-z]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Jotform
+      regex: "(?i)(?:jotform).{0,40}\\b([0-9Aa-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Proxycrawl
+      regex: "(?i)(?:proxycrawl).{0,40}\\b([a-zA-Z0-9_]{22})\\b"
+      confidence: high
+  - pattern:
+      name: Coinlib
+      regex: "(?i)(?:coinlib).{0,40}\\b([a-z0-9]{16})\\b"
+      confidence: high
+  - pattern:
+      name: Restpackhtmltopdfapi
+      regex: "(?i)(?:restpack).{0,40}\\b([0-9A-Za-z]{48})\\b"
+      confidence: high
+  - pattern:
+      name: Mailmodo
+      regex: "(?i)(?:mailmodo).{0,40}\\b([A-Z0-9]{7}-[A-Z0-9]{7}-[A-Z0-9]{7}-[A-Z0-9]{7})\\b"
+      confidence: high
+  - pattern:
+      name: Midise
+      regex: "midi-662b69edd2[a-zA-Z0-9]{54}"
+      confidence: high
+  - pattern:
+      name: Loyverse
+      regex: "(?i)(?:loyverse).{0,40}\\b([0-9-a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Purestake
+      regex: "(?i)(?:purestake).{0,40}\\b([a-zA-Z0-9]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Financialmodelingprep
+      regex: "(?i)(?:financialmodelingprep).{0,40}\\b([a-zA-Z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Capsulecrm
+      regex: "(?i)(?:capsulecrm).{0,40}\\b([a-zA-Z0-9-._+=]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Roninapp - 1
+      regex: "(?i)(?:ronin).{0,40}\\b([0-9Aa-zA-Z]{3,32})\\b"
+      confidence: high
+  - pattern:
+      name: Roninapp - 2
+      regex: "(?i)(?:ronin).{0,40}\\b([0-9a-zA-Z]{26})\\b"
+      confidence: high
+  - pattern:
+      name: Metrilo
+      regex: "(?i)(?:metrilo).{0,40}\\b([a-z0-9]{16})\\b"
+      confidence: high
+  - pattern:
+      name: Myfreshworks - 1
+      regex: "(?i)(?:freshworks).{0,40}\\b([a-zA-Z0-9-_]{2,20})\\b"
+      confidence: high
+  - pattern:
+      name: Myfreshworks - 2
+      regex: "(?i)(?:freshworks).{0,40}\\b([a-z0-9A-Z-]{22})\\b"
+      confidence: high
+  - pattern:
+      name: Dfuse
+      regex: "\\b(web[\\][_][0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Hubspotapikey
+      regex: "(?i)(?:hubspot).{0,40}\\b([A-Za-z0-9]{8}\\-[A-Za-z0-9]{4}\\-[A-Za-z0-9]{4}\\-[A-Za-z0-9]{4}\\-[A-Za-z0-9]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Simplynoted
+      regex: "(?i)(?:simplynoted).{0,40}\\b([a-zA-Z0-9\\S]{340,360})\\b"
+      confidence: high
+  - pattern:
+      name: Kylas
+      regex: "(?i)(?:kylas).{0,40}\\b([a-z0-9-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Sendgrid
+      regex: "(?i)(?:sendgrid).{0,40}(SG\\.[\\w\\-_]{20,24}\\.[\\w\\-_]{39,50})\\b"
+      confidence: high
+  - pattern:
+      name: Commodities
+      regex: "(?i)(?:commodities).{0,40}\\b([a-zA-Z0-9]{60})\\b"
+      confidence: high
+  - pattern:
+      name: Onedesk - 1
+      regex: "(?i)(?:onedesk).{0,40}\\b([a-zA-Z0-9!=@#$%^]{8,64})"
+      confidence: high
+  - pattern:
+      name: Onedesk - 2
+      regex: "\\b([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\\.[a-z]+)\\b"
+      confidence: high
+  - pattern:
+      name: Squareapp - 1
+      regex: "[\\w\\-]*sq0i[a-z]{2}-[0-9A-Za-z\\-_]{22,43}"
+      confidence: high
+  - pattern:
+      name: Squareapp - 2
+      regex: "[\\w\\-]*sq0c[a-z]{2}-[0-9A-Za-z\\-_]{40,50}"
+      confidence: high
+  - pattern:
+      name: Nasdaqdatalink
+      regex: "(?i)(?:nasdaq).{0,40}\\b([a-zA-Z0-9_-]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Thousandeyes - 1
+      regex: "(?i)(?:thousandeyes).{0,40}\\b([a-zA-Z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Thousandeyes - 2
+      regex: "(?i)(?:thousandeyes).{0,40}\\b([a-zA-Z0-9]{3,20}@[a-zA-Z0-9]{2,12}.[a-zA-Z0-9]{2,5})\\b"
+      confidence: high
+  - pattern:
+      name: Plaidkey - 1
+      regex: "(?i)(?:plaid).{0,40}\\b([a-z0-9]{24})\\b"
+      confidence: high
+  - pattern:
+      name: Plaidkey - 2
+      regex: "(?i)(?:plaid).{0,40}\\b([a-z0-9]{30})\\b"
+      confidence: high
+  - pattern:
+      name: Weatherstack
+      regex: "(?i)(?:weatherstack).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Documo
+      regex: "\\b(ey[a-zA-Z0-9]{34}.ey[a-zA-Z0-9]{154}.[a-zA-Z0-9_-]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Getgeoapi
+      regex: "(?i)(?:getgeoapi).{0,40}\\b([0-9a-z]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Sendbirdorganizationapi
+      regex: "(?i)(?:sendbird).{0,40}\\b([0-9a-f]{24})\\b"
+      confidence: high
+  - pattern:
+      name: Moonclerk
+      regex: "(?i)(?:moonclerk).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Fmfw - 1
+      regex: "(?i)(?:fmfw).{0,40}\\b([a-zA-Z0-9-]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Fmfw - 2
+      regex: "(?i)(?:fmfw).{0,40}\\b([a-zA-Z0-9_-]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Blablabus
+      regex: "(?i)(?:blablabus).{0,40}\\b([0-9A-Za-z]{22})\\b"
+      confidence: high
+  - pattern:
+      name: Pagerdutyapikey
+      regex: "(?i)(?:pagerduty).{0,40}\\b([a-z]{1}\\+[a-zA-Z]{9}\\-[a-z]{2}\\-[a-z0-9]{5})\\b"
+      confidence: high
+  - pattern:
+      name: Toggltrack
+      regex: "(?i)(?:toggl).{0,40}\\b([0-9Aa-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Jiratoken - 1
+      regex: "(?i)(?:jira).{0,40}\\b([a-zA-Z-0-9]{24})\\b"
+      confidence: high
+  - pattern:
+      name: Jiratoken - 2
+      regex: "(?i)(?:jira).{0,40}\\b([a-zA-Z-0-9]{5,24}\\@[a-zA-Z-0-9]{3,16}\\.com)\\b"
+      confidence: high
+  - pattern:
+      name: Jiratoken - 3
+      regex: "(?i)(?:jira).{0,40}\\b([a-zA-Z-0-9]{5,24}\\.[a-zA-Z-0-9]{3,16}\\.[a-zA-Z-0-9]{3,16})\\b"
+      confidence: high
+  - pattern:
+      name: Scrapfly
+      regex: "(?i)(?:scrapfly).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Brandfetch
+      regex: "(?i)(?:brandfetch).{0,40}\\b([0-9A-Za-z]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Shodankey
+      regex: "(?i)(?:shodan).{0,40}\\b([a-zA-Z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Uri
+      regex: "\\b[a-zA-Z]{1,10}:?\\/\\/[-.%\\w{}]{1,50}:([-.%\\S]{3,50})@[-.%\\w\\/:]+\\b"
+      confidence: high
+  - pattern:
+      name: Meistertask
+      regex: "(?i)(?:meistertask).{0,40}\\b([a-zA-Z0-9]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Workstack
+      regex: "(?i)(?:workstack).{0,40}\\b([0-9Aa-zA-Z]{60})\\b"
+      confidence: high
+  - pattern:
+      name: Nexmoapikey - 1
+      regex: "(?i)(?:nexmo).{0,40}\\b([A-Za-z0-9_-]{8})\\b"
+      confidence: high
+  - pattern:
+      name: Nexmoapikey - 2
+      regex: "(?i)(?:nexmo).{0,40}\\b([A-Za-z0-9_-]{16})\\b"
+      confidence: high
+  - pattern:
+      name: Roaring
+      regex: "(?i)(?:roaring).{0,40}\\b([0-9A-Za-z_-]{28})\\b"
+      confidence: high
+  - pattern:
+      name: Enablex - 1
+      regex: "(?i)(?:enablex).{0,40}\\b([a-zA-Z0-9]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Enablex - 2
+      regex: "(?i)(?:enablex).{0,40}\\b([a-z0-9]{24})\\b"
+      confidence: high
+  - pattern:
+      name: Coinlayer
+      regex: "(?i)(?:coinlayer).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Appsynergy
+      regex: "(?i)(?:appsynergy).{0,40}\\b([a-z0-9]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Ipify
+      regex: "(?i)(?:ipify).{0,40}\\b([a-zA-Z0-9_-]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Convertkit
+      regex: "(?i)(?:convertkit).{0,40}\\b([a-z0-9A-Z_]{22})\\b"
+      confidence: high
+  - pattern:
+      name: Zerobounce
+      regex: "(?i)(?:zerobounce).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Lokalisetoken
+      regex: "(?i)(?:lokalise).{0,40}\\b([a-z0-9]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Dailyco
+      regex: "(?i)(?:daily).{0,40}\\b([0-9a-f]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Doppler
+      regex: "\\b(dp\\.pt\\.[a-zA-Z0-9]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Microsoftteamswebhook
+      regex: "(https:\\/\\/[a-zA-Z-0-9]+\\.webhook\\.office\\.com\\/webhookb2\\/[a-zA-Z-0-9]{8}-[a-zA-Z-0-9]{4}-[a-zA-Z-0-9]{4}-[a-zA-Z-0-9]{4}-[a-zA-Z-0-9]{12}\\@[a-zA-Z-0-9]{8}-[a-zA-Z-0-9]{4}-[a-zA-Z-0-9]{4}-[a-zA-Z-0-9]{4}-[a-zA-Z-0-9]{12}\\/IncomingWebhook\\/[a-zA-Z-0-9]{32}\\/[a-zA-Z-0-9]{8}-[a-zA-Z-0-9]{4}-[a-zA-Z-0-9]{4}-[a-zA-Z-0-9]{4}-[a-zA-Z-0-9]{12})"
+      confidence: high
+  - pattern:
+      name: Diffbot
+      regex: "(?i)(?:diffbot).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Integromat
+      regex: "(?i)(?:integromat).{0,40}\\b([a-z0-9-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Assemblyai
+      regex: "(?i)(?:assemblyai).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Verifier - 1
+      regex: "(?i)(?:verifier).{0,40}\\b([a-zA-Z-0-9-]{5,16}\\@[a-zA-Z-0-9]{4,16}\\.[a-zA-Z-0-9]{3,6})\\b"
+      confidence: high
+  - pattern:
+      name: Verifier - 2
+      regex: "(?i)(?:verifier).{0,40}\\b([a-z0-9]{96})\\b"
+      confidence: high
+  - pattern:
+      name: Moonclerck
+      regex: "(?i)(?:moonclerck).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Geocodify
+      regex: "(?i)(?:geocodify).{0,40}\\b([0-9a-z]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Vatlayer
+      regex: "(?i)(?:vatlayer).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Sigopt
+      regex: "(?i)(?:sigopt).{0,40}\\b([A-Z0-9]{48})\\b"
+      confidence: high
+  - pattern:
+      name: Dandelion
+      regex: "(?i)(?:dandelion).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Airbrakeprojectkey - 1
+      regex: "(?i)(?:airbrake).{0,40}\\b([0-9]{6})\\b"
+      confidence: high
+  - pattern:
+      name: Airbrakeprojectkey - 2
+      regex: "(?i)(?:airbrake).{0,40}\\b([a-zA-Z-0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Formbucket
+      regex: "(?i)(?:formbucket).{0,40}\\b([0-9A-Za-z]{1,}.[0-9A-Za-z]{1,}\\.[0-9A-Z-a-z\\-_]{1,})"
+      confidence: high
+  - pattern:
+      name: Macaddress
+      regex: "(?i)(?:macaddress).{0,40}\\b([a-zA-Z0-9_]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Userstack
+      regex: "(?i)(?:userstack).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Helpcrunch
+      regex: "(?i)(?:helpcrunch).{0,40}\\b([a-zA-Z-0-9+/=]{328})"
+      confidence: high
+  - pattern:
+      name: Telegrambottoken
+      regex: "(?i)(?:telegram).{0,40}\\b([0-9]{8,10}:[a-zA-Z0-9_-]{35})\\b"
+      confidence: high
+  - pattern:
+      name: Skrappio
+      regex: "(?i)(?:skrapp).{0,40}\\b([a-z0-9A-Z]{42})\\b"
+      confidence: high
+  - pattern:
+      name: Autopilot
+      regex: "(?i)(?:autopilot).{0,40}\\b([0-9a-f]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Foursquare
+      regex: "(?i)(?:foursquare).{0,40}\\b([0-9A-Z]{48})\\b"
+      confidence: high
+  - pattern:
+      name: Mailboxlayer
+      regex: "(?i)(?:mailboxlayer).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Planyo
+      regex: "(?i)(?:planyo).{0,40}\\b([0-9a-z]{62})\\b"
+      confidence: high
+  - pattern:
+      name: Gcp
+      regex: "\\{[^{]+auth_provider_x509_cert_url[^}]+\\}"
+      confidence: high
+  - pattern:
+      name: Aylien - 1
+      regex: "(?i)(?:aylien).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Aylien - 2
+      regex: "(?i)(?:aylien).{0,40}\\b([a-z0-9]{8})\\b"
+      confidence: high
+  - pattern:
+      name: Smooch - 1
+      regex: "(?i)(?:smooch).{0,40}\\b(act_[0-9a-z]{24})\\b"
+      confidence: high
+  - pattern:
+      name: Smooch - 2
+      regex: "(?i)(?:smooch).{0,40}\\b([0-9a-zA-Z_-]{86})\\b"
+      confidence: high
+  - pattern:
+      name: Viewneo
+      regex: "(?i)(?:viewneo).{0,40}\\b([a-z0-9A-Z]{120,300}.[a-z0-9A-Z]{150,300}.[a-z0-9A-Z-_]{600,800})"
+      confidence: high
+  - pattern:
+      name: Teamgate - 1
+      regex: "(?i)(?:teamgate).{0,40}\\b([a-z0-9]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Teamgate - 2
+      regex: "(?i)(?:teamgate).{0,40}\\b([a-zA-Z0-9]{80})\\b"
+      confidence: high
+  - pattern:
+      name: Bitcoinaverage
+      regex: "(?i)(?:bitcoinaverage).{0,40}\\b([a-zA-Z0-9]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Host
+      regex: "(?i)(?:host).{0,40}\\b([a-z0-9]{14})\\b"
+      confidence: high
+  - pattern:
+      name: Etsyapikey
+      regex: "(?i)(?:etsy).{0,40}\\b([a-zA-Z-0-9]{24})\\b"
+      confidence: high
+  - pattern:
+      name: Square
+      regex: "(?i)(?:square).{0,40}(EAAA[a-zA-Z0-9\\-\\+\\=]{60})"
+      confidence: high
+  - pattern:
+      name: Nftport
+      regex: "(?i)(?:nftport).{0,40}\\b([a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Beebole
+      regex: "(?i)(?:beebole).{0,40}\\b([0-9a-z]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Nozbeteams
+      regex: "(?i)(?:nozbe|nozbeteams).{0,40}\\b([0-9A-Za-z]{16}_[0-9A-Za-z\\-_]{64}[ \\r\\n]{1})"
+      confidence: high
+  - pattern:
+      name: Mindmeister
+      regex: "(?i)(?:mindmeister).{0,40}\\b([a-zA-Z0-9]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Simplesat
+      regex: "(?i)(?:simplesat).{0,40}\\b([a-z0-9]{40})"
+      confidence: high
+  - pattern:
+      name: Vultrapikey
+      regex: "(?i)(?:vultr).{0,40} \\b([A-Z0-9]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Nimble
+      regex: "(?i)(?:nimble).{0,40}\\b([a-zA-Z0-9]{30})\\b"
+      confidence: high
+  - pattern:
+      name: Dovico
+      regex: "(?i)(?:dovico).{0,40}\\b([0-9a-z]{32}\\.[0-9a-z]{1,}\\b)"
+      confidence: high
+  - pattern:
+      name: Iconfinder
+      regex: "(?i)(?:iconfinder).{0,40}\\b([a-zA-Z0-9]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Artsy - 1
+      regex: "(?i)(?:artsy).{0,40}\\b([0-9a-zA-Z]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Artsy - 2
+      regex: "(?i)(?:artsy).{0,40}\\b([0-9a-zA-Z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Testdetector
+      regex: "\\b(test)\\b"
+      confidence: high
+  - pattern:
+      name: Paralleldots
+      regex: "(?i)(?:paralleldots).{0,40}\\b([0-9A-Za-z]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Pivotaltracker
+      regex: "(?i)(?:pivotal).{0,40}([a-z0-9]{32})"
+      confidence: high
+  - pattern:
+      name: Mediastack
+      regex: "(?i)(?:mediastack).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Imagga
+      regex: "(?i)(?:imagga).{0,40}\\b([a-z0-9A-Z=]{72})"
+      confidence: high
+  - pattern:
+      name: Guru - 1
+      regex: "(?i)(?:guru).{0,40}\\b([a-zA-Z0-9]{3,20}@[a-zA-Z0-9]{2,12}.[a-zA-Z0-9]{2,5})\\b"
+      confidence: high
+  - pattern:
+      name: Guru - 2
+      regex: "(?i)(?:guru).{0,40}\\b([a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Shortcut
+      regex: "(?i)(?:shortcut).{0,40}\\b([0-9a-f-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Bitlyaccesstoken
+      regex: "(?i)(?:bitly).{0,40}\\b([a-zA-Z-0-9]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Kucoin - 1
+      regex: "(?i)(?:kucoin).{0,40}([ \\r\\n]{1}[!-~]{7,32}[ \\r\\n]{1})"
+      confidence: high
+  - pattern:
+      name: Kucoin - 2
+      regex: "(?i)(?:kucoin).{0,40}\\b([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Kucoin - 3
+      regex: "(?i)(?:kucoin).{0,40}\\b([0-9a-f]{24})\\b"
+      confidence: high
+  - pattern:
+      name: Flightapi
+      regex: "(?i)(?:flightapi).{0,40}\\b([a-z0-9]{24})\\b"
+      confidence: high
+  - pattern:
+      name: Worksnaps
+      regex: "(?i)(?:worksnaps).{0,40}\\b([0-9A-Za-z]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Newsapi
+      regex: "(?i)(?:newsapi).{0,40}\\b([a-z0-9]{32})"
+      confidence: high
+  - pattern:
+      name: Zapierwebhook
+      regex: "(https:\\/\\/hooks.zapier.com\\/hooks\\/catch\\/[A-Za-z0-9\\/]{16})"
+      confidence: high
+  - pattern:
+      name: Scrapeowl
+      regex: "(?i)(?:scrapeowl).{0,40}\\b([0-9a-z]{30})\\b"
+      confidence: high
+  - pattern:
+      name: Paystack
+      regex: "\\b(sk[\\][_][a-z]{1,}[\\][_][A-Za-z0-9]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Groovehq
+      regex: "(?i)(?:groove).{0,40}\\b([a-z0-9A-Z]{64})"
+      confidence: high
+  - pattern:
+      name: Satismeterprojectkey - 1
+      regex: "(?i)(?:satismeter).{0,40}\\b([a-zA-Z0-9]{4,20}@[a-zA-Z0-9]{2,12}.[a-zA-Z0-9]{2,12})\\b"
+      confidence: high
+  - pattern:
+      name: Satismeterprojectkey - 2
+      regex: "(?i)(?:satismeter).{0,40}\\b([a-zA-Z0-9]{24})\\b"
+      confidence: high
+  - pattern:
+      name: Satismeterprojectkey - 3
+      regex: "(?i)(?:satismeter).{0,40}\\b([a-zA-Z0-9!=@#$%^]{6,32})"
+      confidence: high
+  - pattern:
+      name: Zenkitapi
+      regex: "(?i)(?:zenkit).{0,40}\\b([0-9a-z]{8}\\-[0-9A-Za-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Censys - 1
+      regex: "(?i)(?:censys).{0,40}\\b([a-zA-Z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Censys - 2
+      regex: "(?i)(?:censys).{0,40}\\b([a-z0-9-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Discordwebhook
+      regex: "(https:\\/\\/discord.com\\/api\\/webhooks\\/[0-9]{18}\\/[0-9a-zA-Z-]{68})"
+      confidence: high
+  - pattern:
+      name: Artifactory - 1
+      regex: "\\b([a-zA-Z0-9]{73})"
+      confidence: high
+  - pattern:
+      name: Artifactory - 2
+      regex: "\\b([A-Za-z0-9](?:[A-Za-z0-9\\-]{0,61}[A-Za-z0-9])\\.jfrog\\.io)"
+      confidence: high
+  - pattern:
+      name: Raven
+      regex: "(?i)(?:raven).{0,40}\\b([A-Z0-9-]{16})\\b"
+      confidence: high
+  - pattern:
+      name: Datafire
+      regex: "(?i)(?:datafire).{0,40}\\b([a-z0-9\\S]{175,190})\\b"
+      confidence: high
+  - pattern:
+      name: Webex - 1
+      regex: "(?i)(?:error).{0,40}(redirect_uri_mismatch)"
+      confidence: high
+  - pattern:
+      name: Webex - 2
+      regex: "(?i)(?:webex).{0,40}\\b([A-Za-z0-9_-]{65})\\b"
+      confidence: high
+  - pattern:
+      name: Webex - 3
+      regex: "(?i)(?:webex).{0,40}\\b([A-Za-z0-9_-]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Cloudflarecakey
+      regex: "(?i)(?:cloudflare).{0,40}\\b(v[A-Za-z0-9._-]{173,})\\b"
+      confidence: high
+  - pattern:
+      name: Aletheiaapi
+      regex: "(?i)(?:aletheiaapi).{0,40}\\b([A-Z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Clustdoc
+      regex: "(?i)(?:clustdoc).{0,40}\\b([0-9a-zA-Z]{60})\\b"
+      confidence: high
+  - pattern:
+      name: Signaturit
+      regex: "(?i)(?:signaturit).{0,40}\\b([0-9A-Za-z]{86})\\b"
+      confidence: high
+  - pattern:
+      name: Prospectcrm
+      regex: "(?i)(?:prospect).{0,40}\\b([a-z0-9-]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Rownd - 1
+      regex: "(?i)(?:rownd).{0,40}\\b([a-z0-9]{8}\\-[a-z0-9]{4}\\-[a-z0-9]{4}\\-[a-z0-9]{4}\\-[a-z0-9]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Rownd - 2
+      regex: "(?i)(?:rownd).{0,40}\\b([a-z0-9]{48})\\b"
+      confidence: high
+  - pattern:
+      name: Rownd - 3
+      regex: "(?i)(?:rownd).{0,40}\\b([0-9]{18})\\b"
+      confidence: high
+  - pattern:
+      name: Slackwebhook
+      regex: "(https:\\/\\/hooks.slack.com\\/services\\/[A-Za-z0-9+\\/]{44,46})"
+      confidence: high
+  - pattern:
+      name: Caflou
+      regex: "(?i)(?:caflou).{0,40}\\b([a-bA-Z0-9\\S]{155})\\b"
+      confidence: high
+  - pattern:
+      name: Graphhopper
+      regex: "(?i)(?:graphhopper).{0,40}\\b([a-z0-9-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Sendinbluev2
+      regex: "\\b(xkeysib\\-[A-Za-z0-9_-]{81})\\b"
+      confidence: high
+  - pattern:
+      name: Kontent
+      regex: "(?i)(?:kontent).{0,40}\\b([a-z0-9-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Smartsheets
+      regex: "(?i)(?:smartsheets).{0,40}\\b([a-zA-Z0-9]{37})\\b"
+      confidence: high
+  - pattern:
+      name: Currentsapi
+      regex: "(?i)(?:currentsapi).{0,40}\\b([a-zA-Z0-9\\S]{48})\\b"
+      confidence: high
+  - pattern:
+      name: Tradier
+      regex: "(?i)(?:tradier).{0,40}\\b([a-zA-Z0-9]{28})\\b"
+      confidence: high
+  - pattern:
+      name: Webscraper
+      regex: "(?i)(?:webscraper).{0,40}\\b([a-zA-Z0-9]{60})\\b"
+      confidence: high
+  - pattern:
+      name: Owlbot
+      regex: "(?i)(?:owlbot).{0,40}\\b([a-z0-9]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Fastforex
+      regex: "(?i)(?:fastforex).{0,40}\\b([a-z0-9-]{28})\\b"
+      confidence: high
+  - pattern:
+      name: Locationiq
+      regex: "\\b(pk\\.[a-zA-Z-0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Accuweather
+      regex: "(?i)(?:accuweather).{0,40}([a-z0-9A-Z\\%]{35})\\b"
+      confidence: high
+  - pattern:
+      name: Graphcms - 1
+      regex: "(?i)(?:graph).{0,40}\\b([a-z0-9]{25})\\b"
+      confidence: high
+  - pattern:
+      name: Graphcms - 2
+      regex: "\\b(ey[a-zA-Z0-9]{73}.ey[a-zA-Z0-9]{365}.[a-zA-Z0-9_-]{683})\\b"
+      confidence: high
+  - pattern:
+      name: Webflow
+      regex: "(?i)(?:webflow).{0,40}\\b([a-zA0-9]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Carboninterface
+      regex: "(?i)(?:carboninterface).{0,40}\\b([a-zA-Z0-9]{21})\\b"
+      confidence: high
+  - pattern:
+      name: Rapidapi
+      regex: "(?i)(?:rapidapi).{0,40}\\b([A-Za-z0-9_-]{50})\\b"
+      confidence: high
+  - pattern:
+      name: Exchangerateapi
+      regex: "(?i)(?:exchangerate).{0,40}\\b([a-z0-9]{24})\\b"
+      confidence: high
+  - pattern:
+      name: Flowflu - 1
+      regex: "(?i)(?:flowflu|account).{0,40}\\b([a-zA-Z0-9]{4,30})\\b"
+      confidence: high
+  - pattern:
+      name: Flowflu - 2
+      regex: "(?i)(?:flowflu).{0,40}\\b([a-zA-Z0-9]{51})\\b"
+      confidence: high
+  - pattern:
+      name: Taxjar
+      regex: "(?i)(?:taxjar).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Planviewleankit - 1
+      regex: "(?i)(?:planviewleankit|planview).{0,40}\\b([0-9a-f]{128})\\b"
+      confidence: high
+  - pattern:
+      name: Planviewleankit - 2
+      regex: "(?i)(?:planviewleankit|planview).{0,40}(?:subdomain).\\b([a-zA-Z][a-zA-Z0-9.-]{1,23}[a-zA-Z0-9])\\b"
+      confidence: high
+  - pattern:
+      name: Versioneye
+      regex: "(?i)(?:versioneye).{0,40}\\b([a-zA-Z0-9-]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Linenotify
+      regex: "(?i)(?:linenotify).{0,40}\\b([0-9A-Za-z]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Digitaloceantoken
+      regex: "(?i)(?:digitalocean).{0,40}\\b([A-Za-z0-9_-]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Aviationstack
+      regex: "(?i)(?:aviationstack).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Textmagic - 1
+      regex: "(?i)(?:textmagic).{0,40}\\b([0-9A-Za-z]{30})\\b"
+      confidence: high
+  - pattern:
+      name: Textmagic - 2
+      regex: "(?i)(?:textmagic).{0,40}\\b([0-9A-Za-z]{1,25})\\b"
+      confidence: high
+  - pattern:
+      name: Auth0oauth - 1
+      regex: "(?i)(?:auth0).{0,40}\\b([a-zA-Z0-9_-]{32,60})\\b"
+      confidence: high
+  - pattern:
+      name: Auth0oauth - 2
+      regex: "\\b([a-zA-Z0-9_-]{64,})\\b"
+      confidence: high
+  - pattern:
+      name: Impala
+      regex: "(?i)(?:impala).{0,40}\\b([0-9A-Za-z_]{46})\\b"
+      confidence: high
+  - pattern:
+      name: Mapquest
+      regex: "(?i)(?:mapquest).{0,40}\\b([0-9A-Za-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Clickhelp - 1
+      regex: "\\b([0-9A-Za-z]{3,20}.try.clickhelp.co)\\b"
+      confidence: high
+  - pattern:
+      name: Clickhelp - 2
+      regex: "(?i)(?:clickhelp).{0,40}\\b([0-9A-Za-z]{24})\\b"
+      confidence: high
+  - pattern:
+      name: Clickhelp - 3
+      regex: "\\b([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\\.[a-z]+)\\b"
+      confidence: high
+  - pattern:
+      name: Uploadcare
+      regex: "(?i)(?:uploadcare).{0,40}\\b([a-z0-9]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Peopledatalabs
+      regex: "(?i)(?:peopledatalabs).{0,40}\\b([a-z0-9]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Mattermostpersonaltoken - 1
+      regex: "(?i)(?:mattermost).{0,40}\\b([A-Za-z0-9-_]{1,}.cloud.mattermost.com)\\b"
+      confidence: high
+  - pattern:
+      name: Mattermostpersonaltoken - 2
+      regex: "(?i)(?:mattermost).{0,40}\\b([a-z0-9]{26})\\b"
+      confidence: high
+  - pattern:
+      name: Storyblok
+      regex: "(?i)(?:storyblok).{0,40}\\b([0-9A-Za-z]{22}t{2})\\b"
+      confidence: high
+  - pattern:
+      name: Ethplorer
+      regex: "(?i)(?:ethplorer).{0,40}\\b([a-z0-9A-Z-]{22})\\b"
+      confidence: high
+  - pattern:
+      name: Glassnode
+      regex: "(?i)(?:glassnode).{0,40}\\b([0-9A-Za-z]{27})\\b"
+      confidence: high
+  - pattern:
+      name: Insightly
+      regex: "(?i)(?:insightly).{0,40}\\b([a-z0-9-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Opengraphr
+      regex: "(?i)(?:opengraphr).{0,40}\\b([0-9Aa-zA-Z]{80})\\b"
+      confidence: high
+  - pattern:
+      name: Surveybot
+      regex: "(?i)(?:surveybot).{0,40}\\b([A-Za-z0-9-]{80})\\b"
+      confidence: high
+  - pattern:
+      name: Neutrinoapi - 1
+      regex: "(?i)(?:neutrinoapi).{0,40}\\b([a-zA-Z0-9]{48})\\b"
+      confidence: high
+  - pattern:
+      name: Neutrinoapi - 2
+      regex: "(?i)(?:neutrinoapi).{0,40}\\b([a-zA-Z0-9]{6,24})\\b"
+      confidence: high
+  - pattern:
+      name: Selectpdf
+      regex: "(?i)(?:selectpdf).{0,40}\\b([a-z0-9-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Gocardless
+      regex: "\\b(live_[0-9A-Za-z\\-_]{40}[ \"'\\r\\n]{1})"
+      confidence: high
+  - pattern:
+      name: Karmacrm
+      regex: "(?i)(?:karma).{0,40}\\b([a-zA-Z0-9]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Onwaterio
+      regex: "(?i)(?:onwater).{0,40}\\b([a-zA-Z0-9_-]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Cloudimage
+      regex: "(?i)(?:cloudimage).{0,40}\\b([a-z0-9_]{30})\\b"
+      confidence: high
+  - pattern:
+      name: Abstract
+      regex: "(?i)(?:abstract).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Flutterwave
+      regex: "\\b(FLWSECK-[0-9a-z]{32}-X)\\b"
+      confidence: high
+  - pattern:
+      name: Gocanvas - 1
+      regex: "(?i)(?:gocanvas).{0,40}\\b([0-9A-Za-z/+]{43}=[ \\r\\n]{1})"
+      confidence: high
+  - pattern:
+      name: Gocanvas - 2
+      regex: "(?i)(?:gocanvas).{0,40}\\b([\\w\\.-]+@[\\w-]+\\.[\\w\\.-]{2,5})\\b"
+      confidence: high
+  - pattern:
+      name: Screenshotlayer
+      regex: "(?i)(?:screenshotlayer).{0,40}\\b([a-zA-Z0-9_]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Paymongo
+      regex: "(?i)(?:paymongo).{0,40}\\b([a-zA-Z0-9_]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Klipfolio
+      regex: "(?i)(?:klipfolio).{0,40}\\b([0-9a-f]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Worldweather
+      regex: "(?i)(?:worldweather).{0,40}\\b([0-9a-z]{31})\\b"
+      confidence: high
+  - pattern:
+      name: Netlify
+      regex: "(?i)(?:netlify).{0,40}\\b([A-Za-z0-9_-]{43,45})\\b"
+      confidence: high
+  - pattern:
+      name: Wepay - 1
+      regex: "\\b(\\d{6})\\b"
+      confidence: high
+  - pattern:
+      name: Wepay - 2
+      regex: "(?i)(?:wepay).{0,40}\\b([a-zA-Z0-9_?]{62})\\b"
+      confidence: high
+  - pattern:
+      name: Currencyscoop
+      regex: "(?i)(?:currencyscoop).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Upwave
+      regex: "(?i)(?:upwave).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Geckoboard
+      regex: "(?i)(?:geckoboard).{0,40}\\b([a-zA-Z0-9]{44})\\b"
+      confidence: high
+  - pattern:
+      name: Lendflow
+      regex: "(?i)(?:lendflow).{0,40}\\b([a-zA-Z0-9]{36}\\.[a-zA-Z0-9]{235}\\.[a-zA-Z0-9]{32}\\-[a-zA-Z0-9]{47}\\-[a-zA-Z0-9_]{162}\\-[a-zA-Z0-9]{42}\\-[a-zA-Z0-9_]{40}\\-[a-zA-Z0-9_]{66}\\-[a-zA-Z0-9_]{59}\\-[a-zA-Z0-9]{7}\\-[a-zA-Z0-9_]{220})\\b"
+      confidence: high
+  - pattern:
+      name: Eagleeyenetworks - 1
+      regex: "(?i)(?:eagleeyenetworks).{0,40}\\b([a-zA-Z0-9]{3,20}@[a-zA-Z0-9]{2,12}.[a-zA-Z0-9]{2,5})\\b"
+      confidence: high
+  - pattern:
+      name: Eagleeyenetworks - 2
+      regex: "(?i)(?:eagleeyenetworks).{0,40}\\b([a-zA-Z0-9]{15})\\b"
+      confidence: high
+  - pattern:
+      name: Bannerbear
+      regex: "(?i)(?:bannerbear).{0,40}\\b([0-9a-zA-Z]{22}tt)\\b"
+      confidence: high
+  - pattern:
+      name: Twilio - 1
+      regex: "\\bAC[0-9a-f]{32}\\b"
+      confidence: high
+  - pattern:
+      name: Twilio - 2
+      regex: "\\b[0-9a-f]{32}\\b"
+      confidence: high
+  - pattern:
+      name: Copper - 1
+      regex: "\\b([a-z0-9]{4,25}@[a-zA-Z0-9]{2,12}.[a-zA-Z0-9]{2,6})\\b"
+      confidence: high
+  - pattern:
+      name: Copper - 2
+      regex: "(?i)(?:copper).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Appfollow
+      regex: "(?i)(?:appfollow).{0,40}\\b([0-9A-Za-z]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Reallysimplesystems
+      regex: "\\b(ey[a-zA-Z0-9-._]{153}.ey[a-zA-Z0-9-._]{916,1000})\\b"
+      confidence: high
+  - pattern:
+      name: Saucelabs - 1
+      regex: "\\b(oauth\\-[a-z0-9]{8,}\\-[a-z0-9]{5})\\b"
+      confidence: high
+  - pattern:
+      name: Saucelabs - 2
+      regex: "(?i)(?:saucelabs).{0,40}\\b([a-z0-9]{8}\\-[a-z0-9]{4}\\-[a-z0-9]{4}\\-[a-z0-9]{4}\\-[a-z0-9]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Refiner
+      regex: "(?i)(?:refiner).{0,40}\\b([0-9Aa-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Kickbox
+      regex: "(?i)(?:kickbox).{0,40}\\b([a-zA-Z0-9_]+[a-zA-Z0-9]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Crowdin
+      regex: "(?i)(?:crowdin).{0,40}\\b([0-9A-Za-z]{80})\\b"
+      confidence: high
+  - pattern:
+      name: Tiingo
+      regex: "(?i)(?:tiingo).{0,40}\\b([0-9a-z]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Column
+      regex: "(?i)(?:column).{0,40}\\b((?:test|live)_[a-zA-Z0-9]{27})\\b"
+      confidence: high
+  - pattern:
+      name: Github
+      regex: "\\b((?:ghp|gho|ghu|ghs|ghr)_[a-zA-Z0-9]{36,255}\\b)"
+      confidence: high
+  - pattern:
+      name: Tru - 1
+      regex: "(?i)(?:tru).{0,40}\\b([0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Tru - 2
+      regex: "(?i)(?:tru).{0,40}\\b([0-9a-zA-Z.-_]{26})\\b"
+      confidence: high
+  - pattern:
+      name: Mite - 1
+      regex: "(?i)(?:mite).{0,40}\\b([0-9a-z]{16})\\b"
+      confidence: high
+  - pattern:
+      name: Mite - 2
+      regex: "\\b([0-9a-z-]{1,}.mite.yo.lk)\\b"
+      confidence: high
+  - pattern:
+      name: Eightxeight - 1
+      regex: "(?i)(?:8x8).{0,40}\\b([a-zA-Z0-9_]{18,30})\\b"
+      confidence: high
+  - pattern:
+      name: Eightxeight - 2
+      regex: "(?i)(?:8x8).{0,40}\\b([a-zA-Z0-9]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Feedier
+      regex: "(?i)(?:feedier).{0,40}\\b([a-z0-9A-Z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Iexcloud
+      regex: "(?i)(?:iexcloud).{0,40}\\b([a-z0-9_]{35})\\b"
+      confidence: high
+  - pattern:
+      name: Sportsmonk
+      regex: "(?i)(?:sportsmonk).{0,40}\\b([0-9a-zA-Z]{60})\\b"
+      confidence: high
+  - pattern:
+      name: Ipinfodb
+      regex: "(?i)(?:ipinfodb).{0,40}\\b([a-z0-9]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Zendeskapi - 1
+      regex: "\\b([a-zA-Z-0-9]{3,16}\\.zendesk\\.com)\\b"
+      confidence: high
+  - pattern:
+      name: Zendeskapi - 2
+      regex: "\\b([a-zA-Z-0-9-]{5,16}\\@[a-zA-Z-0-9]{4,16}\\.[a-zA-Z-0-9]{3,6})\\b"
+      confidence: high
+  - pattern:
+      name: Zendeskapi - 3
+      regex: "(?i)(?:zendesk).{0,40}([A-Za-z0-9_-]{40})"
+      confidence: high
+  - pattern:
+      name: Keenio - 1
+      regex: "(?i)(?:keen).{0,40}\\b([0-9a-z]{24})\\b"
+      confidence: high
+  - pattern:
+      name: Keenio - 2
+      regex: "(?i)(?:keen).{0,40}\\b([0-9A-Z]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Everhour
+      regex: "(?i)(?:everhour).{0,40}\\b([0-9Aa-f]{4}-[0-9a-f]{4}-[0-9a-f]{6}-[0-9a-f]{6}-[0-9a-f]{8})\\b"
+      confidence: high
+  - pattern:
+      name: Html2pdf
+      regex: "(?i)(?:html2pdf).{0,40}\\b([a-zA-Z0-9]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Travisci
+      regex: "(?i)(?:travis).{0,40}\\b([a-zA-Z0-9A-Z_]{22})\\b"
+      confidence: high
+  - pattern:
+      name: Clockify
+      regex: "(?i)(?:clockify).{0,40}\\b([a-zA-Z0-9]{48})\\b"
+      confidence: high
+  - pattern:
+      name: Teamworkcrm
+      regex: "(?i)(?:teamwork|teamworkcrm).{0,40}\\b(tkn\\.v1_[0-9A-Za-z]{71}=[ \\r\\n]{1})"
+      confidence: high
+  - pattern:
+      name: Scraperbox
+      regex: "(?i)(?:scraperbox).{0,40}\\b([A-Z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Scalewaykey
+      regex: "(?i)(?:scaleway).{0,40}\\b([0-9a-z]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[0-9a-z]{4}-[0-9a-z]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Newscatcher
+      regex: "(?i)(?:newscatcher).{0,40}\\b([0-9A-Za-z_]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Api2cart
+      regex: "(?i)(?:api2cart).{0,40}\\b([0-9a-f]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Maxmindlicense - 1
+      regex: "(?i)(?:maxmind|geoip).{0,40}\\b([0-9A-Za-z]{16})\\b"
+      confidence: high
+  - pattern:
+      name: Maxmindlicense - 2
+      regex: "(?i)(?:maxmind|geoip).{0,40}\\b([0-9]{2,7})\\b"
+      confidence: high
+  - pattern:
+      name: Luno - 1
+      regex: "(?i)(?:luno).{0,40}\\b([a-z0-9]{13})\\b"
+      confidence: high
+  - pattern:
+      name: Luno - 2
+      regex: "(?i)(?:luno).{0,40}\\b([a-zA-Z0-9_-]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Geoipifi
+      regex: "(?i)(?:ipifi).{0,40}\\b([a-z0-9A-Z_]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Satismeterwritekey
+      regex: "(?i)(?:satismeter).{0,40}\\b([a-z0-9A-Z]{16})\\b"
+      confidence: high
+  - pattern:
+      name: Elasticemail
+      regex: "(?i)(?:elastic).{0,40}\\b([A-Za-z0-9_-]{96})\\b"
+      confidence: high
+  - pattern:
+      name: Amplitudeapikey
+      regex: "(?i)(?:amplitude).{0,40}\\b([a-f0-9]{32})"
+      confidence: high
+  - pattern:
+      name: Buildkite
+      regex: "(?i)(?:buildkite).{0,40}\\b([a-z0-9]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Finnhub
+      regex: "(?i)(?:finnhub).{0,40}\\b([0-9a-z]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Veriphone
+      regex: "(?i)(?:veriphone).{0,40}\\b([0-9A-Z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Convier
+      regex: "(?i)(?:convier).{0,40}\\b([0-9]{2}\\|[a-zA-Z0-9]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Asanaoauth
+      regex: "(?i)(?:asana).{0,40}\\b([a-z\\/:0-9]{51})\\b"
+      confidence: high
+  - pattern:
+      name: Appcues - 1
+      regex: "(?i)(?:appcues).{0,40}\\b([0-9]{5})\\b"
+      confidence: high
+  - pattern:
+      name: Appcues - 2
+      regex: "(?i)(?:appcues).{0,40}\\b([a-z0-9-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Appcues - 3
+      regex: "(?i)(?:appcues).{0,40}\\b([a-z0-9-]{39})\\b"
+      confidence: high
+  - pattern:
+      name: Gyazo
+      regex: "(?i)(?:gyazo).{0,40}\\b([0-9A-Za-z-]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Stockdata
+      regex: "(?i)(?:stockdata).{0,40}\\b([0-9A-Za-z]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Allsports
+      regex: "(?i)(?:allsports).{0,40}\\b([0-9a-z]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Todoist
+      regex: "(?i)(?:todoist).{0,40}\\b([0-9a-z]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Twelvedata
+      regex: "(?i)(?:twelvedata).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Metaapi - 1
+      regex: "(?i)(?:metaapi|meta-api).{0,40}\\b([0-9a-f]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Metaapi - 2
+      regex: "(?i)(?:metaapi|meta-api).{0,40}\\b([0-9a-f]{24})\\b"
+      confidence: high
+  - pattern:
+      name: Simvoly
+      regex: "(?i)(?:simvoly).{0,40}\\b([a-z0-9]{33})\\b"
+      confidence: high
+  - pattern:
+      name: Restpackscreenshotapi
+      regex: "(?i)(?:restpack).{0,40}\\b([0-9A-Za-z]{48})\\b"
+      confidence: high
+  - pattern:
+      name: Bugherd
+      regex: "(?i)(?:bugherd).{0,40}\\b([0-9a-z]{22})\\b"
+      confidence: high
+  - pattern:
+      name: Pipedrive
+      regex: "(?i)(?:pipedrive).{0,40}\\b([a-zA-Z0-9]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Livestorm
+      regex: "(?i)(?:livestorm).{0,40}\\b(eyJhbGciOiJIUzI1NiJ9\\.eyJhdWQiOiJhcGkubGl2ZXN0b3JtLmNvIiwianRpIjoi[0-9A-Z-a-z]{134}\\.[0-9A-Za-z\\-_]{43}[ \\r\\n]{1})"
+      confidence: high
+  - pattern:
+      name: Loginradius
+      regex: "(?i)(?:loginradius).{0,40}\\b([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Stytch - 1
+      regex: "(?i)(?:stytch).{0,40}\\b([a-zA-Z0-9-_]{47}=)"
+      confidence: high
+  - pattern:
+      name: Stytch - 2
+      regex: "(?i)(?:stytch).{0,40}\\b([a-z0-9-]{49})\\b"
+      confidence: high
+  - pattern:
+      name: Heroku
+      regex: "(?i)(?:heroku).{0,40}\\b([0-9Aa-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Customerio
+      regex: "(?i)(?:customer).{0,40}\\b([a-z0-9A-Z]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Calorieninja
+      regex: "(?i)(?:calorieninja).{0,40}\\b([0-9A-Za-z]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Cicero
+      regex: "(?i)(?:cicero).{0,40}\\b([0-9a-z]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Travelpayouts
+      regex: "(?i)(?:travelpayouts).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Contentfulpersonalaccesstoken
+      regex: "\\b([CFPAT\\-a-zA-Z-0-9]{49})\\b"
+      confidence: high
+  - pattern:
+      name: Happyscribe
+      regex: "(?i)(?:happyscribe).{0,40}\\b([0-9a-zA-Z]{24})\\b"
+      confidence: high
+  - pattern:
+      name: Getemails - 1
+      regex: "(?i)(?:getemails).{0,40}\\b([a-z0-9-]{26})\\b"
+      confidence: high
+  - pattern:
+      name: Getemails - 2
+      regex: "(?i)(?:getemails).{0,40}\\b([a-z0-9-]{18})\\b"
+      confidence: high
+  - pattern:
+      name: Alconost
+      regex: "(?i)(?:alconost).{0,40}\\b([0-9Aa-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Weatherbit
+      regex: "(?i)(?:weatherbit).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Audd
+      regex: "(?i)(?:audd).{0,40}\\b([a-z0-9-]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Apimatic - 1
+      regex: "(?i)(?:apimatic).{0,40}\\b([a-z0-9-\\S]{8,32})\\b"
+      confidence: high
+  - pattern:
+      name: Apimatic - 2
+      regex: "(?i)(?:apimatic).{0,40}\\b([a-zA-Z0-9]{3,20}@[a-zA-Z0-9]{2,12}.[a-zA-Z0-9]{2,5})\\b"
+      confidence: high
+  - pattern:
+      name: Baremetrics
+      regex: "(?i)(?:baremetrics).{0,40}\\b([a-zA-Z0-9_]{25})\\b"
+      confidence: high
+  - pattern:
+      name: Privatekey
+      regex: "(?i)-----\\s*?BEGIN[ A-Z0-9_-]*?PRIVATE KEY\\s*?-----[\\s\\S]*?----\\s*?END[ A-Z0-9_-]*? PRIVATE KEY\\s*?-----"
+      confidence: high
+  - pattern:
+      name: Closecrm
+      regex: "\\b(api_[a-z0-9A-Z.]{45})\\b"
+      confidence: high
+  - pattern:
+      name: Unsplash
+      regex: "(?i)(?:unsplash).{0,40}\\b([0-9A-Za-z_]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Strava - 1
+      regex: "(?i)(?:strava).{0,40}\\b([0-9]{5})\\b"
+      confidence: high
+  - pattern:
+      name: Strava - 2
+      regex: "(?i)(?:strava).{0,40}\\b([0-9a-z]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Rawg
+      regex: "(?i)(?:rawg).{0,40}\\b([0-9Aa-z]{32})\\b"
+      confidence: high
+#  - pattern:
+#      name: Mapbox - 1
+#      regex: "([a-zA-Z-0-9]{4,32})"
+#      confidence: high
+  - pattern:
+      name: Mapbox - 2
+      regex: "\\b(sk\\.[a-zA-Z-0-9\\.]{80,240})\\b"
+      confidence: high
+  - pattern:
+      name: Magnetic
+      regex: "(?i)(?:magnetic).{0,40}\\b([0-9Aa-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Pixabay
+      regex: "(?i)(?:pixabay).{0,40}\\b([a-z0-9-]{34})\\b"
+      confidence: high
+  - pattern:
+      name: Sentiment - 1
+      regex: "(?i)(?:sentiment).{0,40}\\b([0-9]{17})\\b"
+      confidence: high
+  - pattern:
+      name: Sentiment - 2
+      regex: "(?i)(?:sentiment).{0,40}\\b([a-zA-Z0-9]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Linkpreview
+      regex: "(?i)(?:linkpreview).{0,40}\\b([a-zA-Z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Gitlab
+      regex: "(?i)(?:gitlab).{0,40}\\b([a-zA-Z0-9\\-=_]{20,22})\\b"
+      confidence: high
+  - pattern:
+      name: Alienvault
+      regex: "(?i)(?:alienvault).{0,40}\\b([a-z0-9]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Happi
+      regex: "(?i)(?:happi).{0,40}\\b([a-zA-Z0-9]{56})"
+      confidence: high
+  - pattern:
+      name: Snykkey
+      regex: "(?i)(?:snyk).{0,40}\\b([0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Cliengo
+      regex: "(?i)(?:cliengo).{0,40}\\b([0-9a-f]{8}\\-[0-9a-f]{4}\\-[0-9a-f]{4}\\-[0-9a-f]{4}\\-[0-9a-f]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Dynalist
+      regex: "(?i)(?:dynalist).{0,40}\\b([a-zA-Z0-9-_]{128})\\b"
+      confidence: high
+  - pattern:
+      name: Apacta
+      regex: "(?i)(?:apacta).{0,40}\\b([a-z0-9-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Adobeio - 1
+      regex: "(?i)(?:adobe).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Adobeio - 2
+      regex: "(?i)(?:adobe).{0,40}\\b([a-zA-Z0-9.]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Abbysale
+      regex: "(?i)(?:abbysale).{0,40}\\b([a-z0-9A-Z]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Optimizely
+      regex: "(?i)(?:optimizely).{0,40}\\b([0-9A-Za-z-:]{54})\\b"
+      confidence: high
+  - pattern:
+      name: Deputy - 1
+      regex: "\\b([0-9a-z]{1,}.as.deputy.com)\\b"
+      confidence: high
+  - pattern:
+      name: Deputy - 2
+      regex: "(?i)(?:deputy).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Opencagedata
+      regex: "(?i)(?:opencagedata).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Visualcrossing
+      regex: "(?i)(?:visualcrossing).{0,40}\\b([0-9A-Z]{25})\\b"
+      confidence: high
+  - pattern:
+      name: Freshdesk - 1
+      regex: "(?i)(?:freshdesk).{0,40}\\b([0-9A-Za-z]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Freshdesk - 2
+      regex: "\\b([0-9a-z-]{1,}.freshdesk.com)\\b"
+      confidence: high
+  - pattern:
+      name: Blogger
+      regex: "(?i)(?:blogger).{0,40}\\b([0-9A-Za-z-]{39})\\b"
+      confidence: high
+  - pattern:
+      name: Courier
+      regex: "(?i)(?:courier).{0,40}\\b(pk[\\][_][a-zA-Z0-9]{1,}[\\][_][a-zA-Z0-9]{28})\\b"
+      confidence: high
+  - pattern:
+      name: Caspio - 1
+      regex: "(?i)(?:caspio).{0,40}\\b([a-z0-9]{8})\\b"
+      confidence: high
+  - pattern:
+      name: Caspio - 2
+      regex: "(?i)(?:caspio).{0,40}\\b([a-z0-9]{50})\\b"
+      confidence: high
+  - pattern:
+      name: Currencycloud - 1
+      regex: "(?i)(?:currencycloud).{0,40}\\b([0-9a-z]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Currencycloud - 2
+      regex: "\\b([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\\.[a-z]+)\\b"
+      confidence: high
+  - pattern:
+      name: Oanda
+      regex: "(?i)(?:oanda).{0,40}\\b([a-zA-Z0-9]{24})\\b"
+      confidence: high
+  - pattern:
+      name: Aeroworkflow - 1
+      regex: "(?i)(?:aeroworkflow).{0,40}\\b([0-9]{1,})\\b"
+      confidence: high
+  - pattern:
+      name: Aeroworkflow - 2
+      regex: "(?i)(?:aeroworkflow).{0,40}\\b([a-zA-Z0-9^!]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Supernotesapi
+      regex: "(?i)(?:supernotes).{0,40}([ \\r\\n]{0,1}[0-9A-Za-z\\-_]{43}[ \\r\\n]{1})"
+      confidence: high
+  - pattern:
+      name: Rubygems
+      regex: "\\b(rubygems_[a-zA0-9]{48})\\b"
+      confidence: high
+  - pattern:
+      name: Edamam - 1
+      regex: "(?i)(?:edamam).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Edamam - 2
+      regex: "(?i)(?:edamam).{0,40}\\b([0-9a-z]{8})\\b"
+      confidence: high
+  - pattern:
+      name: Apollo
+      regex: "(?i)(?:apollo).{0,40}\\b([a-zA-Z0-9]{22})\\b"
+      confidence: high
+  - pattern:
+      name: Launchdarkly
+      regex: "(?i)(?:launchdarkly).{0,40}\\b([a-z0-9-]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Tly
+      regex: "(?i)(?:tly).{0,40}\\b([0-9A-Za-z]{60})\\b"
+      confidence: high
+  - pattern:
+      name: Geocode
+      regex: "(?i)(?:geocode).{0,40}\\b([a-z0-9]{28})\\b"
+      confidence: high
+  - pattern:
+      name: Siteleaf
+      regex: "(?i)(?:siteleaf).{0,40}\\b([0-9Aa-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Stitchdata
+      regex: "(?i)(?:stitchdata).{0,40}\\b([0-9a-z_]{35})\\b"
+      confidence: high
+  - pattern:
+      name: Mailgun
+      regex: "(?i)(?:mailgun).{0,40}\\b([a-zA-Z-0-9]{72})\\b"
+      confidence: high
+  - pattern:
+      name: Mandrill
+      regex: "(?i)(?:mandrill).{0,40}\\b([A-Za-z0-9_-]{22})\\b"
+      confidence: high
+  - pattern:
+      name: Route4me
+      regex: "(?i)(?:route4me).{0,40}\\b([0-9A-Z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Customerguru - 1
+      regex: "(?i)(?:guru).{0,40}\\b([a-z0-9A-Z]{50})\\b"
+      confidence: high
+  - pattern:
+      name: Customerguru - 2
+      regex: "(?i)(?:guru).{0,40}\\b([a-z0-9A-Z]{30})\\b"
+      confidence: high
+  - pattern:
+      name: Blitapp
+      regex: "(?i)(?:blitapp).{0,40}\\b([a-zA-Z0-9_-]{39})\\b"
+      confidence: high
+  - pattern:
+      name: Edenai
+      regex: "(?i)(?:edenai).{0,40}\\b([a-zA-Z0-9]{36}.[a-zA-Z0-9]{92}.[a-zA-Z0-9_]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Prospectio
+      regex: "(?i)(?:prospect).{0,40}\\b([a-z0-9A-Z-]{50})\\b"
+      confidence: high
+  - pattern:
+      name: Airship
+      regex: "(?i)(?:airship).{0,40}\\b([0-9Aa-zA-Z]{91})\\b"
+      confidence: high
+  - pattern:
+      name: Sumologickey - 1
+      regex: "(?i)(?:sumo).{0,40}\\b([A-Za-z0-9]{14})\\b"
+      confidence: high
+  - pattern:
+      name: Sumologickey - 2
+      regex: "(?i)(?:sumo).{0,40}\\b([A-Za-z0-9]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Cloze - 1
+      regex: "(?i)(?:cloze).{0,40}\\b([0-9a-f]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Cloze - 2
+      regex: "(?i)(?:cloze).{0,40}\\b([\\w\\.-]+@[\\w-]+\\.[\\w\\.-]{2,5})\\b"
+      confidence: high
+  - pattern:
+      name: Bitfinex
+      regex: "(?i)(?:bitfinex).{0,40}\\b([A-Za-z0-9_-]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Meaningcloud
+      regex: "(?i)(?:meaningcloud).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Zenscrape
+      regex: "(?i)(?:zenscrape).{0,40}\\b([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Delighted
+      regex: "(?i)(?:delighted).{0,40}\\b([a-z0-9A-Z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Auth0managementapitoken
+      regex: "(?i)(?:auth0).{0,40}\\b(ey[a-zA-Z0-9._-]+)\\b"
+      confidence: high
+  - pattern:
+      name: Coinapi
+      regex: "(?i)(?:coinapi).{0,40}\\b([A-Z0-9-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Bitmex - 1
+      regex: "(?i)(?:bitmex).{0,40}([ \\r\\n]{1}[0-9a-zA-Z\\-_]{24}[ \\r\\n]{1})"
+      confidence: high
+  - pattern:
+      name: Bitmex - 2
+      regex: "(?i)(?:bitmex).{0,40}([ \\r\\n]{1}[0-9a-zA-Z\\-_]{48}[ \\r\\n]{1})"
+      confidence: high
+  - pattern:
+      name: Clinchpad
+      regex: "(?i)(?:clinchpad).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Ritekit
+      regex: "(?i)(?:ritekit).{0,40}\\b([0-9a-f]{44})\\b"
+      confidence: high
+  - pattern:
+      name: Sentrytoken
+      regex: "(?i)(?:sentry).{0,40}\\b([a-f0-9]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Pipedream
+      regex: "(?i)(?:pipedream).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Mavenlink
+      regex: "(?i)(?:mavenlink).{0,40}\\b([0-9a-z]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Ubidots
+      regex: "\\b(BBFF-[0-9a-zA-Z]{30})\\b"
+      confidence: high
+  - pattern:
+      name: Posthog
+      regex: "\\b(phc_[a-zA-Z0-9_]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Passbase
+      regex: "(?i)(?:passbase).{0,40}\\b([a-zA-Z0-9]{128})\\b"
+      confidence: high
+  - pattern:
+      name: Humanity
+      regex: "(?i)(?:humanity).{0,40}\\b([0-9a-z]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Figmapersonalaccesstoken
+      regex: "(?i)(?:figma).{0,40}\\b([0-9]{6}-[0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Ticketmaster
+      regex: "(?i)(?:ticketmaster).{0,40}\\b([a-zA-Z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Lexigram
+      regex: "(?i)(?:lexigram).{0,40}\\b([a-zA-Z0-9\\S]{301})\\b"
+      confidence: high
+  - pattern:
+      name: Timezoneapi
+      regex: "(?i)(?:timezoneapi).{0,40}\\b([a-zA-Z0-9]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Zonkafeedback
+      regex: "(?i)(?:zonka).{0,40}\\b([A-Za-z0-9]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Smartystreets - 1
+      regex: "(?i)(?:smartystreets).{0,40}\\b([a-zA-Z0-9]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Smartystreets - 2
+      regex: "(?i)(?:smartystreets).{0,40}\\b([a-z0-9-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Liveagent
+      regex: "(?i)(?:liveagent).{0,40}\\b([a-zA-Z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Dyspatch
+      regex: "(?i)(?:dyspatch).{0,40}\\b([A-Z0-9]{52})\\b"
+      confidence: high
+  - pattern:
+      name: Hellosign
+      regex: "(?i)(?:hellosign).{0,40}\\b([a-zA-Z-0-9/+]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Datadogtoken - 1
+      regex: "(?i)(?:datadog).{0,40}\\b([a-zA-Z-0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Datadogtoken - 2
+      regex: "(?i)(?:datadog).{0,40}\\b([a-zA-Z-0-9]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Noticeable
+      regex: "(?i)(?:noticeable).{0,40}\\b([0-9a-zA-Z]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Vyte
+      regex: "(?i)(?:vyte).{0,40}\\b([0-9a-z]{50})\\b"
+      confidence: high
+  - pattern:
+      name: Autoklose
+      regex: "(?i)(?:autoklose).{0,40}\\b([a-zA-Z0-9-]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Rebrandly
+      regex: "(?i)(?:rebrandly).{0,40}\\b([a-zA-Z0-9_]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Fastlypersonaltoken
+      regex: "(?i)(?:fastly).{0,40}\\b([A-Za-z0-9_-]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Newrelicpersonalapikey
+      regex: "(?i)(?:newrelic).{0,40}\\b([A-Za-z0-9_\\.]{4}-[A-Za-z0-9_\\.]{42})\\b"
+      confidence: high
+  - pattern:
+      name: Whoxy
+      regex: "(?i)(?:whoxy).{0,40}\\b([0-9a-z]{33})\\b"
+      confidence: high
+  - pattern:
+      name: Clockworksms - 1
+      regex: "(?i)(?:clockwork|textanywhere).{0,40}\\b([0-9a-zA-Z]{24})\\b"
+      confidence: high
+  - pattern:
+      name: Clockworksms - 2
+      regex: "(?i)(?:clockwork|textanywhere).{0,40}\\b([0-9]{5})\\b"
+      confidence: high
+  - pattern:
+      name: Ibmclouduserkey
+      regex: "(?i)(?:ibm).{0,40}\\b([A-Za-z0-9_-]{44})\\b"
+      confidence: high
+  - pattern:
+      name: Nutritionix - 1
+      regex: "(?i)(?:nutritionix).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Nutritionix - 2
+      regex: "(?i)(?:nutritionix).{0,40}\\b([a-z0-9]{8})\\b"
+      confidence: high
+  - pattern:
+      name: Cashboard - 1
+      regex: "(?i)(?:cashboard).{0,40}\\b([0-9A-Z]{3}-[0-9A-Z]{3}-[0-9A-Z]{3}-[0-9A-Z]{3})\\b"
+      confidence: high
+  - pattern:
+      name: Cashboard - 2
+      regex: "(?i)(?:cashboard).{0,40}\\b([0-9a-z]{1,})\\b"
+      confidence: high
+  - pattern:
+      name: Trelloapikey - 1
+      regex: "\\b([a-zA-Z-0-9]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Trelloapikey - 2
+      regex: "(?i)(?:trello).{0,40}\\b([a-zA-Z-0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Getemail
+      regex: "(?i)(?:getemail).{0,40}\\b([a-zA-Z0-9-]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Leadfeeder
+      regex: "(?i)(?:leadfeeder).{0,40}\\b([a-zA-Z0-9-]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Madkudu
+      regex: "(?i)(?:madkudu).{0,40}\\b([0-9a-f]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Postageapp
+      regex: "(?i)(?:postageapp).{0,40}\\b([0-9A-Za-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Ringcentral - 1
+      regex: "(?i)(?:ringcentral).{0,40}\\b(https://www.[0-9A-Za-z_-]{1,}.com)\\b"
+      confidence: high
+  - pattern:
+      name: Ringcentral - 2
+      regex: "(?i)(?:ringcentral).{0,40}\\b([0-9A-Za-z_-]{22})\\b"
+      confidence: high
+  - pattern:
+      name: Ipquality
+      regex: "(?i)(?:ipquality).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Fixerio
+      regex: "(?i)(?:fixer).{0,40}\\b([A-Za-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Openuv
+      regex: "(?i)(?:openuv).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Screenshotapi
+      regex: "(?i)(?:screenshotapi).{0,40}\\b([0-9A-Z]{7}\\-[0-9A-Z]{7}\\-[0-9A-Z]{7}\\-[0-9A-Z]{7})\\b"
+      confidence: high
+  - pattern:
+      name: Float
+      regex: "(?i)(?:float).{0,40}\\b([a-zA-Z0-9-._+=]{59,60})\\b"
+      confidence: high
+  - pattern:
+      name: Unplugg
+      regex: "(?i)(?:unplu).{0,40}\\b([a-z0-9]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Pubnubpublishkey - 1
+      regex: "\\b(sub-c-[0-9a-z]{8}-[a-z]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Pubnubpublishkey - 2
+      regex: "\\b(pub-c-[0-9a-z]{8}-[0-9a-z]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Aws - 1
+      regex: "\\b((?:AKIA|ABIA|ACCA|ASIA)[0-9A-Z]{16})\\b"
+      confidence: high
+  - pattern:
+      name: Aws - 2
+      regex: "\\b([A-Za-z0-9+/]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Zipapi - 1
+      regex: "(?i)(?:zipapi).{0,40}\\b([a-zA-Z0-9!=@#$%^]{7,})"
+      confidence: high
+  - pattern:
+      name: Zipapi - 2
+      regex: "\\b([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\\.[a-z]+)\\b"
+      confidence: high
+  - pattern:
+      name: Zipapi - 3
+      regex: "(?i)(?:zipapi).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Manifest
+      regex: "(?i)(?:manifest).{0,40}\\b([a-zA-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Verimail
+      regex: "(?i)(?:verimail).{0,40}\\b([A-Z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Squareup
+      regex: "\\b(sq0idp-[0-9A-Za-z]{22})\\b"
+      confidence: high
+  - pattern:
+      name: Bombbomb
+      regex: "(?i)(?:bombbomb).{0,40}\\b([a-zA-Z0-9-._]{704})\\b"
+      confidence: high
+  - pattern:
+      name: Airbrakeuserkey
+      regex: "(?i)(?:airbrake).{0,40}\\b([a-zA-Z-0-9]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Freshbooks - 1
+      regex: "(?i)(?:freshbooks).{0,40}\\b([0-9a-z]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Freshbooks - 2
+      regex: "(?i)(?:freshbooks).{0,40}\\b(https://www.[0-9A-Za-z_-]{1,}.com)\\b"
+      confidence: high
+  - pattern:
+      name: Abuseipdb
+      regex: "(?i)(?:abuseipdb).{0,40}\\b([a-z0-9]{80})\\b"
+      confidence: high
+  - pattern:
+      name: Clickuppersonaltoken
+      regex: "(?i)(?:clickup).{0,40}\\b(pk_[0-9]{8}_[0-9A-Z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Linemessaging
+      regex: "(?i)(?:line).{0,40}\\b([A-Za-z0-9+/]{171,172})\\b"
+      confidence: high
+  - pattern:
+      name: Mixpanel - 1
+      regex: "(?i)(?:mixpanel).{0,40}\\b([a-zA-Z0-9.-]{30,40})\\b"
+      confidence: high
+  - pattern:
+      name: Mixpanel - 2
+      regex: "(?i)(?:mixpanel).{0,40}\\b([a-zA-Z0-9-]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Beamer
+      regex: "(?i)(?:beamer).{0,40}\\b([a-zA-Z0-9_+/]{45}=)"
+      confidence: high
+  - pattern:
+      name: Easyinsight - 1
+      regex: "(?i)(?:easyinsight|easy-insight).{0,40}\\b([a-zA-Z0-9]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Easyinsight - 2
+      regex: "(?i)(?:easyinsight|easy-insight).{0,40}\\b([0-9Aa-zA-Z]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Lob
+      regex: "(?i)(?:lob).{0,40}\\b([a-zA-Z0-9_]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Qubole
+      regex: "(?i)(?:qubole).{0,40}\\b([0-9a-z]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Salescookie
+      regex: "(?i)(?:salescookie).{0,40}\\b([a-zA-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Scrapersite
+      regex: "(?i)(?:scrapersite).{0,40}\\b([a-zA-Z0-9]{45})\\b"
+      confidence: high
+  - pattern:
+      name: Sherpadesk
+      regex: "(?i)(?:sherpadesk).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Runrunit - 1
+      regex: "(?i)(?:runrunit).{0,40}\\b([0-9a-f]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Runrunit - 2
+      regex: "(?i)(?:runrunit).{0,40}\\b([0-9A-Za-z]{18,20})\\b"
+      confidence: high
+  - pattern:
+      name: Qualaroo
+      regex: "(?i)(?:qualaroo).{0,40}\\b([a-z0-9A-Z=]{64})"
+      confidence: high
+  - pattern:
+      name: Tallyfy
+      regex: "(?i)(?:tallyfy).{0,40}\\b([0-9A-Za-z]{36}\\.[0-9A-Za-z]{264}\\.[0-9A-Za-z\\-_]{683})\\b"
+      confidence: high
+  - pattern:
+      name: Facebookoauth
+      regex: "(?i)(?:facebook).{0,40}\\b([A-Za-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Billomat - 1
+      regex: "(?i)(?:billomat).{0,40}\\b([0-9a-z]{1,})\\b"
+      confidence: high
+  - pattern:
+      name: Billomat - 2
+      regex: "(?i)(?:billomat).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Deepai
+      regex: "(?i)(?:deepai).{0,40}\\b([a-z0-9-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Bugsnag
+      regex: "(?i)(?:bugsnag).{0,40}\\b([0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Mailjetbasicauth
+      regex: "(?i)(?:mailjet).{0,40}\\b([A-Za-z0-9]{87}\\=)"
+      confidence: high
+  - pattern:
+      name: Webscraping
+      regex: "(?i)(?:webscraping).{0,40}\\b([0-9A-Za-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Youneedabudget
+      regex: "(?i)(?:youneedabudget).{0,40}\\b([0-9a-f]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Semaphore
+      regex: "(?i)(?:semaphore).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Onepagecrm - 1
+      regex: "(?i)(?:onepagecrm).{0,40}\\b([a-zA-Z0-9=]{44})"
+      confidence: high
+  - pattern:
+      name: Onepagecrm - 2
+      regex: "(?i)(?:onepagecrm).{0,40}\\b([a-z0-9]{24})\\b"
+      confidence: high
+  - pattern:
+      name: Ayrshare
+      regex: "(?i)(?:ayrshare).{0,40}\\b([A-Z]{7}-[A-Z0-9]{7}-[A-Z0-9]{7}-[A-Z0-9]{7})\\b"
+      confidence: high
+  - pattern:
+      name: Buttercms
+      regex: "(?i)(?:buttercms).{0,40}\\b([a-z0-9]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Coinbase
+      regex: "(?i)(?:coinbase).{0,40}\\b([a-zA-Z-0-9]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Flickr
+      regex: "(?i)(?:flickr).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Calendlyapikey
+      regex: "(?i)(?:calendly).{0,40}\\b([a-zA-Z-0-9]{20}.[a-zA-Z-0-9]{171}.[a-zA-Z-0-9_]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Voicegain
+      regex: "(?i)(?:voicegain).{0,40}\\b(ey[0-9a-zA-Z_-]{34}.ey[0-9a-zA-Z_-]{108}.[0-9a-zA-Z_-]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Apifonica
+      regex: "(?i)(?:apifonica).{0,40}\\b([0-9a-z]{11}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Kraken - 1
+      regex: "(?i)(?:kraken).{0,40}\\b([0-9A-Za-z\\/\\+=]{56}[ \"'\\r\\n]{1})"
+      confidence: high
+  - pattern:
+      name: Kraken - 2
+      regex: "(?i)(?:kraken).{0,40}\\b([0-9A-Za-z\\/\\+=]{86,88}[ \"'\\r\\n]{1})"
+      confidence: high
+  - pattern:
+      name: Checklyhq
+      regex: "(?i)(?:checklyhq).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Coveralls
+      regex: "(?i)(?:coveralls).{0,40}\\b([a-zA-Z0-9-]{37})\\b"
+      confidence: high
+  - pattern:
+      name: Findl
+      regex: "(?i)(?:findl).{0,40}\\b([a-z0-9]{8}\\-[a-z0-9]{4}\\-[a-z0-9]{4}\\-[a-z0-9]{4}\\-[a-z0-9]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Pubnubsubscriptionkey
+      regex: "\\b(sub-c-[0-9a-z]{8}-[a-z]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Dwolla
+      regex: "(?i)(?:dwolla).{0,40}\\b([a-zA-Z-0-9]{50})\\b"
+      confidence: high
+  - pattern:
+      name: Postmark
+      regex: "(?i)(?:postmark).{0,40}\\b([0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Cloudmersive
+      regex: "(?i)(?:cloudmersive).{0,40}\\b([a-z0-9-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Nytimes
+      regex: "(?i)(?:nytimes).{0,40}\\b([a-z0-9A-Z-]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Repairshopr - 1
+      regex: "(?i)(?:repairshopr).{0,40}\\b([a-zA-Z0-9_.!+$#^*]{3,32})\\b"
+      confidence: high
+  - pattern:
+      name: Repairshopr - 2
+      regex: "(?i)(?:repairshopr).{0,40}\\b([a-zA-Z0-9-]{51})\\b"
+      confidence: high
+  - pattern:
+      name: Quickmetrics
+      regex: "(?i)(?:quickmetrics).{0,40}\\b([a-zA-Z0-9_-]{22})\\b"
+      confidence: high
+  - pattern:
+      name: Spoonacular
+      regex: "(?i)(?:spoonacular).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Sheety - 1
+      regex: "(?i)(?:sheety).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Sheety - 2
+      regex: "(?i)(?:sheety).{0,40}\\b([0-9a-z]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Pandadoc
+      regex: "(?i)(?:pandadoc).{0,40}\\b([a-zA-Z0-9]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Scraperapi
+      regex: "(?i)(?:scraperapi).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Buddyns
+      regex: "(?i)(?:buddyns).{0,40}\\b([0-9a-z]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Restpack
+      regex: "(?i)(?:restpack).{0,40}\\b([a-zA-Z0-9]{48})\\b"
+      confidence: high
+  - pattern:
+      name: Sslmate
+      regex: "(?i)(?:sslmate).{0,40}\\b([a-zA-Z0-9]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Discordbottoken - 1
+      regex: "(?i)(?:discord).{0,40}\\b([A-Za-z0-9_-]{24}\\.[A-Za-z0-9_-]{6}\\.[A-Za-z0-9_-]{27})\\b"
+      confidence: high
+  - pattern:
+      name: Discordbottoken - 2
+      regex: "(?i)(?:discord).{0,40}\\b([0-9]{17})\\b"
+      confidence: high
+  - pattern:
+      name: Alegra - 1
+      regex: "(?i)(?:alegra).{0,40}\\b([a-z0-9-]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Alegra - 2
+      regex: "(?i)(?:alegra).{0,40}\\b([a-zA-Z0-9.-@]{25,30})\\b"
+      confidence: high
+  - pattern:
+      name: Centralstationcrm
+      regex: "(?i)(?:centralstation).{0,40}\\b([a-z0-9]{30})\\b"
+      confidence: high
+  - pattern:
+      name: Clearbit
+      regex: "(?i)(?:clearbit).{0,40}\\b([0-9a-z_]{35})\\b"
+      confidence: high
+  - pattern:
+      name: Walkscore
+      regex: "(?i)(?:walkscore).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Amadeus - 1
+      regex: "(?i)(?:amadeus).{0,40}\\b([0-9A-Za-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Amadeus - 2
+      regex: "(?i)(?:amadeus).{0,40}\\b([0-9A-Za-z]{16})\\b"
+      confidence: high
+  - pattern:
+      name: Intrinio
+      regex: "(?i)(?:intrinio).{0,40}\\b([a-zA-Z0-9]{44})\\b"
+      confidence: high
+  - pattern:
+      name: Fetchrss
+      regex: "(?i)(?:fetchrss).{0,40}\\b([0-9A-Za-z.]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Myintervals
+      regex: "(?i)(?:myintervals).{0,40}\\b([0-9a-z]{11})\\b"
+      confidence: high
+  - pattern:
+      name: Sirv - 1
+      regex: "(?i)(?:sirv).{0,40}\\b([a-zA-Z0-9\\S]{88})"
+      confidence: high
+  - pattern:
+      name: Sirv - 2
+      regex: "(?i)(?:sirv).{0,40}\\b([a-zA-Z0-9]{26})\\b"
+      confidence: high
+  - pattern:
+      name: Apiscience
+      regex: "(?i)(?:apiscience).{0,40}\\b([a-bA-Z0-9\\S]{22})\\b"
+      confidence: high
+  - pattern:
+      name: Skybiometry
+      regex: "(?i)(?:skybiometry).{0,40}\\b([0-9a-z]{25,26})\\b"
+      confidence: high
+  - pattern:
+      name: Mesibo
+      regex: "(?i)(?:mesibo).{0,40}\\b([0-9A-Za-z]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Worldcoinindex
+      regex: "(?i)(?:worldcoinindex).{0,40}\\b([a-zA-Z0-9]{35})\\b"
+      confidence: high
+  - pattern:
+      name: Poloniex - 1
+      regex: "(?i)(?:poloniex).{0,40}\\b([0-9a-f]{128})\\b"
+      confidence: high
+  - pattern:
+      name: Poloniex - 2
+      regex: "(?i)(?:poloniex).{0,40}\\b([0-9A-Z]{8}-[0-9A-Z]{8}-[0-9A-Z]{8}-[0-9A-Z]{8})\\b"
+      confidence: high
+  - pattern:
+      name: Cannyio
+      regex: "(?i)(?:canny).{0,40}\\b([a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[0-9]{4}-[a-z0-9]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Deepgram
+      regex: "(?i)(?:deepgram).{0,40}\\b([0-9a-z]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Pusherchannelkey - 1
+      regex: "(?i)(?:key).{0,40}\\b([a-z0-9]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Pusherchannelkey - 2
+      regex: "(?i)(?:pusher).{0,40}\\b([a-z0-9]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Pusherchannelkey - 3
+      regex: "(?i)(?:pusher).{0,40}\\b([0-9]{7})\\b"
+      confidence: high
+  - pattern:
+      name: Powrbot
+      regex: "(?i)(?:powrbot).{0,40}\\b([a-z0-9A-Z]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Hereapi
+      regex: "(?i)(?:hereapi).{0,40}\\b([a-zA-Z0-9\\S]{43})\\b"
+      confidence: high
+  - pattern:
+      name: Tatumio
+      regex: "(?i)(?:tatum).{0,40}\\b([0-9a-z-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Flatio
+      regex: "(?i)(?:flat).{0,40}\\b([0-9a-z]{128})\\b"
+      confidence: high
+  - pattern:
+      name: Alibaba - 1
+      regex: "\\b([a-zA-Z0-9]{30})\\b"
+      confidence: high
+  - pattern:
+      name: Alibaba - 2
+      regex: "\\b(LTAI[a-zA-Z0-9]{17,21})[\\\"' ;\\s]*"
+      confidence: high
+  - pattern:
+      name: Postman
+      regex: "\\b(PMAK-[a-zA-Z-0-9]{59})\\b"
+      confidence: high
+  - pattern:
+      name: Vercel
+      regex: "(?i)(?:vercel).{0,40}\\b([a-zA-Z0-9]{24})\\b"
+      confidence: high
+  - pattern:
+      name: Adafruitio
+      regex: "\\b(aio[\\][_][a-zA-Z0-9]{28})\\b"
+      confidence: high
+  - pattern:
+      name: Cloudflareapitoken
+      regex: "(?i)(?:cloudflare).{0,40}\\b([A-Za-z0-9_-]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Checio
+      regex: "(?i)(?:checio).{0,40}\\b(pk_[a-z0-9]{45})\\b"
+      confidence: high
+  - pattern:
+      name: Apiflash - 1
+      regex: "(?i)(?:apiflash).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Apiflash - 2
+      regex: "(?i)(?:apiflash).{0,40}\\b([a-zA-Z0-9\\S]{21,30})\\b"
+      confidence: high
+  - pattern:
+      name: Paypaloauth - 1
+      regex: "\\b([A-Za-z0-9_\\.]{7}-[A-Za-z0-9_\\.]{72})\\b"
+      confidence: high
+  - pattern:
+      name: Paypaloauth - 2
+      regex: "\\b([A-Za-z0-9_\\.]{69}-[A-Za-z0-9_\\.]{10})\\b"
+      confidence: high
+  - pattern:
+      name: Scrapingant
+      regex: "(?i)(?:scrapingant).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Getsandbox - 1
+      regex: "(?i)(?:getsandbox).{0,40}\\b([a-z0-9-]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Getsandbox - 2
+      regex: "(?i)(?:getsandbox).{0,40}\\b([a-z0-9-]{15,30})\\b"
+      confidence: high
+  - pattern:
+      name: Stripe
+      regex: "[rs]k_live_[a-zA-Z0-9]{20,30}"
+      confidence: high
+  - pattern:
+      name: Bitbar
+      regex: "(?i)(?:bitbar).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Stormglass
+      regex: "(?i)(?:stormglass).{0,40}\\b([0-9Aa-z-]{73})\\b"
+      confidence: high
+  - pattern:
+      name: Asanapersonalaccesstoken
+      regex: "(?i)(?:asana).{0,40}\\b([0-9]{1,}\\/[0-9]{16,}:[A-Za-z0-9]{32,})\\b"
+      confidence: high
+  - pattern:
+      name: Checkvist - 1
+      regex: "(?i)(?:checkvist).{0,40}\\b([\\w\\.-]+@[\\w-]+\\.[\\w\\.-]{2,5})\\b"
+      confidence: high
+  - pattern:
+      name: Checkvist - 2
+      regex: "(?i)(?:checkvist).{0,40}\\b([0-9a-zA-Z]{14})\\b"
+      confidence: high
+  - pattern:
+      name: Securitytrails
+      regex: "(?i)(?:securitytrails).{0,40}\\b([a-zA-Z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Zipcodeapi
+      regex: "(?i)(?:zipcodeapi).{0,40}\\b([a-zA-Z0-9]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Gitter
+      regex: "(?i)(?:gitter).{0,40}\\b([a-z0-9-]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Blazemeter
+      regex: "(?i)(?:blazemeter|runscope).{0,40}\\b([0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Squarespace
+      regex: "(?i)(?:squarespace).{0,40}\\b([0-9Aa-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Detectlanguage
+      regex: "(?i)(?:detectlanguage).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Mailsac
+      regex: "(?i)(?:mailsac).{0,40}\\b(k_[0-9A-Za-z]{36,})\\b"
+      confidence: high
+  - pattern:
+      name: Countrylayer
+      regex: "(?i)(?:countrylayer).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Signalwire - 1
+      regex: "\\b([0-9a-z-]{3,64}.signalwire.com)\\b"
+      confidence: high
+  - pattern:
+      name: Signalwire - 2
+      regex: "(?i)(?:signalwire).{0,40}\\b([0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Signalwire - 3
+      regex: "(?i)(?:signalwire).{0,40}\\b([0-9A-Za-z]{50})\\b"
+      confidence: high
+  - pattern:
+      name: Tmetric
+      regex: "(?i)(?:tmetric).{0,40}\\b([0-9A-Z]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Zenserp
+      regex: "(?i)(?:zenserp).{0,40}\\b([0-9a-z-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Nylas
+      regex: "(?i)(?:nylas).{0,40}\\b([0-9A-Za-z]{30})\\b"
+      confidence: high
+  - pattern:
+      name: Protocolsio
+      regex: "(?i)(?:protocols).{0,40}\\b([a-z0-9]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Serphouse
+      regex: "(?i)(?:serphouse).{0,40}\\b([0-9A-Za-z]{60})\\b"
+      confidence: high
+  - pattern:
+      name: Technicalanalysisapi
+      regex: "(?i)(?:technicalanalysisapi).{0,40}\\b([A-Z0-9]{48})\\b"
+      confidence: high
+  - pattern:
+      name: Codacy
+      regex: "(?i)(?:codacy).{0,40}\\b([0-9A-Za-z]{20})\\b"
+      confidence: high
+  - pattern:
+      name: Captaindata - 1
+      regex: "(?i)(?:captaindata).{0,40}\\b([0-9a-f]{8}\\-[0-9a-f]{4}\\-[0-9a-f]{4}\\-[0-9a-f]{4}\\-[0-9a-f]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Captaindata - 2
+      regex: "(?i)(?:captaindata).{0,40}\\b([0-9a-f]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Formio
+      regex: "(?i)(?:formio).{0,40}\\b(eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\\.[0-9A-Za-z]{310}\\.[0-9A-Z-a-z\\-_]{43}[ \\r\\n]{1})"
+      confidence: high
+  - pattern:
+      name: Jdbc
+      regex: "(?i)jdbc:[\\w]{3,10}:\\/\\/\\w[\\s\\S]{0,512}?password[=: \\\"']+(<pass>[^<{($]*?)[ \\s'\\\"]+"
+      confidence: high
+  - pattern:
+      name: Oopspam
+      regex: "(?i)(?:oopspam).{0,40}\\b([a-zA-Z0-9]{40})\\b"
+      confidence: high
+  - pattern:
+      name: Teamworkdesk
+      regex: "(?i)(?:teamwork|teamworkdesk).{0,40}\\b(tkn\\.v1_[0-9A-Za-z]{71}=[ \\r\\n]{1})"
+      confidence: high
+  - pattern:
+      name: Harvest - 1
+      regex: "(?i)(?:harvest).{0,40}\\b([a-z0-9A-Z._]{97})\\b"
+      confidence: high
+  - pattern:
+      name: Harvest - 2
+      regex: "(?i)(?:harvest).{0,40}\\b([0-9]{4,9})\\b"
+      confidence: high
+  - pattern:
+      name: Anypoint - 1
+      regex: "(?i)(?:org).{0,40}\\b([0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Anypoint - 2
+      regex: "\\b([0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Tomtom
+      regex: "(?i)(?:tomtom).{0,40}\\b([0-9Aa-zA-Z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Geocodio - 1
+      regex: "(?i)(?:geocod).{0,40}\\b([a-zA-Z0-9\\S]{7,30})\\b"
+      confidence: high
+  - pattern:
+      name: Geocodio - 2
+      regex: "(?i)(?:geocod).{0,40}\\b([a-z0-9]{39})\\b"
+      confidence: high
+  - pattern:
+      name: Zipbooks - 1
+      regex: "(?i)(?:zipbooks|password).{0,40}\\b([a-zA-Z0-9!=@#$%^]{8,})"
+      confidence: high
+  - pattern:
+      name: Zipbooks - 2
+      regex: "\\b([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\\.[a-z]+)\\b"
+      confidence: high
+  - pattern:
+      name: Droneci
+      regex: "(?i)(?:droneci).{0,40}\\b([a-zA-Z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Cloudflareglobalapikey - 1
+      regex: "\\b([a-zA-Z0-9+._-]+@[a-zA-Z0-9._-]+\\.[a-zA-Z0-9_-]+)\\b"
+      confidence: high
+  - pattern:
+      name: Cloudflareglobalapikey - 2
+      regex: "(?i)(?:cloudflare).{0,40}([A-Za-z0-9_-]{37})"
+      confidence: high
+  - pattern:
+      name: Cloudflareglobalapikey - 3
+      regex: "^[a-zA-Z0-9.!#$%&'*+\\\\/=?^_'''{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$"
+      confidence: high
+  - pattern:
+      name: Mixmax
+      regex: "(?i)(?:mixmax).{0,40}\\b([a-zA-Z0-9_-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Cloudplan
+      regex: "(?i)(?:cloudplan).{0,40}\\b([A-Z0-9-]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Mailerlite
+      regex: "(?i)(?:mailerlite).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Holidayapi
+      regex: "(?i)(?:holidayapi).{0,40}\\b([a-z0-9-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Cexio - 1
+      regex: "(?i)(?:cexio|cex.io).{0,40}\\b([a-z]{2}[0-9]{9})\\b"
+      confidence: high
+  - pattern:
+      name: Cexio - 2
+      regex: "(?i)(?:cexio|cex.io).{0,40}\\b([0-9A-Za-z]{24,27})\\b"
+      confidence: high
+  - pattern:
+      name: Debounce
+      regex: "(?i)(?:debounce).{0,40}\\b([a-zA-Z0-9]{13})\\b"
+      confidence: high
+  - pattern:
+      name: Dnscheck - 1
+      regex: "(?i)(?:dnscheck).{0,40}\\b([a-z0-9A-Z-]{36})\\b"
+      confidence: high
+  - pattern:
+      name: Dnscheck - 2
+      regex: "(?i)(?:dnscheck).{0,40}\\b([a-z0-9A-Z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Lessannoyingcrm
+      regex: "(?i)(?:less).{0,40}\\b([a-zA-Z0-9-]{57})\\b"
+      confidence: high
+  - pattern:
+      name: Fullstory
+      regex: "(?i)(?:fullstory).{0,40}\\b([a-zA-Z-0-9/+]{88})\\b"
+      confidence: high
+  - pattern:
+      name: Agora
+      regex: "(?i)(?:agora).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Terraformcloudpersonaltoken
+      regex: "\\b([A-Za-z0-9]{14}.atlasv1.[A-Za-z0-9]{67})\\b"
+      confidence: high
+  - pattern:
+      name: Hive - 1
+      regex: "(?i)(?:hive).{0,40}\\b([0-9a-z]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Hive - 2
+      regex: "(?i)(?:hive).{0,40}\\b([0-9A-Za-z]{17})\\b"
+      confidence: high
+  - pattern:
+      name: Frameio
+      regex: "\\b(fio-u-[0-9a-zA-Z_-]{64})\\b"
+      confidence: high
+  - pattern:
+      name: Yandex
+      regex: "(?i)(?:yandex).{0,40}\\b([a-z0-9A-Z.]{83})\\b"
+      confidence: high
+  - pattern:
+      name: Readme
+      regex: "(?i)(?:readme).{0,40}\\b([a-zA-Z0-9_]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Storychief
+      regex: "(?i)(?:storychief).{0,40}\\b([a-zA-Z0-9_\\-.]{940,1000})"
+      confidence: high
+  - pattern:
+      name: Checkout - 1
+      regex: "(?i)(?:checkout).{0,40}\\b((sk_|sk_test_)[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})\\b"
+      confidence: high
+  - pattern:
+      name: Checkout - 2
+      regex: "(?i)(?:checkout).{0,40}\\b(cus_[0-9a-zA-Z]{26})\\b"
+      confidence: high
+  - pattern:
+      name: Wrike
+      regex: "(?i)(?:wrike).{0,40}\\b(ey[a-zA-Z0-9-._]{333})\\b"
+      confidence: high
+  - pattern:
+      name: Sinchmessage
+      regex: "(?i)(?:sinch).{0,40}\\b([a-z0-9]{32})\\b"
+      confidence: high
+  - pattern:
+      name: Commercejs
+      regex: "(?i)(?:commercejs).{0,40}\\b([a-z0-9_]{48})\\b"
+      confidence: high
+  - pattern:
+      name: Fusebill
+      regex: "(?i)(?:fusebill).{0,40}\\b([a-zA-Z0-9]{88})\\b"
+      confidence: high
+  - pattern:
+      name: Hypertrack - 1
+      regex: "(?i)(?:hypertrack).{0,40}\\b([0-9a-zA-Z\\-_]{54})\\b"
+      confidence: high
+  - pattern:
+      name: Hypertrack - 2
+      regex: "(?i)(?:hypertrack).{0,40}\\b([0-9a-zA-Z\\-_]{27})\\b"
+      confidence: high
+
