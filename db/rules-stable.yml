@@ -61,7 +61,7 @@ patterns:
       confidence: high
   - pattern:
       name: AWS S3 Bucket
-      regex: s3://[0-9a-z._-/]+
+      regex: s3://[0-9a-z._/-]+
       confidence: high
   - pattern:
       name: AWS S3 Endpoint
@@ -407,10 +407,6 @@ patterns:
       name: Baseapiio
       regex: (?:baseapi|base-api).{0,40}\b([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b
       confidence: high
-  - pattern:
-      name: Basic token
-      regex: basic [a-zA-Z0-9_\-:\.=]+
-      confidence: low
   - pattern:
       name: Beamer
       regex: (?:beamer).{0,40}\b([a-zA-Z0-9_+/]{45}=)
@@ -1200,10 +1196,6 @@ patterns:
       regex: (?:float).{0,40}\b([a-zA-Z0-9-._+=]{59,60})\b
       confidence: high
   - pattern:
-      name: Flowflu - 1
-      regex: (?:flowflu|account).{0,40}\b([a-zA-Z0-9]{4,30})\b
-      confidence: high
-  - pattern:
       name: Flowflu - 2
       regex: (?:flowflu).{0,40}\b([a-zA-Z0-9]{51})\b
       confidence: high
@@ -1580,14 +1572,6 @@ patterns:
       name: Generic Secret
       regex: '[sS][eE][cC][rR][eE][tT].*[''|"][0-9a-zA-Z]{32,45}[''|"]'
       confidence: high
-  - pattern:
-      name: Generic key
-      regex: (private|public|api|secret|password|pass|passphrase|access).+(key|token|secret|password).+
-      confidence: high
-  - pattern:
-      name: Generic secret text
-      regex: secret.+
-      confidence: low
   - pattern:
       name: Generic token
       regex: token.+
@@ -2165,10 +2149,6 @@ patterns:
   - pattern:
       name: Manifest
       regex: (?:manifest).{0,40}\b([a-zA-z0-9]{32})\b
-      confidence: high
-  - pattern:
-      name: Mapbox - 1
-      regex: ([a-zA-Z-0-9]{4,32})
       confidence: high
   - pattern:
       name: Mapbox - 2
@@ -3429,10 +3409,6 @@ patterns:
       regex: \b([A-Za-z0-9]{14}.atlasv1.[A-Za-z0-9]{67})\b
       confidence: high
   - pattern:
-      name: Testdetector
-      regex: \b(test)\b
-      confidence: high
-  - pattern:
       name: Text2data
       regex: (?:text2data).{0,40}\b([0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12})\b
       confidence: high
@@ -3723,10 +3699,6 @@ patterns:
   - pattern:
       name: Webscraping
       regex: (?:webscraping).{0,40}\b([0-9A-Za-z]{32})\b
-      confidence: high
-  - pattern:
-      name: Wepay - 1
-      regex: \b(\d{6})\b
       confidence: high
   - pattern:
       name: Wepay - 2
@@ -6379,10 +6351,6 @@ patterns:
   - pattern:
       name: tesco_api_key
       regex: tesco[_-]?api[_-]?key(=| =|:| :)
-      confidence: low
-  - pattern:
-      name: test
-      regex: test
       confidence: low
   - pattern:
       name: test_github_token
