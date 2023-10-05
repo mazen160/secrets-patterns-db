@@ -5,7 +5,7 @@ patterns:
       confidence: high
   - pattern:
       name: AWS API Gateway
-      regex: '[0-9a-z]+.execute-api.[0-9a-z.-_]+.amazonaws.com'
+      regex: '[0-9a-z]+.execute-api.[0-9a-z._-]+.amazonaws.com'
       confidence: high
   - pattern:
       name: AWS API Key
@@ -25,7 +25,7 @@ patterns:
       confidence: high
   - pattern:
       name: AWS CloudFront
-      regex: '[0-9a-z.-_]+.cloudfront.net'
+      regex: '[0-9a-z._-]+.cloudfront.net'
       confidence: low
   - pattern:
       name: AWS Cognito Pool ID
@@ -33,19 +33,19 @@ patterns:
       confidence: low
   - pattern:
       name: AWS EC2 External
-      regex: ec2-[0-9a-z.-_]+.compute(-1)?.amazonaws.com
+      regex: ec2-[0-9a-z._-]+.compute(-1)?.amazonaws.com
       confidence: low
   - pattern:
       name: AWS EC2 Internal
-      regex: '[0-9a-z.-_]+.compute(-1)?.internal'
+      regex: '[0-9a-z._-]+.compute(-1)?.internal'
       confidence: low
   - pattern:
       name: AWS ELB
-      regex: '[0-9a-z.-_]+.elb.amazonaws.com'
+      regex: '[0-9a-z._-]+.elb.amazonaws.com'
       confidence: low
   - pattern:
       name: AWS ElasticCache
-      regex: '[0-9a-z.-_]+.cache.amazonaws.com'
+      regex: '[0-9a-z._-]+.cache.amazonaws.com'
       confidence: low
   - pattern:
       name: AWS MWS ID
@@ -57,15 +57,15 @@ patterns:
       confidence: high
   - pattern:
       name: AWS RDS
-      regex: '[0-9a-z.-_]+.rds.amazonaws.com'
+      regex: '[0-9a-z._-]+.rds.amazonaws.com'
       confidence: high
   - pattern:
       name: AWS S3 Bucket
-      regex: s3://[0-9a-z.-_/]+
+      regex: s3://[0-9a-z._-/]+
       confidence: high
   - pattern:
       name: AWS S3 Endpoint
-      regex: '[a-zA-Z0-9.-_]+.s3.[a-zA-Z0-9.-_]+.amazonaws.com'
+      regex: '[a-zA-Z0-9._-]+.s3.[a-zA-Z0-9._-]+.amazonaws.com'
       confidence: high
   - pattern:
       name: AWS client ID
@@ -3530,7 +3530,7 @@ patterns:
       confidence: high
   - pattern:
       name: Tru - 2
-      regex: (?:tru).{0,40}\b([0-9a-zA-Z.-_]{26})\b
+      regex: (?:tru).{0,40}\b([0-9a-zA-Z._-]{26})\b
       confidence: high
   - pattern:
       name: Twelvedata
