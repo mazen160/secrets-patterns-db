@@ -2,11 +2,11 @@ patterns:
   - pattern:
       name: ADMIN_PASSWORD
       regex: (admin).+(secret|token|key|password).+
-      confidence: high
+      confidence: low
   - pattern:
       name: AWS API Gateway
       regex: '[0-9a-z]+.execute-api.[0-9a-z._-]+.amazonaws.com'
-      confidence: high
+      confidence: low
   - pattern:
       name: AWS API Key
       regex: AKIA[0-9A-Z]{16}
@@ -66,11 +66,11 @@ patterns:
   - pattern:
       name: AWS S3 Endpoint
       regex: '[a-zA-Z0-9._-]+.s3.[a-zA-Z0-9._-]+.amazonaws.com'
-      confidence: high
+      confidence: low
   - pattern:
       name: AWS client ID
       regex: (A3T[A-Z0-9]|AKIA|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{16}
-      confidence: high
+      confidence: low
   - pattern:
       name: AWS cred file info
       regex: (aws_access_key_id|aws_secret_access_key)
@@ -102,7 +102,7 @@ patterns:
   - pattern:
       name: Adobeio - 2
       regex: (?:adobe).{0,40}\b([a-zA-Z0-9.]{12})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Adzuna - 1
       regex: (?:adzuna).{0,40}\b([a-z0-9]{8})\b
@@ -142,7 +142,7 @@ patterns:
   - pattern:
       name: Airtableapikey
       regex: \b(key[a-zA-Z0-9_-]{14})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Airvisual
       regex: (?:airvisual).{0,40}\b([a-z0-9-]{36})\b
@@ -166,15 +166,15 @@ patterns:
   - pattern:
       name: Algoliaadminkey - 1
       regex: (?:algolia).{0,40}\b([A-Z0-9]{10})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Algoliaadminkey - 2
       regex: (?:algolia).{0,40}\b([a-zA-Z0-9]{32})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Alibaba - 1
       regex: \b([a-zA-Z0-9]{30})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Alibaba - 2
       regex: \b(LTAI[a-zA-Z0-9]{17,21})[\"' ;\s]*
@@ -210,11 +210,11 @@ patterns:
   - pattern:
       name: Anypoint - 1
       regex: (?:org).{0,40}\b([0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Anypoint - 2
       regex: \b([0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Apacta
       regex: (?:apacta).{0,40}\b([a-z0-9-]{36})\b
@@ -294,7 +294,7 @@ patterns:
   - pattern:
       name: Artifactory - 1
       regex: \b([a-zA-Z0-9]{73})
-      confidence: high
+      confidence: low
   - pattern:
       name: Artifactory - 2
       regex: \b([A-Za-z0-9](?:[A-Za-z0-9\-]{0,61}[A-Za-z0-9])\.jfrog\.io)
@@ -342,11 +342,11 @@ patterns:
   - pattern:
       name: Auth0oauth - 1
       regex: (?:auth0).{0,40}\b([a-zA-Z0-9_-]{32,60})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Auth0oauth - 2
       regex: \b([a-zA-Z0-9_-]{64,})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Autodesk - 1
       regex: (?:autodesk).{0,40}\b([0-9A-Za-z]{32})\b
@@ -378,7 +378,7 @@ patterns:
   - pattern:
       name: Aws - 2
       regex: \b([A-Za-z0-9+/]{40})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Axonaut
       regex: (?:axonaut).{0,40}\b([a-z0-9]{32})\b
@@ -474,7 +474,7 @@ patterns:
   - pattern:
       name: Blogger
       regex: (?:blogger).{0,40}\b([0-9A-Za-z-]{39})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Bombbomb
       regex: (?:bombbomb).{0,40}\b([a-zA-Z0-9-._]{704})\b
@@ -638,7 +638,7 @@ patterns:
   - pattern:
       name: Circleci
       regex: (?:circle).{0,40}([a-fA-F0-9]{40})
-      confidence: high
+      confidence: low
   - pattern:
       name: Clearbit
       regex: (?:clearbit).{0,40}\b([0-9a-z_]{35})\b
@@ -654,7 +654,7 @@ patterns:
   - pattern:
       name: Clicksendsms - 1
       regex: \b([A-Z0-9]{8}-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{12})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Clicksendsms - 2
       regex: (?:sms).{0,40}\b([a-zA-Z0-9]{3,20}@[a-zA-Z0-9]{2,12}.[a-zA-Z0-9]{2,5})\b
@@ -698,7 +698,7 @@ patterns:
   - pattern:
       name: Cloudflareapitoken
       regex: (?:cloudflare).{0,40}\b([A-Za-z0-9_-]{40})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Cloudflarecakey
       regex: (?:cloudflare).{0,40}\b(v[A-Za-z0-9._-]{173,})\b
@@ -706,11 +706,11 @@ patterns:
   - pattern:
       name: Cloudflareglobalapikey - 1
       regex: \b([a-zA-Z0-9+._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Cloudflareglobalapikey - 2
       regex: (?:cloudflare).{0,40}([A-Za-z0-9_-]{37})
-      confidence: high
+      confidence: low
   - pattern:
       name: Cloudimage
       regex: (?:cloudimage).{0,40}\b([a-z0-9_]{30})\b
@@ -794,7 +794,7 @@ patterns:
   - pattern:
       name: Contentfulpersonalaccesstoken
       regex: \b([CFPAT\-a-zA-Z-0-9]{49})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Convertkit
       regex: (?:convertkit).{0,40}\b([a-z0-9A-Z_]{22})\b
@@ -806,7 +806,7 @@ patterns:
   - pattern:
       name: Copper - 1
       regex: \b([a-z0-9]{4,25}@[a-zA-Z0-9]{2,12}.[a-zA-Z0-9]{2,6})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Copper - 2
       regex: (?:copper).{0,40}\b([a-z0-9]{32})\b
@@ -862,7 +862,7 @@ patterns:
   - pattern:
       name: Customerio
       regex: (?:customer).{0,40}\b([a-z0-9A-Z]{20})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: D7network
       regex: (?:d7network).{0,40}\b([a-zA-Z0-9\W\S]{23}\=)
@@ -882,11 +882,11 @@ patterns:
   - pattern:
       name: Datadogtoken - 1
       regex: (?:datadog).{0,40}\b([a-zA-Z-0-9]{32})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Datadogtoken - 2
       regex: (?:datadog).{0,40}\b([a-zA-Z-0-9]{40})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Datafire
       regex: (?:datafire).{0,40}\b([a-z0-9\S]{175,190})\b
@@ -898,7 +898,7 @@ patterns:
   - pattern:
       name: Debounce
       regex: (?:debounce).{0,40}\b([a-zA-Z0-9]{13})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Deepai
       regex: (?:deepai).{0,40}\b([a-z0-9-]{36})\b
@@ -1046,7 +1046,7 @@ patterns:
   - pattern:
       name: Eightxeight - 1
       regex: (?:8x8).{0,40}\b([a-zA-Z0-9_]{18,30})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Eightxeight - 2
       regex: (?:8x8).{0,40}\b([a-zA-Z0-9]{43})\b
@@ -1074,7 +1074,7 @@ patterns:
   - pattern:
       name: Etsyapikey
       regex: (?:etsy).{0,40}\b([a-zA-Z-0-9]{24})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Everhour
       regex: (?:everhour).{0,40}\b([0-9Aa-f]{4}-[0-9a-f]{4}-[0-9a-f]{6}-[0-9a-f]{6}-[0-9a-f]{8})\b
@@ -1102,11 +1102,11 @@ patterns:
   - pattern:
       name: Facebook OAuth
       regex: '[fF][aA][cC][eE][bB][oO][oO][kK].*[''|"][0-9a-f]{32}[''|"]'
-      confidence: high
+      confidence: low
   - pattern:
       name: Facebookoauth
       regex: (?:facebook).{0,40}\b([A-Za-z0-9]{32})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Faceplusplus
       regex: (?:faceplusplus).{0,40}\b([0-9a-zA-Z_-]{32})\b
@@ -1158,11 +1158,11 @@ patterns:
   - pattern:
       name: Firebase Database Detect - 1
       regex: '[a-z0-9.-]+\.firebaseio\.com'
-      confidence: high
+      confidence: low
   - pattern:
       name: Firebase Database Detect - 2
       regex: '[a-z0-9.-]+\.firebaseapp\.com'
-      confidence: high
+      confidence: low
   - pattern:
       name: Fixerio
       regex: (?:fixer).{0,40}\b([A-Za-z0-9]{32})\b
@@ -1194,7 +1194,7 @@ patterns:
   - pattern:
       name: Float
       regex: (?:float).{0,40}\b([a-zA-Z0-9-._+=]{59,60})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Flowflu - 2
       regex: (?:flowflu).{0,40}\b([a-zA-Z0-9]{51})\b
@@ -1567,11 +1567,11 @@ patterns:
   - pattern:
       name: Generic API Key
       regex: '[aA][pP][iI]_?[kK][eE][yY].*[''|"][0-9a-zA-Z]{32,45}[''|"]'
-      confidence: high
+      confidence: low
   - pattern:
       name: Generic Secret
       regex: '[sS][eE][cC][rR][eE][tT].*[''|"][0-9a-zA-Z]{32,45}[''|"]'
-      confidence: high
+      confidence: low
   - pattern:
       name: Generic token
       regex: token.+
@@ -1599,7 +1599,7 @@ patterns:
   - pattern:
       name: Geocodio - 1
       regex: (?:geocod).{0,40}\b([a-zA-Z0-9\S]{7,30})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Geocodio - 2
       regex: (?:geocod).{0,40}\b([a-z0-9]{39})\b
@@ -1639,7 +1639,7 @@ patterns:
   - pattern:
       name: GitHub
       regex: '[gG][iI][tT][hH][uU][bB].*[''|"][0-9a-zA-Z]{35,40}[''|"]'
-      confidence: high
+      confidence: low
   - pattern:
       name: Github - 2
       regex: \b((?:ghp|gho|ghu|ghs|ghr)_[a-zA-Z0-9]{36,255}\b)
@@ -1667,7 +1667,7 @@ patterns:
   - pattern:
       name: Githubapp - 1
       regex: (?:github).{0,40}\b([0-9]{6})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Githubapp - 2
       regex: (?:github).{0,40}(-----BEGIN RSA PRIVATE KEY-----\s[A-Za-z0-9+\/\s]*\s-----END
@@ -1676,7 +1676,7 @@ patterns:
   - pattern:
       name: Gitlab
       regex: (?:gitlab).{0,40}\b([a-zA-Z0-9\-=_]{20,22})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Gitlabv2
       regex: \b(glpat-[a-zA-Z0-9\-=_]{20,22})\b
@@ -1720,7 +1720,7 @@ patterns:
   - pattern:
       name: Google Cloud Platform OAuth
       regex: '[0-9]+-[0-9A-Za-z_]{32}\.apps\.googleusercontent\.com'
-      confidence: high
+      confidence: low
   - pattern:
       name: Google OAuth Access Token
       regex: ya29\.[0-9A-Za-z\-_]+
@@ -1728,7 +1728,7 @@ patterns:
   - pattern:
       name: Google Oauth ID
       regex: '[0-9]+-[0-9a-z_]{32}.apps.googleusercontent.com'
-      confidence: high
+      confidence: low
   - pattern:
       name: Graphcms - 1
       regex: (?:graph).{0,40}\b([a-z0-9]{25})\b
@@ -1748,7 +1748,7 @@ patterns:
   - pattern:
       name: Guardianapi
       regex: \b([0-9Aa-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Guru - 1
       regex: (?:guru).{0,40}\b([a-zA-Z0-9]{3,20}@[a-zA-Z0-9]{2,12}.[a-zA-Z0-9]{2,5})\b
@@ -1776,7 +1776,7 @@ patterns:
   - pattern:
       name: Harvest - 2
       regex: (?:harvest).{0,40}\b([0-9]{4,9})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Hellosign
       regex: (?:hellosign).{0,40}\b([a-zA-Z-0-9/+]{64})\b
@@ -1800,7 +1800,7 @@ patterns:
   - pattern:
       name: Hive - 1
       regex: (?:hive).{0,40}\b([0-9a-z]{32})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Hive - 2
       regex: (?:hive).{0,40}\b([0-9A-Za-z]{17})\b
@@ -1816,7 +1816,7 @@ patterns:
   - pattern:
       name: Host
       regex: (?:host).{0,40}\b([a-z0-9]{14})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Html2pdf
       regex: (?:html2pdf).{0,40}\b([a-zA-Z0-9]{64})\b
@@ -1832,7 +1832,7 @@ patterns:
   - pattern:
       name: Hunter
       regex: (?:hunter).{0,40}\b([a-z0-9_-]{40})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Hypertrack - 1
       regex: (?:hypertrack).{0,40}\b([0-9a-zA-Z\_\-]{54})\b
@@ -1880,7 +1880,7 @@ patterns:
   - pattern:
       name: Intercom
       regex: (?:intercom).{0,40}\b([a-zA-Z0-9\W\S]{59}\=)
-      confidence: high
+      confidence: low
   - pattern:
       name: Intrinio
       regex: (?:intrinio).{0,40}\b([a-zA-Z0-9]{44})\b
@@ -1924,7 +1924,7 @@ patterns:
   - pattern:
       name: JWT Token
       regex: eyJ[a-zA-Z0-9]{10,}\.eyJ[a-zA-Z0-9]{10,}\.[a-zA-Z0-9_\-]{10,}
-      confidence: high
+      confidence: low
   - pattern:
       name: Jiratoken - 1
       regex: (?:jira).{0,40}\b([a-zA-Z-0-9]{24})\b
@@ -1936,7 +1936,7 @@ patterns:
   - pattern:
       name: Jiratoken - 3
       regex: (?:jira).{0,40}\b([a-zA-Z-0-9]{5,24}\.[a-zA-Z-0-9]{3,16}\.[a-zA-Z-0-9]{3,16})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Jotform
       regex: (?:jotform).{0,40}\b([0-9Aa-z]{32})\b
@@ -2028,7 +2028,7 @@ patterns:
   - pattern:
       name: Lessannoyingcrm
       regex: (?:less).{0,40}\b([a-zA-Z0-9-]{57})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Lexigram
       regex: (?:lexigram).{0,40}\b([a-zA-Z0-9\S]{301})\b
@@ -2061,7 +2061,7 @@ patterns:
   - pattern:
       name: Lob
       regex: (?:lob).{0,40}\b([a-zA-Z0-9_]{40})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Locationiq
       regex: \b(pk\.[a-zA-Z-0-9]{32})\b
@@ -2089,7 +2089,7 @@ patterns:
   - pattern:
       name: M3o
       regex: (?:m3o).{0,40}\b([0-9A-Za-z]{48})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Macaddress
       regex: (?:macaddress).{0,40}\b([a-zA-Z0-9_]{32})\b
@@ -2125,7 +2125,7 @@ patterns:
   - pattern:
       name: Mailgun API key - 2
       regex: (mailgun|mg)[0-9a-z]{32}
-      confidence: high
+      confidence: low
   - pattern:
       name: Mailjetbasicauth
       regex: (?:mailjet).{0,40}\b([A-Za-z0-9]{87}\=)
@@ -2149,7 +2149,7 @@ patterns:
   - pattern:
       name: Manifest
       regex: (?:manifest).{0,40}\b([a-zA-z0-9]{32})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Mapbox - 2
       regex: \b(sk\.[a-zA-Z-0-9\.]{80,240})\b
@@ -2277,15 +2277,15 @@ patterns:
   - pattern:
       name: Mrticktock - 2
       regex: \b([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-z]+)\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Myfreshworks - 1
       regex: (?:freshworks).{0,40}\b([a-zA-Z0-9-_]{2,20})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Myfreshworks - 2
       regex: (?:freshworks).{0,40}\b([a-z0-9A-Z-]{22})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Myintervals
       regex: (?:myintervals).{0,40}\b([0-9a-z]{11})\b
@@ -2376,8 +2376,7 @@ patterns:
       confidence: high
   - pattern:
       name: Nozbeteams
-      regex: (?:nozbe|nozbeteams).{0,40}\b([0-9A-Za-z]{16}_[0-9A-Za-z\-_]{64}[
-        \r\n]{1})
+      regex: (?:nozbe|nozbeteams).{0,40}\b([0-9A-Za-z]{16}_[0-9A-Za-z\-_]{64}[ \r\n]{1})
       confidence: high
   - pattern:
       name: Numverify
@@ -2398,7 +2397,7 @@ patterns:
   - pattern:
       name: Nytimes
       regex: (?:nytimes).{0,40}\b([a-z0-9A-Z-]{32})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Oanda
       regex: (?:oanda).{0,40}\b([a-zA-Z0-9]{24})\b
@@ -2406,11 +2405,11 @@ patterns:
   - pattern:
       name: Okta - 1
       regex: '[a-z0-9-]{1,40}\.okta(?:preview|-emea){0,1}\.com'
-      confidence: high
+      confidence: low
   - pattern:
       name: Okta - 2
       regex: 00[a-zA-Z0-9_-]{40}
-      confidence: high
+      confidence: low
   - pattern:
       name: Omnisend
       regex: (?:omnisend).{0,40}\b([a-z0-9A-Z-]{75})\b
@@ -2422,7 +2421,7 @@ patterns:
   - pattern:
       name: Onelogin - 1
       regex: id[a-zA-Z0-9_' "=]{0,20}([a-z0-9]{64})
-      confidence: high
+      confidence: low
   - pattern:
       name: Onelogin - 2
       regex: secret[a-zA-Z0-9_' "=]{0,20}([a-z0-9]{64})
@@ -2518,11 +2517,11 @@ patterns:
   - pattern:
       name: Paypaloauth - 1
       regex: \b([A-Za-z0-9_\.]{7}-[A-Za-z0-9_\.]{72})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Paypaloauth - 2
       regex: \b([A-Za-z0-9_\.]{69}-[A-Za-z0-9_\.]{10})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Paystack
       regex: \b(sk\_[a-z]{1,}\_[A-Za-z0-9]{40})\b
@@ -2629,8 +2628,8 @@ patterns:
       confidence: high
   - pattern:
       name: Privatekey
-      regex: -----\s*?BEGIN[ A-Z0-9_-]*?PRIVATE KEY\s*?-----[\s\S]*?----\s*?END[
-        A-Z0-9_-]*? PRIVATE KEY\s*?-----
+      regex: '-----\s*?BEGIN[ A-Z0-9_-]*?PRIVATE KEY\s*?-----[\s\S]*?----\s*?END[
+        A-Z0-9_-]*? PRIVATE KEY\s*?-----'
       confidence: high
   - pattern:
       name: Prospectcrm
@@ -2667,7 +2666,7 @@ patterns:
   - pattern:
       name: Pusherchannelkey - 1
       regex: (?:key).{0,40}\b([a-z0-9]{20})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Pusherchannelkey - 2
       regex: (?:pusher).{0,40}\b([a-z0-9]{20})\b
@@ -2723,7 +2722,7 @@ patterns:
   - pattern:
       name: Razorpay - 2
       regex: (?:razor|secret|rzp|key)[-\w]*[\" :=']*([A-Za-z0-9]{20,50})
-      confidence: high
+      confidence: low
   - pattern:
       name: Readme
       regex: (?:readme).{0,40}\b([a-zA-Z0-9_]{32})\b
@@ -2763,7 +2762,7 @@ patterns:
   - pattern:
       name: Rev - 2
       regex: (?:rev).{0,40}\b([0-9a-zA-Z\-]{27}[ \r\n]{1})
-      confidence: high
+      confidence: low
   - pattern:
       name: Revampcrm - 1
       regex: (?:revamp).{0,40}\b([a-zA-Z0-9]{40}\b)
@@ -2771,7 +2770,7 @@ patterns:
   - pattern:
       name: Revampcrm - 2
       regex: (?:revamp).{0,40}\b([a-zA-Z0-9.-@]{25,30})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Ringcentral - 1
       regex: (?:ringcentral).{0,40}\b(https://www.[0-9A-Za-z_-]{1,}.com)\b
@@ -2795,7 +2794,7 @@ patterns:
   - pattern:
       name: Roninapp - 1
       regex: (?:ronin).{0,40}\b([0-9Aa-zA-Z]{3,32})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Roninapp - 2
       regex: (?:ronin).{0,40}\b([0-9a-zA-Z]{26})\b
@@ -3027,11 +3026,11 @@ patterns:
   - pattern:
       name: Shutterstock - 1
       regex: (?:shutterstock).{0,40}\b([0-9a-zA-Z]{32})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Shutterstock - 2
       regex: (?:shutterstock).{0,40}\b([0-9a-zA-Z]{16})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Shutterstockoauth
       regex: (?:shutterstock).{0,40}\b(v2/[0-9A-Za-z]{388})\b
@@ -3155,7 +3154,7 @@ patterns:
   - pattern:
       name: Sparkpost
       regex: \b([a-zA-Z0-9]{40})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Splunkobservabilitytoken
       regex: (?:splunk).{0,40}\b([a-z0-9A-Z]{22})\b
@@ -3171,11 +3170,11 @@ patterns:
   - pattern:
       name: Spotifykey - 1
       regex: (?:key|secret).{0,40}\b([A-Za-z0-9]{32})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Spotifykey - 2
       regex: (?:id).{0,40}\b([A-Za-z0-9]{32})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Square
       regex: (?:square).{0,40}(EAAA[a-zA-Z0-9\-\+\=]{60})
@@ -3323,11 +3322,11 @@ patterns:
   - pattern:
       name: Surveyanyplace - 1
       regex: (?:survey).{0,40}\b([a-z0-9A-Z-]{36})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Surveyanyplace - 2
       regex: (?:survey).{0,40}\b([a-z0-9A-Z]{32})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Surveybot
       regex: (?:surveybot).{0,40}\b([A-Za-z0-9-]{80})\b
@@ -3343,7 +3342,7 @@ patterns:
   - pattern:
       name: Swell - 1
       regex: (?:swell).{0,40}\b([a-zA-Z0-9]{6,24})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Swell - 2
       regex: (?:swell).{0,40}\b([a-zA-Z0-9]{32})\b
@@ -3495,7 +3494,7 @@ patterns:
   - pattern:
       name: Trelloapikey - 1
       regex: \b([a-zA-Z-0-9]{64})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Trelloapikey - 2
       regex: (?:trello).{0,40}\b([a-zA-Z-0-9]{32})\b
@@ -3503,11 +3502,11 @@ patterns:
   - pattern:
       name: Tru - 1
       regex: (?:tru).{0,40}\b([0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Tru - 2
       regex: (?:tru).{0,40}\b([0-9a-zA-Z._-]{26})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Twelvedata
       regex: (?:twelvedata).{0,40}\b([a-z0-9]{32})\b
@@ -3519,7 +3518,7 @@ patterns:
   - pattern:
       name: Twilio - 2
       regex: \b[0-9a-f]{32}\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Twilio API Key
       regex: SK[0-9a-fA-F]{32}
@@ -3527,7 +3526,7 @@ patterns:
   - pattern:
       name: Twitter Access Token
       regex: '[tT][wW][iI][tT][tT][eE][rR].*[1-9][0-9]+-[0-9a-zA-Z]{40}'
-      confidence: high
+      confidence: low
   - pattern:
       name: Twitter Client ID
       regex: twitter[0-9a-z]{18,25}
@@ -3535,7 +3534,7 @@ patterns:
   - pattern:
       name: Twitter OAuth
       regex: '[tT][wW][iI][tT][tT][eE][rR].*[''|"][0-9a-zA-Z]{35,44}[''|"]'
-      confidence: high
+      confidence: low
   - pattern:
       name: Twitter Secret Key
       regex: twitter[0-9a-z]{35,44}
@@ -3583,7 +3582,7 @@ patterns:
   - pattern:
       name: Uri
       regex: \b[a-zA-Z]{1,10}:?\/\/[-.%\w{}]{1,50}:([-.%\S]{3,50})@[-.%\w\/:]+\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Urlscan
       regex: (?:urlscan).{0,40}\b([a-z0-9-]{36})\b
@@ -3591,7 +3590,7 @@ patterns:
   - pattern:
       name: User
       regex: (?:user).{0,40}\b([a-zA-Z0-9-._+=]{64})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Userstack
       regex: (?:userstack).{0,40}\b([a-z0-9]{32})\b
@@ -3743,11 +3742,11 @@ patterns:
   - pattern:
       name: Youtubeapikey - 1
       regex: (?:youtube).{0,40}\b([a-zA-Z-0-9_]{39})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Youtubeapikey - 2
       regex: (?:youtube).{0,40}\b([a-zA-Z-0-9]{24})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Zapier Webhook
       regex: https://(?:www.)?hooks\.zapier\.com/hooks/catch/[A-Za-z0-9]+/[A-Za-z0-9]+/
@@ -3759,11 +3758,11 @@ patterns:
   - pattern:
       name: Zendeskapi - 1
       regex: \b([a-zA-Z-0-9]{3,16}\.zendesk\.com)\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Zendeskapi - 2
       regex: \b([a-zA-Z-0-9-]{5,16}\@[a-zA-Z-0-9]{4,16}\.[a-zA-Z-0-9]{3,6})\b
-      confidence: high
+      confidence: low
   - pattern:
       name: Zendeskapi - 3
       regex: (?:zendesk).{0,40}([A-Za-z0-9_-]{40})
@@ -3799,7 +3798,7 @@ patterns:
   - pattern:
       name: Zipbooks - 1
       regex: (?:zipbooks|password).{0,40}\b([a-zA-Z0-9!=@#$%^]{8,})
-      confidence: high
+      confidence: low
   - pattern:
       name: Zipcodeapi
       regex: (?:zipcodeapi).{0,40}\b([a-zA-Z0-9]{64})\b
@@ -4683,7 +4682,7 @@ patterns:
   - pattern:
       name: facebook_oauth
       regex: '[f|F][a|A][c|C][e|E][b|B][o|O][o|O][k|K].*[''|"][0-9a-f]{32}[''|"]'
-      confidence: high
+      confidence: low
   - pattern:
       name: file_password
       regex: file[_-]?password(=| =|:| :)
@@ -5339,7 +5338,7 @@ patterns:
   - pattern:
       name: mfa_token
       regex: (?:token=[A-Za-z0-9\s_]*[A-Za-z0-9][A-Za-z0-9\s_])
-      confidence: high
+      confidence: low
   - pattern:
       name: mg_api_key
       regex: mg[_-]?api[_-]?key(=| =|:| :)
@@ -6447,7 +6446,7 @@ patterns:
   - pattern:
       name: twitter
       regex: ([a-zA-Z0-9]{1,2}([a-zA-Z0-9]{50})[a-zA-Z0-9]{1,2})
-      confidence: high
+      confidence: low
   - pattern:
       name: twitter_consumer_key
       regex: twitter[_-]?consumer[_-]?key(=| =|:| :)
