@@ -4,6 +4,8 @@ with open(sys.argv[1], "r") as f:
     data = f.read()
     data = yaml.safe_load(data)
 
+new_data = []
+
 output = []
 for i in data["fields"]:
     i = i.lower()
@@ -17,7 +19,11 @@ for i in data["fields"]:
         output.append(i.replace(" ", " "))
         output.append(i.replace(" ", "-"))
 
+    if " " in i:
+        new_data.extend(i.split(" "))
     output.append(i)
+
+output.extend(new_data)
 output = list(set(output))
 
 

@@ -292,6 +292,10 @@ patterns:
         regex: ^\d{3}-\d{2}-\d{4}$
         confidence: high
   - pattern:
+        name: Social Security Number (SSN) - 4
+        regex: (?:\\b\\d{3}-?\\d{2}-?(\\d{4})\\b)
+        confidence: high
+  - pattern:
         name: Date of Birth
         regex: ^\d{2}/\d{2}/\d{4}$|^\d{4}-\d{2}-\d{2}$
         confidence: high
