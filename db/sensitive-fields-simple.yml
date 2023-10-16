@@ -1,0 +1,141 @@
+fields:
+  - contract-id
+  - id
+  - date-ofbirth
+  - pin code
+  - social-security-number
+  - debit card
+  - rule_format
+  - account-id
+  - token
+  - group_id
+  - given name
+  - first-name
+  - middle-name
+  - first name
+  - ssn
+  - authenticity_token
+  - property_version
+  - given-name
+  - pincode
+  - authorization
+  - pan
+  - rule-format
+  - template_link
+  - account id
+  - serverdata
+  - gender
+  - passcode
+  - template-link
+  - date_ofbirth
+  - contract id
+  - fcparams
+  - last_name
+  - social_security_number
+  - samlresponse
+  - code_verifier
+  - totp
+  - primary account number
+  - templatelink
+  - tax-id
+  - socialsecuritynumber
+  - phone
+  - housedetails
+  - pin_code
+  - middle name
+  - group-id
+  - address
+  - lname
+  - debit_card
+  - credit-card
+  - emailaddress
+  - house
+  - primary-account-number
+  - client_id
+  - id_token
+  - credit card
+  - state
+  - house number
+  - tax id
+  - debit-card
+  - x-client-data
+  - assertion
+  - house-details
+  - template link
+  - pin-code
+  - housenumber
+  - date ofbirth
+  - first_name
+  - firstname
+  - tax_id
+  - primaryaccountnumber
+  - social security number
+  - given_name
+  - property version
+  - email
+  - facetid
+  - groupid
+  - appid
+  - date-of-birth
+  - house_number
+  - date_of_birth
+  - uuid
+  - code
+  - house details
+  - rule format
+  - auth
+  - property_name
+  - created-date
+  - house-number
+  - country
+  - full name
+  - lastname
+  - fname
+  - taxid
+  - email_address
+  - account_id
+  - account
+  - last name
+  - date of birth
+  - last-name
+  - full_name
+  - email address
+  - property-id
+  - group id
+  - created date
+  - client_secret
+  - zip
+  - samlrequest
+  - propertyname
+  - credit_card
+  - ruleformat
+  - property name
+  - password
+  - house_details
+  - challenge
+  - middlename
+  - otp
+  - fullname
+  - property id
+  - contract_id
+  - property_id
+  - dob
+  - city
+  - property-version
+  - property-name
+  - middle_name
+  - contacts
+  - propertyversion
+  - created_date
+  - accountid
+  - primary_account_number
+  - email-address
+  - creditcard
+  - pin
+  - propertyid
+  - givenname
+  - full-name
+  - contractid
+  - debitcard
+  - access_token
+  - createddate
