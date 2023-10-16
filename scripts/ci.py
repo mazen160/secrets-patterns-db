@@ -16,6 +16,7 @@ assert "patterns" in y
 all_regexes = []
 all_names = []
 for i in y["patterns"]:
+    print(i)
     assert "pattern" in i
     assert type(i["pattern"]) == dict
     assert "name" in i["pattern"]
