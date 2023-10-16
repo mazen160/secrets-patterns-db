@@ -68,10 +68,6 @@ patterns:
       regex: \b((\+|\b)[1l][\-\. ])?\(?\b[\dOlZSB]{3,5}([\-\. ]|\) ?)[\dOlZSB]{3}[\-\. ][\dOlZSB]{4}\b
       confidence: high
   - pattern:
-      name: US Street Addresses
-      regex: \b\d{1,8}\b[\s\S]{10,100}?\b(AK|AL|AR|AZ|CA|CO|CT|DC|DE|FL|GA|HI|IA|ID|IL|IN|KS|KY|LA|MA|MD|ME|MI|MN|MO|MS|MT|NC|ND|NE|NH|NJ|NM|NV|NY|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VA|VT|WA|WI|WV|WY)\b\s\d{5}\b
-      confidence: high
-  - pattern:
       name: Email Addresses
       regex: \b[a-z0-9._%\+\-—|]+@[a-z0-9.\-—|]+\.[a-z|]{2,6}\b
       confidence: high
@@ -216,24 +212,12 @@ patterns:
       regex: \b\d{3}\s\d{3}\s\d{4}\b
       confidence: high
   - pattern:
-      name: United States Social Security Number (SSN) - Image Projects
-      regex: \b[\dlZEASBO]{3} [\dlZEASBO]{2} [\dlZEASBO]{4}|([\dlZEASBO] ?){3}[\—\-_] ?([\dlZEASBO] ?){2}[\—\-_] ?([\dlZEASBO] ?){4}\b
-      confidence: high
-  - pattern:
-      name: United States Social Security Number (SSN) - Excel Projects
-      regex: \b[\d]{3} [\d]{2} [\d]{4}|([\d] ?){3}[\—\-_] ?([\d] ?){2}[\—\-_] ?([\d] ?){4}\b
-      confidence: high
-  - pattern:
       name: ipv4
       regex: (?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)
       confidence: high
   - pattern:
       name: ipv6
       regex: \s*(?!.*::.*::)(?:(?!:)|:(?=:))(?:[0-9a-f]{0,4}(?:(?<=::)|(?<!::):)){6}(?:[0-9a-f]{0,4}(?:(?<=::)|(?<!::):)[0-9a-f]{0,4}(?:(?<=::)|(?<!:)|(?<=:)(?<!::):)|(?:25[0-4]|2[0-4]\d|1\d\d|[1-9]?\d)(?:\.(?:25[0-4]|2[0-4]\d|1\d\d|[1-9]?\d)){3})\s*
-      confidence: high
-  - pattern:
-      name: not_known_ports
-      regex: 6[0-5]{2}[0-3][0-5]|[1-5][\d]{4}|[2-9][\d]{3}|1[1-9][\d]{2}|10[3-9][\d]|102[4-9]
       confidence: high
   - pattern:
       name: prices
