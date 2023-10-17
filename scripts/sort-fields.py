@@ -12,12 +12,15 @@ for i in data["fields"]:
     if " " in i:
         output.append(i.replace(" ", "-"))
         output.append(i.replace(" ", "_"))
+        output.append(i.replace(" ", ""))
     if "-" in i:
-        output.append(i.replace(" ", " "))
-        output.append(i.replace(" ", "_"))
+        output.append(i.replace("-", " "))
+        output.append(i.replace("-", "_"))
+        output.append(i.replace("-", ""))
     if "_" in i:
-        output.append(i.replace(" ", " "))
-        output.append(i.replace(" ", "-"))
+        output.append(i.replace("_", " "))
+        output.append(i.replace("_", "-"))
+        output.append(i.replace("_", ""))
 
     if " " in i:
         new_data.extend(i.split(" "))
