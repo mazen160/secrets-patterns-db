@@ -47,7 +47,7 @@ def hash_file(file):
             if not chunk:
                 break
             h.update(buffer_view[:chunk])
-    return h.hexdigest()
+    return h.digest()
 
 
 ### PARSE TEMPLATES ###
