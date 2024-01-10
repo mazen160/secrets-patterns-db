@@ -11,9 +11,9 @@ import re
 import sys
 import yaml
 import random
+import hashlib
 import subprocess
 from math import ceil
-from hashlib import md5
 from pathlib import Path
 from contextlib import suppress
 from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor, as_completed
@@ -38,9 +38,16 @@ def errprint(*args, **kwargs):
 
 
 def hash_file(file):
-    with open(file, 'rb') as f:
-        content = f.read()
-        return md5(content).digest()
+    h = hashlib.md5()
+    buffer = bytearray(128*1024)
+    buffer_view = memoryview(buffer)
+    with open(file, 'rb', buffering=0) as f:
+        while True:
+            chunk = f.readinto(buffer_view)
+            if not chunk:
+                break
+            h.update(buffer_view[:chunk])
+    return h.hexdigest()
 
 
 ### PARSE TEMPLATES ###
