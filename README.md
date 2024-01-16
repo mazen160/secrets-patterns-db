@@ -33,13 +33,25 @@ Contribution is always welcome! Please feel free to report issues on Github and 
 ## 📌 Ideas to Start on
 
 # Using
-For Trufflehog v2
-$> ./convert-rules.py --db ../db/rules-stable.yml --type trufflehog
-For Gitleaks
-$> ./convert-rules.py --db ../db/rules-stable.yml --type  gitleaks
 
-Optional:
---export - Set filename, extension will be added by type (gitleaks = toml, trufflehog = json)
+For Trufflehog v2
+```shell
+./scripts/convert-rules.py --db ./db/rules-stable.yml --type trufflehogv2
+```
+
+For Trufflehog v3
+```shell
+./scripts/convert-rules.py --db ./db/rules-stable.yml --type trufflehogv3
+```
+
+For Gitleaks
+```shell
+./scripts/convert-rules.py --db ./db/rules-stable.yml --type  gitleaks
+```
+
+
+**Optional**:
+--export - Set filename, extension will be added by type (gitleaks = toml, trufflehogV2 = json, trufflehogV3 = yaml)
 
 Would like to contribute to secrets-patterns-db? Here are some ideas that you may start with:
 
