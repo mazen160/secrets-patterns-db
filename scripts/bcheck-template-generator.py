@@ -13,7 +13,7 @@ def download_rules(url):
 
 def create_bcheck_template(name, regex, confidence):
     bcheck_templates[str(confidence)] = f"""metadata:
- language: v1-beta
+ language: v2-beta
  name: "Information Disclosure Secret Finder - {confidence}"
  description: "Detects secret patterns in responses."
  author: "bugswagger, xelkomy, juba0x00, xhzeem"
@@ -25,7 +25,7 @@ given response then
 def append_condition(name: str, confidence: str, regex: str)-> None:
     value = f"""
  if {{latest.response}} matches "{regex}" then
-      report issue:
+      report issue and continue:
         severity: medium
         confidence: {confidence}
         detail: "{name} secret pattern detected in the response."
