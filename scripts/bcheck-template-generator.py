@@ -11,34 +11,35 @@ def download_rules(url):
     else:
         raise Exception("Failed to download rules")
 
-def create_bcheck_template(name, regex, severity):
-    bcheck_templates[str(severity)] = f"""metadata:
+def create_bcheck_template(name, regex, confidence):
+    bcheck_templates[str(confidence)] = f"""metadata:
  language: v1-beta
  name: "Information Disclosure"
  description: "Detects secret patterns in responses."
- author: "bugswagger team, xelkomy, juba0x00"
+ author: "bugswagger, xelkomy, juba0x00, xhzeem"
  tags: "secret, bugswagger"
 
 given response then
  if {{latest.response}} matches "bugswagger" then
       report issue:
-        severity: low
-        confidence: firm
+        severity: medium
+        confidence: tentative
         detail: "bugswagger secret pattern detected in the response."
         remediation: "Review and remove unnecessary exposure of secrets."
-
+ end if
 """
     
-def append_condition(name: str, severity: str, regex: str)-> None:
+def append_condition(name: str, confidence: str, regex: str)-> None:
     value = f"""
- else if {{latest.response}} matches "{regex}" then
+ if {{latest.response}} matches "{regex}" then
       report issue:
-        severity: {severity}
+        severity: {confidence}
         confidence: firm
         detail: "{name} secret pattern detected in the response."
         remediation: "Review and remove unnecessary exposure of secrets."
+ end if
 """
-    bcheck_templates[severity] += value
+    bcheck_templates[confidence] += value
 
 def save_bcheck_file(name, content):
     filename = f"{name.replace(' ', '_').lower()}.bcheck"
@@ -55,14 +56,23 @@ def main():
 
     patterns = rules['patterns']
     for pattern in patterns:
-        name = pattern.get('pattern').get('name')
-        regex = pattern.get('pattern').get('regex').replace('"', '\\"')
-        severity = pattern.get('pattern').get('confidence')
-        if name and regex and severity:
-            if severity in bcheck_templates.keys():
-                append_condition(name, severity, regex)
+        regex = pattern['pattern']['regex']
+        name = pattern['pattern']['name']
+        confidence = pattern['pattern']['confidence'].lower()
+
+        # Replace confidence levels
+        if confidence == 'high':
+            confidence = 'certain'
+        elif confidence == 'medium':
+            confidence = 'firm'
+        elif confidence == 'low':
+            confidence = 'tentative'
+
+        if name and regex and confidence:
+            if confidence in bcheck_templates.keys():
+                append_condition(name, confidence, regex)
             else:
-                create_bcheck_template(name, regex, severity)
+                create_bcheck_template(name, regex, confidence)
     
     for key, value in bcheck_templates.items():
         value += "  end if"
