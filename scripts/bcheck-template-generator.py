@@ -14,27 +14,20 @@ def download_rules(url):
 def create_bcheck_template(name, regex, confidence):
     bcheck_templates[str(confidence)] = f"""metadata:
  language: v1-beta
- name: "Information Disclosure"
+ name: "Information Disclosure Secret Finder - {confidence}"
  description: "Detects secret patterns in responses."
  author: "bugswagger, xelkomy, juba0x00, xhzeem"
  tags: "secret, bugswagger"
 
 given response then
- if {{latest.response}} matches "bugswagger" then
-      report issue:
-        severity: medium
-        confidence: tentative
-        detail: "bugswagger secret pattern detected in the response."
-        remediation: "Review and remove unnecessary exposure of secrets."
- end if
 """
     
 def append_condition(name: str, confidence: str, regex: str)-> None:
     value = f"""
  if {{latest.response}} matches "{regex}" then
       report issue:
-        severity: {confidence}
-        confidence: firm
+        severity: medium
+        confidence: {confidence}
         detail: "{name} secret pattern detected in the response."
         remediation: "Review and remove unnecessary exposure of secrets."
  end if
@@ -56,7 +49,7 @@ def main():
 
     patterns = rules['patterns']
     for pattern in patterns:
-        regex = pattern['pattern']['regex']
+        regex = pattern['pattern']['regex'].replace(r'\"','"').replace('"', r'\"')
         name = pattern['pattern']['name']
         confidence = pattern['pattern']['confidence'].lower()
 
@@ -75,7 +68,6 @@ def main():
                 create_bcheck_template(name, regex, confidence)
     
     for key, value in bcheck_templates.items():
-        value += "  end if"
         print(f'saving {key}.bcheck')
         save_bcheck_file(key, value)
     
