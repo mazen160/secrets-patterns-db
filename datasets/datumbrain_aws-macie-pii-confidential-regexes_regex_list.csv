@@ -1,0 +1,67 @@
+Name,Description,Regex,Risk,Category
+Arista network configuration,Arista network configuration,"via\ \d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3},\ \d{2}:\d{2}:\d{2}",7,Confidential
+BBVA Compass Routing Number - California,BBVA Compass Routing Number - California,^321170538$,1,PII
+Bank of America Routing Numbers - California,Bank of America Routing Numbers - California,^(?:121|026)00(?:0|9)(?:358|593)$,1,PII
+Box Links,Box Links,https://app.box.com/[s|l]/\S+,3,Confidential
+CVE Number,CVE Number,"CVE-\d{4}-\d{4,7}",3,PII
+California Drivers License,California Drivers License,^[A-Z]{1}\d{7}$,1,PII
+Chase Routing Numbers - California,Chase Routing Numbers - California,^322271627$,1,PII
+Cisco Router Config,Cisco Router Config,"service\ timestamps\ [a-z]{3,5}\ datetime\ msec|boot-[a-z]{3,5}-marker|interface\ [A-Za-z0-9]{0,10}[E,e]thernet",9,Confidential
+Citibank Routing Numbers - California,Citibank Routing Numbers - California,^32(?:11|22)71(?:18|72)4$,1,PII
+DSA Private Key,DSA Private Key,"-----BEGIN DSA PRIVATE KEY-----(?:[a-zA-Z0-9\+\=\/""']|\s)+?-----END DSA PRIVATE KEY-----",8,Confidential
+Dropbox Links,Dropbox Links,https://www.dropbox.com/(?:s|l)/\S+,3,PII
+EC Private Key,EC Private Key,"-----BEGIN (?:EC|ECDSA) PRIVATE KEY-----(?:[a-zA-Z0-9\+\=\/""']|\s)+?-----END (?:EC|ECDSA) PRIVATE KEY-----",8,Confidential
+Encrypted DSA Private Key,Encrypted DSA Private Key,"-----BEGIN DSA PRIVATE KEY-----\s.*,ENCRYPTED(?:.|\s)+?-----END DSA PRIVATE KEY-----",3,Confidential
+Encrypted EC Private Key,Encrypted EC Private Key,"-----BEGIN (?:EC|ECDSA) PRIVATE KEY-----\s.*,ENCRYPTED(?:.|\s)+?-----END (?:EC|ECDSA) PRIVATE KEY-----",3,Confidential
+Encrypted Private Key,Encrypted Private Key,-----BEGIN ENCRYPTED PRIVATE KEY-----(?:.|\s)+?-----END ENCRYPTED PRIVATE KEY-----,3,Confidential
+Encrypted PuTTY SSH DSA Key,Encrypted PuTTY SSH DSA Key,PuTTY-User-Key-File-2: ssh-dss\s*Encryption: aes(?:.|\s?)*?Private-MAC:,3,Confidential
+Encrypted RSA Private Key,Encrypted RSA Private Key,"-----BEGIN RSA PRIVATE KEY-----\s.*,ENCRYPTED(?:.|\s)+?-----END RSA PRIVATE KEY-----",3,Confidential
+Google Application Identifier,Google Application Identifier,[0-9]+-\w+.apps.googleusercontent.com,2,Confidential
+HIPAA PHI National Drug Code,HIPAA PHI National Drug Code,"^\d{4,5}-\d{3,4}-\d{1,2}$",2,Confidential
+Huawei config file,Huawei config file,sysname\ HUAWEI|set\ authentication\ password\ simple\ huawei,8,Confidential
+Individual Taxpayer Identification Numbers (ITIN),Individual Taxpayer Identification Numbers (ITIN),"^9\d{2}(?:[ \-]?)[7,8]\d(?:[ \-]?)\d{4}$",4,Confidential
+John the Ripper,John the Ripper,"[J,j]ohn\ [T,t]he\ [R,r]ipper|john-[1-9].[1-9].[1-9]|Many\ salts:|Only\ one\ salt:|openwall.com/john/|List.External:[0-9a-zA-Z]*|Loaded\ [0-9]*\ password hash|guesses:\ \d*\ \ time:\ \d*:\d{2}:\d{2}:\d{2}|john\.pot",1,Confidential
+KeePass 1.x CSV Passwords,KeePass 1.x CSV Passwords,"""Account"",""Login Name"",""Password"",""Web Site"",""Comments""",8,Confidential
+KeePass 1.x XML Passwords,KeePass 1.x XML Passwords,<pwlist>\s*?<pwentry>[\S\s]*?<password>[\S\s]*?<\/pwentry>\s*?<\/pwlist>,8,Confidential
+Large number of US Phone Numbers,Large number of US Phone Numbers,\d{3}-\d{3}-\d{4}|\(\d{3}\)\ ?\d{3}-?\d{4},1,Confidential
+Large number of US Zip Codes,Large number of US Zip Codes,^(\d{5}-\d{4}|\d{5})$,3,Confidential
+Lightweight Directory Access Protocol,Lightweight Directory Access Protocol,"(?:dn|cn|dc|sn):\s*[a-zA-Z0-9=, ]*",2,Confidential
+Metasploit Module,Metasploit Module,require\ 'msf/core'|class\ Metasploit|include\ Msf::Exploit::\w+::\w+,6,Confidential
+MySQL database dump,MySQL database dump,"DROP DATABASE IF EXISTS(?:.|\n){5,300}CREATE DATABASE(?:.|\n){5,300}DROP TABLE IF EXISTS(?:.|\n){5,300}CREATE TABLE",7,Confidential
+MySQLite database dump,MySQLite database dump,DROP\ TABLE\ IF\ EXISTS\ \[[a-zA-Z]*\];|CREATE\ TABLE\ \[[a-zA-Z]*\];,7,Confidential
+Network Proxy Auto-Config,Network Proxy Auto-Config,"proxy\.pac|function\ FindProxyForURL\(\w+,\ \w+\)",3,Confidential
+Nmap Scan Report,Nmap Scan Report,Nmap\ scan\ report\ for\ [a-zA-Z0-9.]+,7,Confidential
+PGP Header,PGP Header,-{5}(?:BEGIN|END)\ PGP\ MESSAGE-{5},5,Confidential
+PGP Private Key Block,PGP Private Key Block,-----BEGIN PGP PRIVATE KEY BLOCK-----(?:.|\s)+?-----END PGP PRIVATE KEY BLOCK-----,8,Confidential
+PKCS7 Encrypted Data,PKCS7 Encrypted Data,(?:Signer|Recipient)Info(?:s)?\ ::=\ \w+|[D|d]igest(?:Encryption)?Algorithm|EncryptedKey\ ::= \w+,5,Confidential
+Password etc passwd,Password etc passwd,"[a-zA-Z0-9\-]+:[x|\*]:\d+:\d+:[a-zA-Z0-9/\- ""]*:/[a-zA-Z0-9/\-]*:/[a-zA-Z0-9/\-]+",8,Confidential
+Password etc shadow,Password etc shadow,[a-zA-Z0-9\-]+:(?:(?:!!?)|(?:\*LOCK\*?)|\*|(?:\*LCK\*?)|(?:\$.*\$.*\$.*?)?):\d*:\d*:\d*:\d*:\d*:\d*:,8,Confidential
+PlainText Private Key,PlainText Private Key,-----BEGIN PRIVATE KEY-----(?:.|\s)+?-----END PRIVATE KEY-----,8,Confidential
+PuTTY SSH DSA Key,PuTTY SSH DSA Key,PuTTY-User-Key-File-2: ssh-dss\s*Encryption: none(?:.|\s?)*?Private-MAC:,8,Confidential
+PuTTY SSH RSA Key,PuTTY SSH RSA Key,PuTTY-User-Key-File-2: ssh-rsa\s*Encryption: none(?:.|\s?)*?Private-MAC:,8,Confidential
+Public Key Cryptography System (PKCS),Public Key Cryptography System (PKCS),"protocol=""application/x-pkcs[0-9]{0,2}-signature""",3,Confidential
+Public encrypted key,Public encrypted key,-----BEGIN PUBLIC KEY-----(?:.|\s)+?-----END PUBLIC KEY-----,1,Confidential
+RSA Private Key,RSA Private Key,"-----BEGIN RSA PRIVATE KEY-----(?:[a-zA-Z0-9\+\=\/""']|\s)+?-----END RSA PRIVATE KEY-----",8,Confidential
+SSL Certificate,SSL Certificate,-----BEGIN CERTIFICATE-----(?:.|\n)+?\s-----END CERTIFICATE-----,3,Confidential
+SWIFT Codes,SWIFT Codes,"[A-Za-z]{4}(?:GB|US|DE|RU|CA|JP|CN)[0-9a-zA-Z]{2,5}$",4,PII
+Samba Password config file,Samba Password config file,[a-z]*:\d{3}:[0-9a-zA-Z]*:[0-9a-zA-Z]*:\[U\ \]:.*,7,Confidential
+Simple Network Management Protocol Object Identifier,Simple Network Management Protocol Object Identifier,(?:\d\.\d\.\d\.\d\.\d\.\d{3}\.\d\.\d\.\d\.\d\.\d\.\d\.\d\.\d\.\d{4}\.\d)|[a-zA-Z]+[)(0-9]+\.[a-zA-Z]+[)(0-9]+\.[a-zA-Z]+[)(0-9]+\.[a-zA-Z]+[)(0-9]+\.[a-zA-Z]+[)(0-9]+\.[a-zA-Z]+[)(0-9]+\.[a-zA-Z0-9)(]+\.[a-zA-Z0-9)(]+\.[a-zA-Z0-9)(]+\.[a-zA-Z0-9)(]+,5,Confidential
+Slack 2FA Backup Codes,Slack 2FA Backup Codes,Two-Factor\s*\S*Authentication\s*\S*Backup\s*\S*Codes(?:.|\n)*[Ss]lack(?:.|\n)*\d{9},8,Confidential
+UK Drivers License Numbers,UK Drivers License Numbers,[A-Z]{5}\d{6}[A-Z]{2}\d{1}[A-Z]{2},4,PII
+UK Passport Number,UK Passport Number,\d{10}GB[RP]\d{7}[UMF]{1}\d{9},1,PII
+USBank Routing Numbers - California,USBank Routing Numbers - California,^12(?:1122676|2235821)$,1,PII
+United Bank Routing Number - California,United Bank Routing Number - California,^122243350$,1,PII
+Wells Fargo Routing Numbers - California,Wells Fargo Routing Numbers - California,^121042882$,1,PII
+aws_access_key,aws_access_key,"((access[-_]?key[-_]?id)|(ACCESS[-_]?KEY[-_]?ID)|([Aa]ccessKeyId)|(access[_-]?id)).{0,20}AKIA[a-zA-Z0-9+/]{16}[^a-zA-Z0-9+/]",3,Confidential
+aws_credentials_context,aws_credentials_context,access_key_id|secret_access_key|AssetSync.configure,3,Confidential
+aws_secret_key,aws_secret_key,"((secret[-_]?access[-_]?key)|(SECRET[-_]?ACCESS[-_]?KEY|(private[-_]?key))|([Ss]ecretAccessKey)).{0,20}[^a-zA-Z0-9+/][a-zA-Z0-9+/]{40}\b",10,Confidential
+facebook_secret,facebook_secret,"(facebook_secret|FACEBOOK_SECRET|facebook_app_secret|FACEBOOK_APP_SECRET)[a-z_ =\s""'\:]{0,5}[^a-zA-Z0-9][a-f0-9]{32}[^a-zA-Z0-9]",8,Confidential
+github_key,github_key,"(GITHUB_SECRET|GITHUB_KEY|github_secret|github_key|github_token|GITHUB_TOKEN|github_api_key|GITHUB_API_KEY)[a-z_ =\s""'\:]{0,10}[^a-zA-Z0-9][a-zA-Z0-9]{40}[^a-zA-Z0-9]",8,Confidential
+google_two_factor_backup,google_two_factor_backup,"(?:BACKUP VERIFICATION CODES|SAVE YOUR BACKUP CODES)[\s\S]{0,300}@",8,Confidential
+heroku_key,heroku_key,"(heroku_api_key|HEROKU_API_KEY|heroku_secret|HEROKU_SECRET)[a-z_ =\s""'\:]{0,10}[^a-zA-Z0-9-]\w{8}(?:-\w{4}){3}-\w{12}[^a-zA-Z0-9\-]",7,Confidential
+microsoft_office_365_oauth_context,microsoft_office_365_oauth_context,https://login.microsoftonline.com/common/oauth2/v2.0/token|https://login.windows.net/common/oauth2/token,1,Confidential
+pgSQL Connection Information,pgSQL Connection Information,(?:postgres|pgsql)\:\/\/,2,Confidential
+slack_api_key,slack_api_key,"(slack_api_key|SLACK_API_KEY|slack_key|SLACK_KEY)[a-z_ =\s""'\:]{0,10}[^a-f0-9][a-f0-9]{32}[^a-f0-9]",7,Confidential
+slack_api_token,slack_api_token,"(xox[pb](?:-[a-zA-Z0-9]+){4,})",8,Confidential
+ssh_dss_public,ssh_dss_public,ssh-dss [0-9A-Za-z+/]+[=]{2},1,Confidential
+ssh_rsa_public,ssh_rsa_public,"ssh-rsa AAAA[0-9A-Za-z+/]+[=]{0,3} [^@]+@[^@]+",1,Confidential

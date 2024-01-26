@@ -2823,14 +2823,14 @@ patterns:
       name: Generic - 1706
       regex: "ssh-rsa"
       confidence: informative
-  - pattern:
-      name: Generic - 1707
-      regex: ""
-      confidence: informative
-  - pattern:
-      name: Generic - 1706
-      regex: "[a-z0-9.-]+\\.s3\\.amazonaws\\.com"
-      confidence: informative
+#  - pattern:
+#      name: Generic - 1707
+#      regex: ""
+#      confidence: informative
+#  - pattern:
+#      name: Generic - 1706
+#      regex: "c"
+#      confidence: informative
   - pattern:
       name: Generic - 1707
       regex: "[a-z0-9.-]+\\.s3-[a-z0-9-]\\.amazonaws\\.com"

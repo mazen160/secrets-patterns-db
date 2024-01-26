@@ -45,7 +45,7 @@ patterns:
       confidence: high
   - pattern:
       name: Front
-      regex: "(?i)(?:front).{0,40}\\b([0-9a-zA-Z]{36}.[0-9a-zA-Z\\.\\-\\_]{188,244})\\b"
+      regex: '(?:front).{0,40}\\b([0-9a-zA-Z]{36}.[\w\.\-_\\]{188,244})\\b'
       confidence: high
   - pattern:
       name: Plivo - 1
@@ -149,7 +149,7 @@ patterns:
       confidence: high
   - pattern:
       name: Swiftype
-      regex: "(?i)(?:swiftype).{0,40}\\b([a-zA-z-0-9]{6}\\_[a-zA-z-0-9]{6}\\-[a-zA-z-0-9]{6})\\b"
+      regex: "(?i)(?:swiftype).{0,40}\\b([a-zA-z-0-9]{6}[\\][_][a-zA-z-0-9]{6}\\-[a-zA-z-0-9]{6})\\b"
       confidence: high
   - pattern:
       name: Rocketreach
@@ -369,7 +369,7 @@ patterns:
       confidence: high
   - pattern:
       name: Hiveage
-      regex: "(?i)(?:hiveage).{0,40}\\b([0-9A-Za-z\\_\\-]{20})\\b"
+      regex: "(?i)(?:hiveage).{0,40}\\b([0-9a-zA-Z\\-_]{20})\\b"
       confidence: high
   - pattern:
       name: Upcdatabase
@@ -517,11 +517,11 @@ patterns:
       confidence: high
   - pattern:
       name: Dropbox
-      regex: "\\b(sl\\.[A-Za-z0-9\\-\\_]{130,140})\\b"
+      regex: "\\b(sl\\.[A-Za-z0-9\\-_]{130,140})\\b"
       confidence: high
   - pattern:
       name: Pandascore
-      regex: "(?i)(?:pandascore).{0,40}([ \\r\\n]{0,1}[0-9A-Za-z\\-\\_]{51}[ \\r\\n]{1})"
+      regex: "(?i)(?:pandascore).{0,40}([ \\r\\n]{0,1}[0-9A-Za-z\\-_]{51}[ \\r\\n]{1})"
       confidence: high
   - pattern:
       name: Chatfule
@@ -657,7 +657,7 @@ patterns:
       confidence: high
   - pattern:
       name: Apify
-      regex: "\\b(apify\\_api\\_[a-zA-Z-0-9]{36})\\b"
+      regex: "\\b(apify[\\][_]api[\\][_][a-zA-Z-0-9]{36})\\b"
       confidence: high
   - pattern:
       name: Baseapiio
@@ -769,7 +769,7 @@ patterns:
       confidence: high
   - pattern:
       name: Dfuse
-      regex: "\\b(web\\_[0-9a-z]{32})\\b"
+      regex: "\\b(web[\\][_][0-9a-z]{32})\\b"
       confidence: high
   - pattern:
       name: Hubspotapikey
@@ -1209,7 +1209,7 @@ patterns:
       confidence: high
   - pattern:
       name: Paystack
-      regex: "\\b(sk\\_[a-z]{1,}\\_[A-Za-z0-9]{40})\\b"
+      regex: "\\b(sk[\\][_][a-z]{1,}[\\][_][A-Za-z0-9]{40})\\b"
       confidence: high
   - pattern:
       name: Groovehq
@@ -1505,7 +1505,7 @@ patterns:
       confidence: high
   - pattern:
       name: Gocardless
-      regex: "\\b(live_[0-9A-Za-z\\_\\-]{40}[ \"'\\r\\n]{1})"
+      regex: "\\b(live_[0-9A-Za-z\\-_]{40}[ \"'\\r\\n]{1})"
       confidence: high
   - pattern:
       name: Karmacrm
@@ -1853,7 +1853,7 @@ patterns:
       confidence: high
   - pattern:
       name: Livestorm
-      regex: "(?i)(?:livestorm).{0,40}\\b(eyJhbGciOiJIUzI1NiJ9\\.eyJhdWQiOiJhcGkubGl2ZXN0b3JtLmNvIiwianRpIjoi[0-9A-Z-a-z]{134}\\.[0-9A-Za-z\\-\\_]{43}[ \\r\\n]{1})"
+      regex: "(?i)(?:livestorm).{0,40}\\b(eyJhbGciOiJIUzI1NiJ9\\.eyJhdWQiOiJhcGkubGl2ZXN0b3JtLmNvIiwianRpIjoi[0-9A-Z-a-z]{134}\\.[0-9A-Za-z\\-_]{43}[ \\r\\n]{1})"
       confidence: high
   - pattern:
       name: Loginradius
@@ -1951,10 +1951,10 @@ patterns:
       name: Rawg
       regex: "(?i)(?:rawg).{0,40}\\b([0-9Aa-z]{32})\\b"
       confidence: high
-  - pattern:
-      name: Mapbox - 1
-      regex: "([a-zA-Z-0-9]{4,32})"
-      confidence: high
+#  - pattern:
+#      name: Mapbox - 1
+#      regex: "([a-zA-Z-0-9]{4,32})"
+#      confidence: high
   - pattern:
       name: Mapbox - 2
       regex: "\\b(sk\\.[a-zA-Z-0-9\\.]{80,240})\\b"
@@ -2053,7 +2053,7 @@ patterns:
       confidence: high
   - pattern:
       name: Courier
-      regex: "(?i)(?:courier).{0,40}\\b(pk\\_[a-zA-Z0-9]{1,}\\_[a-zA-Z0-9]{28})\\b"
+      regex: "(?i)(?:courier).{0,40}\\b(pk[\\][_][a-zA-Z0-9]{1,}[\\][_][a-zA-Z0-9]{28})\\b"
       confidence: high
   - pattern:
       name: Caspio - 1
@@ -2201,11 +2201,11 @@ patterns:
       confidence: high
   - pattern:
       name: Bitmex - 1
-      regex: "(?i)(?:bitmex).{0,40}([ \\r\\n]{1}[0-9a-zA-Z\\-\\_]{24}[ \\r\\n]{1})"
+      regex: "(?i)(?:bitmex).{0,40}([ \\r\\n]{1}[0-9a-zA-Z\\-_]{24}[ \\r\\n]{1})"
       confidence: high
   - pattern:
       name: Bitmex - 2
-      regex: "(?i)(?:bitmex).{0,40}([ \\r\\n]{1}[0-9a-zA-Z\\-\\_]{48}[ \\r\\n]{1})"
+      regex: "(?i)(?:bitmex).{0,40}([ \\r\\n]{1}[0-9a-zA-Z\\-_]{48}[ \\r\\n]{1})"
       confidence: high
   - pattern:
       name: Clinchpad
@@ -2525,7 +2525,7 @@ patterns:
       confidence: high
   - pattern:
       name: Tallyfy
-      regex: "(?i)(?:tallyfy).{0,40}\\b([0-9A-Za-z]{36}\\.[0-9A-Za-z]{264}\\.[0-9A-Za-z\\-\\_]{683})\\b"
+      regex: "(?i)(?:tallyfy).{0,40}\\b([0-9A-Za-z]{36}\\.[0-9A-Za-z]{264}\\.[0-9A-Za-z\\-_]{683})\\b"
       confidence: high
   - pattern:
       name: Facebookoauth
@@ -2817,7 +2817,7 @@ patterns:
       confidence: high
   - pattern:
       name: Adafruitio
-      regex: "\\b(aio\\_[a-zA-Z0-9]{28})\\b"
+      regex: "\\b(aio[\\][_][a-zA-Z0-9]{28})\\b"
       confidence: high
   - pattern:
       name: Cloudflareapitoken
@@ -2965,7 +2965,7 @@ patterns:
       confidence: high
   - pattern:
       name: Jdbc
-      regex: "(?i)jdbc:[\\w]{3,10}:\\/\\/\\w[\\s\\S]{0,512}?password[=: \\\"']+(?P<pass>[^<{($]*?)[ \\s'\\\"]+"
+      regex: "(?i)jdbc:[\\w]{3,10}:\\/\\/\\w[\\s\\S]{0,512}?password[=: \\\"']+(<pass>[^<{($]*?)[ \\s'\\\"]+"
       confidence: high
   - pattern:
       name: Oopspam
@@ -3129,10 +3129,10 @@ patterns:
       confidence: high
   - pattern:
       name: Hypertrack - 1
-      regex: "(?i)(?:hypertrack).{0,40}\\b([0-9a-zA-Z\\_\\-]{54})\\b"
+      regex: "(?i)(?:hypertrack).{0,40}\\b([0-9a-zA-Z\\-_]{54})\\b"
       confidence: high
   - pattern:
       name: Hypertrack - 2
-      regex: "(?i)(?:hypertrack).{0,40}\\b([0-9a-zA-Z\\_\\-]{27})\\b"
+      regex: "(?i)(?:hypertrack).{0,40}\\b([0-9a-zA-Z\\-_]{27})\\b"
       confidence: high
 
