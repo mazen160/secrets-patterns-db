@@ -23,9 +23,10 @@ def gitleaks_output(y):
             continue
         s += f"""
 [[rules]]
+    id = '''{i["pattern"]["name"]}'''
     description = '''{i["pattern"]["name"]}'''
     regex = '''{i["pattern"]["regex"]}'''
-    tags = ["secret"]
+    keywords = ["secret"]
 """
     return s
 
