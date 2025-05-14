@@ -54,6 +54,8 @@ Would like to contribute to secrets-patterns-db? Here are some ideas that you ma
 
 This work is licensed under a Creative Commons Attribution 4.0 International License.
 
+Trufflehog data is licensed under the AGPL.
+
 # 💚 Author
 
 **Mazin Ahmed**
