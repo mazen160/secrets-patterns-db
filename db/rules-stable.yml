@@ -1,7 +1,7 @@
 patterns:
   - pattern:
       name: AWS API Gateway
-      regex: '[0-9a-z]+.execute-api.[0-9a-z._-]+.amazonaws.com'
+      regex: "[0-9a-z]+.execute-api.[0-9a-z._-]+.amazonaws.com"
       confidence: low
   - pattern:
       name: AWS API Key
@@ -25,15 +25,15 @@ patterns:
       confidence: low
   - pattern:
       name: AWS EC2 Internal
-      regex: '[0-9a-z._-]+.compute(-1)?.internal'
+      regex: "[0-9a-z._-]+.compute(-1)?.internal"
       confidence: low
   - pattern:
       name: AWS ELB
-      regex: '[0-9a-z._-]+.elb.amazonaws.com'
+      regex: "[0-9a-z._-]+.elb.amazonaws.com"
       confidence: low
   - pattern:
       name: AWS ElasticCache
-      regex: '[0-9a-z._-]+.cache.amazonaws.com'
+      regex: "[0-9a-z._-]+.cache.amazonaws.com"
       confidence: low
   - pattern:
       name: AWS MWS ID
@@ -45,7 +45,7 @@ patterns:
       confidence: high
   - pattern:
       name: AWS RDS
-      regex: '[0-9a-z._-]+.rds.amazonaws.com'
+      regex: "[0-9a-z._-]+.rds.amazonaws.com"
       confidence: high
   - pattern:
       name: AWS S3 Bucket
@@ -289,7 +289,7 @@ patterns:
       confidence: high
   - pattern:
       name: Asymmetric Private Key
-      regex: '-----BEGIN ((EC|PGP|DSA|RSA|OPENSSH) )?PRIVATE KEY( BLOCK)?-----'
+      regex: "-----BEGIN ((EC|PGP|DSA|RSA|OPENSSH) )?PRIVATE KEY( BLOCK)?-----"
       confidence: high
   - pattern:
       name: Audd
@@ -945,7 +945,7 @@ patterns:
       confidence: high
   - pattern:
       name: EC
-      regex: '-----BEGIN EC PRIVATE KEY-----'
+      regex: "-----BEGIN EC PRIVATE KEY-----"
       confidence: high
   - pattern:
       name: Eagleeyenetworks - 1
@@ -1149,7 +1149,8 @@ patterns:
       confidence: high
   - pattern:
       name: Formio
-      regex: (?:formio).{0,40}\b(eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\.[0-9A-Za-z]{310}\.[0-9A-Z-a-z\-_]{43}[
+      regex:
+        (?:formio).{0,40}\b(eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\.[0-9A-Za-z]{310}\.[0-9A-Z-a-z\-_]{43}[
         \r\n]{1})
       confidence: high
   - pattern:
@@ -1574,7 +1575,8 @@ patterns:
       confidence: low
   - pattern:
       name: Githubapp - 2
-      regex: (?:github).{0,40}(-----BEGIN RSA PRIVATE KEY-----\s[A-Za-z0-9+\/\s]*\s-----END
+      regex:
+        (?:github).{0,40}(-----BEGIN RSA PRIVATE KEY-----\s[A-Za-z0-9+\/\s]*\s-----END
         RSA PRIVATE KEY-----)
       confidence: high
   - pattern:
@@ -1939,7 +1941,8 @@ patterns:
       confidence: high
   - pattern:
       name: Livestorm
-      regex: (?:livestorm).{0,40}\b(eyJhbGciOiJIUzI1NiJ9\.eyJhdWQiOiJhcGkubGl2ZXN0b3JtLmNvIiwianRpIjoi[0-9A-Z-a-z]{134}\.[0-9A-Za-z\-\_]{43}[
+      regex:
+        (?:livestorm).{0,40}\b(eyJhbGciOiJIUzI1NiJ9\.eyJhdWQiOiJhcGkubGl2ZXN0b3JtLmNvIiwianRpIjoi[0-9A-Z-a-z]{134}\.[0-9A-Za-z\-\_]{43}[
         \r\n]{1})
       confidence: high
   - pattern:
@@ -1984,7 +1987,7 @@ patterns:
       confidence: high
   - pattern:
       name: MailChimp API Key
-      regex: '[0-9a-f]{32}-us[0-9]{1,2}'
+      regex: "[0-9a-f]{32}-us[0-9]{1,2}"
       confidence: high
   - pattern:
       name: Mailboxlayer
@@ -2328,7 +2331,7 @@ patterns:
       confidence: high
   - pattern:
       name: PGP private key block
-      regex: '-----BEGIN PGP PRIVATE KEY BLOCK-----'
+      regex: "-----BEGIN PGP PRIVATE KEY BLOCK-----"
       confidence: high
   - pattern:
       name: Pagerdutyapikey
@@ -2488,7 +2491,8 @@ patterns:
       confidence: high
   - pattern:
       name: Privatekey
-      regex: '-----\s*?BEGIN[ A-Z0-9_-]*?PRIVATE KEY\s*?-----[\s\S]*?----\s*?END[
+      regex:
+        '-----\s*?BEGIN[ A-Z0-9_-]*?PRIVATE KEY\s*?-----[\s\S]*?----\s*?END[
         A-Z0-9_-]*? PRIVATE KEY\s*?-----'
       confidence: high
   - pattern:
@@ -2557,11 +2561,11 @@ patterns:
       confidence: low
   - pattern:
       name: RKCS8
-      regex: '-----BEGIN PRIVATE KEY-----'
+      regex: "-----BEGIN PRIVATE KEY-----"
       confidence: high
   - pattern:
       name: RSA private key
-      regex: '-----BEGIN RSA PRIVATE KEY-----'
+      regex: "-----BEGIN RSA PRIVATE KEY-----"
       confidence: high
   - pattern:
       name: Rapidapi
@@ -2685,11 +2689,11 @@ patterns:
       confidence: high
   - pattern:
       name: SSH
-      regex: '-----BEGIN OPENSSH PRIVATE KEY-----'
+      regex: "-----BEGIN OPENSSH PRIVATE KEY-----"
       confidence: high
   - pattern:
       name: SSH (DSA) private key
-      regex: '-----BEGIN DSA PRIVATE KEY-----'
+      regex: "-----BEGIN DSA PRIVATE KEY-----"
       confidence: high
   - pattern:
       name: Salesblink
@@ -3093,7 +3097,7 @@ patterns:
       confidence: high
   - pattern:
       name: Stripe
-      regex: '[rs]k_live_[a-zA-Z0-9]{20,30}'
+      regex: "[rs]k_live_[a-zA-Z0-9]{20,30}"
       confidence: high
   - pattern:
       name: Stripe API Key - 1
@@ -3353,7 +3357,7 @@ patterns:
       confidence: high
   - pattern:
       name: Twitter Access Token
-      regex: '[tT][wW][iI][tT][tT][eE][rR].*[1-9][0-9]+-[0-9a-zA-Z]{40}'
+      regex: "[tT][wW][iI][tT][tT][eE][rR].*[1-9][0-9]+-[0-9a-zA-Z]{40}"
       confidence: low
   - pattern:
       name: Twitter Client ID
@@ -4645,7 +4649,7 @@ patterns:
       confidence: low
   - pattern:
       name: github_access_token - 2
-      regex: '[a-zA-Z0-9_-]*:[a-zA-Z0-9_-]+@github.com*'
+      regex: "[a-zA-Z0-9_-]*:[a-zA-Z0-9_-]+@github.com*"
       confidence: low
   - pattern:
       name: github_api_key
@@ -4893,7 +4897,7 @@ patterns:
       confidence: low
   - pattern:
       name: jdbc
-      regex: 'mysql: jdbc:mysql(=| =|:| :)'
+      regex: "mysql: jdbc:mysql(=| =|:| :)"
       confidence: low
   - pattern:
       name: jdbc_databaseurl
@@ -5501,7 +5505,7 @@ patterns:
       confidence: low
   - pattern:
       name: private_key
-      regex: '-----(?:(?:BEGIN|END) )(?:(?:EC|PGP|DSA|RSA|OPENSSH).)?PRIVATE.KEY(.BLOCK)?-----'
+      regex: "-----(?:(?:BEGIN|END) )(?:(?:EC|PGP|DSA|RSA|OPENSSH).)?PRIVATE.KEY(.BLOCK)?-----"
       confidence: low
   - pattern:
       name: private_signing_password
@@ -6439,3 +6443,7 @@ patterns:
       name: zopim_account_key
       regex: zopim[_-]?account[_-]?key(=| =|:| :)
       confidence: low
+  - pattern:
+      name: docker_registry_auth
+      regex: auth":.*"(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{4}|[A-Za-z0-9+\/]{3}=|[A-Za-z0-9+\/]{2}={2})
+      confidence: high
