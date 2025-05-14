@@ -2793,7 +2793,7 @@ patterns:
       confidence: high
   - pattern:
       name: SendGrid API Key
-      regex: SG\.[\w_]{16,32}\.[\w_]{16,64}
+      regex: SG\.[\w\-_]{20,24}\.[\w\-_]{39,50}
       confidence: high
   - pattern:
       name: Sendbird - 1
@@ -2809,7 +2809,7 @@ patterns:
       confidence: high
   - pattern:
       name: Sendgrid
-      regex: (?:sendgrid).{0,40}(SG\.[\w\-_]{20,24}\.[\w\-_]{39,50})\b
+      regex: (SG\.[\w\-_]{20,24}\.[\w\-_]{39,50})\b
       confidence: high
   - pattern:
       name: Sendinbluev2
