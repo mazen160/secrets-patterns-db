@@ -16,10 +16,6 @@ patterns:
       regex: (A3T[A-Z0-9]|AKIA|AGPA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{16}
       confidence: high
   - pattern:
-      name: AWS Secret Key ID Value
-      regex: (?<![A-Za-z0-9/+=])[A-Za-z0-9/+=]{40}(?![A-Za-z0-9/+=])
-      confidence: high
-  - pattern:
       name: AWS AppSync GraphQL Key
       regex: da2-[a-z0-9]{26}
       confidence: high
