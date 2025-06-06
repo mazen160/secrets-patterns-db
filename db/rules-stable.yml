@@ -2957,7 +2957,7 @@ patterns:
       confidence: high
   - pattern:
       name: Slack
-      regex: xox[baprs]-[0-9a-zA-Z]{10,48}
+      regex: xox[baprs]-[0-9a-zA-Z-]{10,72}
       confidence: high
   - pattern:
       name: Slack Token
