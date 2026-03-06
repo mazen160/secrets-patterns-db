@@ -1,0 +1,2153 @@
+field,prob
+input stripe token,0.95
+credentialsinput,0.95
+context,0.05
+totp_code_field,0.95
+field totp code,0.95
+bank-account[routing-number]-input,0.90
+security_token_input,0.95
+last four ssn,0.95
+authtokenfield,0.95
+receiverstatecode,0.15
+address2,0.80
+otp,0.90
+2fa_pin_field,0.90
+cc-num,0.95
+totp-pin-field,0.95
+input,0.00
+security_pin_input,0.90
+fieldpassword1,0.95
+input bank account[routing number],0.90
+raw-input,0.00
+api_key_field,0.95
+ csrf input,0.30
+house number,0.10
+salt_input,0.85
+referraltoken,0.40
+newpasswordinput,0.95
+field password confirm,0.95
+input routing acc number,0.90
+referrer,0.10
+input_card[cvv],0.95
+fieldssn,0.95
+card_number_last_four,0.85
+credentials-input,0.95
+input password confirm,0.95
+referrerslastname,0.70
+field-csrf,0.30
+input-account-number,0.70
+credit_card_num,0.95
+bank_account_number,0.90
+account bank number input,0.85
+token,0.80
+routingnumberinput,0.85
+bankacc[routingnum]field,0.85
+bankacc[routingnum],0.85
+-csrf-token,0.30
+field-password1,0.95
+repeat,0.05
+field-auth-token,0.95
+certinput,0.75
+totp-pin,0.90
+fieldcert,0.75
+account_routing_number,0.85
+input_social_security_num,0.95
+field_password2,0.95
+authenticity-token,0.80
+cc_number_input,0.95
+input-ssn,0.95
+client secret,0.95
+input card num,0.90
+field two factor token,0.90
+access token input,0.90
+country code,0.10
+phone,0.75
+field-creds,0.90
+totp-pin-input,0.90
+input-cert,0.75
+card number last4,0.85
+inputroutingaccountnumber,0.85
+routing_acc,0.75
+avatar,0.05
+json,0.00
+funding-source-id,0.15
+field-routing-number,0.85
+passwd-confirm-field,0.95
+card_cvv,0.95
+input totp token,0.90
+secretfield,0.90
+2fa_token_input,0.90
+input two factor token,0.90
+inputcardnum,0.90
+sender_id,0.15
+input_mysql_pwd,0.95
+field-bank-account[routing-number],0.90
+input_creds,0.90
+routingaccinput,0.85
+input cc num,0.95
+emaildomain,0.15
+acc[routing,0.70
+credit_card_number_field,0.95
+totp_token_input,0.90
+field_two_factor_code,0.90
+input_confirm_password,0.95
+memberquestionredacted,0.40
+field-certificate,0.75
+fieldbankacc[routingnumber],0.85
+expiration,0.15
+ssn,0.95
+issuer-certificate,0.75
+input bank acc num,0.85
+field__csrf,0.30
+field-passwd-confirm,0.95
+social-security-num,0.95
+2fa_token_field,0.90
+sender_address,0.70
+sender-address,0.70
+routing-acc-num-input,0.85
+bankaccnumberfield,0.85
+otp input,0.90
+fieldcardnumber,0.90
+pin-code,0.85
+twofactorcodefield,0.90
+acc-number,0.65
+stripe_token_field,0.90
+security code field,0.90
+phone_number,0.75
+bank account number input,0.90
+field_otp,0.90
+totptoken,0.90
+pwdinput,0.95
+issuer_certificate_input,0.75
+privatekey,0.95
+social-security-number-input,0.95
+cc_num_field,0.95
+input_bank_acc[routing_number],0.85
+cvc-number,0.90
+field-totp-token,0.90
+input_totp_pin,0.90
+receiverdevicecontactname,0.30
+two_factor_pin,0.90
+issuercertificatefield,0.75
+api-token-field,0.90
+compensation,0.30
+csrfinput,0.30
+field card cvv,0.95
+inputaccnumber,0.70
+field-cc-number,0.95
+oldpassword,0.95
+fieldotpcode,0.90
+input cc number,0.95
+input-api-token,0.90
+debit_card,0.80
+input-routing-account-number,0.85
+inputraw,0.00
+otp_pin_input,0.90
+bank acc,0.65
+api-token-input,0.90
+input-access-token,0.90
+card-num,0.85
+field_credentials,0.90
+field two factor pin,0.90
+account-number-input,0.70
+cardnuminput,0.90
+two_factor_code_input,0.90
+input_cc_num,0.95
+field account routing number,0.85
+middlename,0.70
+bankaccountnumfield,0.85
+credit-card-num-field,0.95
+2fa token field,0.90
+line2,0.05
+cc-num-input,0.95
+type,0.00
+fieldtotptoken,0.90
+credit,0.25
+credit card field,0.90
+input two factor code,0.90
+fieldtwofactorcode,0.90
+newpasswordfield,0.95
+cc_num,0.95
+bankaccfield,0.70
+bank account[routing number] field,0.85
+resetpasswordtoken,0.80
+user token,0.80
+account bank number field,0.85
+bankaccnumber,0.85
+input-otp-token,0.90
+field-bank-acc-number,0.85
+matches_ssn_digest,0.90
+member_question,0.20
+field_totp_pin,0.90
+referral url,0.10
+idtoken,0.80
+input_two_factor_pin,0.90
+field_otp_token,0.90
+expiry_date,0.15
+client,0.10
+input card[num],0.90
+routing-acc,0.75
+stripe,0.20
+contract,0.10
+auth_token_input,0.90
+link,0.00
+response,0.00
+resetpassword,0.80
+input2fa,0.90
+inputbankacc[routingnumber],0.85
+2fapininput,0.90
+api secret,0.95
+input_card_num,0.90
+cc number input,0.95
+otp_token_input,0.90
+fieldrepeatpassword,0.90
+country,0.05
+rate,0.00
+cvv_number,0.95
+contract id,0.10
+input token,0.80
+field_bank_acc[routing_num],0.85
+email domain,0.15
+confirm passwd field,0.95
+field_confirm_password,0.95
+input-bank-acc-num,0.85
+acc_number_field,0.70
+password1,0.95
+inputcardcvv,0.95
+field_credit_card_number,0.95
+salt-field,0.85
+confirm-password,0.90
+stripe token,0.90
+passwdconfirminput,0.95
+creditcardnumber,0.95
+input_security_code,0.90
+pwd input,0.95
+value,0.00
+input_credit_card_number,0.95
+field 2fa pin,0.90
+templatelink,0.05
+inputsocialsecuritynum,0.95
+fieldotptoken,0.90
+key,0.30
+city,0.10
+otp pin field,0.90
+email,0.75
+format,0.00
+set-cookie,0.40
+inputcvv,0.95
+sender-zip-code,0.40
+field_card_number,0.90
+cc-number-input,0.95
+password_confirm,0.95
+input_password,0.95
+input bank acc[routing number],0.85
+field stripe token,0.90
+rawfield,0.00
+csrf field,0.30
+acc number,0.65
+routing_acc_input,0.85
+pay,0.05
+authenticity_token,0.80
+card-cvv,0.95
+input security pin,0.90
+security_pin_field,0.90
+routingnumber,0.85
+field2fa,0.90
+input-pwd,0.95
+input bank account num,0.85
+passwordconfirmfield,0.95
+bin,0.15
+sender ip address,0.60
+input-totp-pin,0.90
+api,0.10
+2fa_field,0.90
+ csrf,0.30
+api_key_input,0.95
+private-key,0.95
+fieldcard[num],0.90
+fieldbankaccountnumber,0.85
+account-bank-number-input,0.85
+version,0.00
+api-key,0.95
+field-card[num],0.90
+key input,0.65
+confirmpasswordinput,0.95
+passcode,0.90
+card last 4,0.85
+cc number field,0.95
+field_bank_account_num,0.85
+given,0.05
+field routing acc,0.85
+field-password2,0.95
+repeatpasswordfield,0.90
+referral_token,0.40
+input_key,0.60
+account_number,0.70
+otp pin,0.90
+routing-acc-number-field,0.85
+receiver-identifier,0.30
+card[cvv]input,0.95
+2fatokeninput,0.90
+otp-code,0.90
+field_card_cvv,0.95
+debit-card,0.80
+referrersavatarurl,0.15
+card_number_input,0.90
+groupid,0.05
+otptokeninput,0.90
+input_passwd_confirm,0.95
+response json,0.00
+bankaccountnumberinput,0.85
+raw field,0.00
+passw,0.90
+secretinput,0.90
+totp field,0.90
+input_access_token,0.90
+authenticitytoken,0.80
+encrypted-password,0.95
+bank-acc-number-input,0.85
+bank-account[routing-number],0.85
+apitokenfield,0.90
+cc,0.60
+field bank acc number,0.85
+field-card[number],0.90
+bank_acc_field,0.70
+template_link,0.05
+input-passwd-confirm,0.95
+input-old-password,0.95
+webhook,0.10
+ccnuminput,0.95
+bankacc[routingnum]input,0.85
+pwd-input,0.95
+first name,0.70
+response array,0.00
+encrypted,0.50
+totp token input,0.90
+2fa pin input,0.90
+field-bank-acc[routing-number],0.85
+security-pin,0.90
+twofactorpinfield,0.90
+input-bank-acc-number,0.85
+line1,0.05
+inputpassword2,0.95
+contacts,0.10
+fieldbankaccnum,0.85
+cvcnumber,0.90
+inputtotptoken,0.90
+account bank number,0.85
+csrf-field,0.30
+stripe-token,0.90
+passwdconfirmfield,0.95
+field bank acc[routing number],0.85
+mysql-pwd-field,0.95
+private_key,0.95
+fieldcard[number],0.90
+feature_store,0.05
+social security number,0.95
+segment,0.05
+password2-input,0.95
+field-card-number,0.90
+ key,0.30
+repeatpassword,0.90
+inputcardnumber,0.90
+input 2fa pin,0.90
+field_2fa_code,0.90
+routingaccountnumberinput,0.85
+input password1,0.95
+account number,0.70
+input_2fa_code,0.90
+merchant,0.10
+input-password1,0.95
+auth token field,0.90
+pan-bin,0.60
+raw_webhook_response,0.15
+two-factor-code-input,0.90
+otp-token,0.90
+referrers-avatar-url,0.15
+2fa_pin_input,0.90
+credit_card_num_input,0.95
+inputrepeatpassword,0.90
+field secret,0.90
+bank_account[routing_number]_field,0.85
+postal,0.10
+confirm_passwd,0.90
+field_security_code,0.90
+bankacc[routingnumber]field,0.85
+country-code,0.10
+field_card[cvv],0.95
+private-key-field,0.95
+postal_code,0.10
+bank_acc[routing_num]_field,0.85
+field routing acc num,0.85
+bank-acc-input,0.70
+fieldccnum,0.95
+account_number_field,0.70
+stated_income,0.50
+cvv input,0.95
+date_of_birth,0.85
+login,0.40
+inputpasswdconfirm,0.95
+state-code,0.10
+passwd confirm field,0.95
+field otp code,0.90
+inputcreditcardnum,0.95
+input password,0.95
+totp-token-field,0.90
+gross pay amount,0.50
+card number,0.90
+bank account number field,0.90
+old,0.00
+code,0.10
+creds_input,0.90
+rawwebhookresponse,0.15
+api key input,0.95
+totppinfield,0.90
+category,0.00
+otptoken,0.90
+ssn input,0.95
+rule_format,0.00
+input passwd confirm,0.95
+passwd_input,0.95
+receiver address,0.70
+routing_number_field,0.85
+input_bank_acc_num,0.85
+access-token,0.90
+private,0.30
+question,0.05
+input-security-token,0.90
+field cert,0.75
+receiver zip code,0.40
+account number input,0.70
+2fapinfield,0.90
+last-4-ssn,0.90
+accnumberfield,0.70
+field-passwd,0.95
+input_2fa_token,0.90
+input totp code,0.90
+inputoldpassword,0.95
+field_auth_token,0.90
+credit-card-number-field,0.95
+field confirm passwd,0.95
+expiration_date,0.15
+field_2fa,0.90
+repeat-password-input,0.90
+inputroutingacc,0.85
+otp-input,0.90
+social_security_number,0.95
+inputapikey,0.95
+debit,0.30
+house,0.05
+old password input,0.95
+responsejson,0.00
+mysql,0.15
+field_bank_acc_number,0.85
+field_csrf,0.30
+field auth token,0.90
+apitokeninput,0.90
+passwd-field,0.95
+last 4 ssn,0.90
+totp_token_field,0.90
+security,0.30
+card[number]_field,0.90
+field_salt,0.85
+otp-token-input,0.90
+fieldoldpassword,0.95
+input routing account number,0.85
+last,0.05
+mobile,0.20
+routing_account_number_input,0.85
+device_id,0.15
+compensation_amount,0.35
+full-name,0.75
+receiver_state_code,0.15
+challenge,0.15
+x client data,0.20
+pin_input,0.85
+security-code-field,0.90
+access token,0.90
+input two factor pin,0.90
+mysqlpwdfield,0.95
+new password,0.95
+private key input,0.95
+membername,0.30
+social security num field,0.95
+input-social-security-num,0.95
+totp-token-input,0.90
+bank account field,0.75
+salt,0.85
+authtoken,0.90
+last4ssn,0.90
+fieldtwofactortoken,0.90
+group-id,0.05
+field credit card,0.90
+routing-number-input,0.85
+field-access-token,0.90
+key-field,0.60
+input-auth-token,0.90
+password_input,0.95
+security-token,0.90
+bank-account-input,0.75
+pin-input,0.85
+two factor token input,0.90
+key_field,0.60
+uuid,0.10
+bank acc[routing num] input,0.85
+new-password-input,0.95
+field-security-token,0.90
+acc number field,0.70
+member_question_redacted,0.40
+two factor code field,0.90
+field_ssn,0.95
+fieldcreds,0.90
+primary_account_number,0.90
+inputotpcode,0.90
+field_pwd,0.95
+keyinput,0.60
+new_password,0.95
+fundingsourceid,0.15
+inputtotppin,0.90
+password1-field,0.95
+card_last_4,0.85
+contractid,0.10
+input mysql pwd,0.95
+setcookie,0.40
+input_pwd,0.95
+pin,0.85
+property_id,0.05
+zip-code,0.10
+cc_num_input,0.95
+input-otp-code,0.90
+accountbanknumberinput,0.85
+totp_code,0.90
+field repeat password,0.90
+house details,0.10
+routing number input,0.85
+two-factor-token,0.90
+field_bank_acc[routing_number],0.85
+member question redacted,0.40
+input_card[number],0.90
+receiver state code,0.15
+statecode,0.10
+input-2fa-pin,0.90
+referrers-first-name,0.70
+totp-code-input,0.90
+receiver_ip_address,0.55
+csrf-input,0.30
+bankaccountinput,0.75
+pininput,0.85
+fieldaccountroutingnumber,0.85
+password_confirm_field,0.95
+routing_acc_number,0.85
+facetid,0.05
+card_num_input,0.90
+account_bank_number_field,0.85
+last_four,0.50
+password2_input,0.95
+cert,0.70
+mysql-pwd,0.95
+otp code field,0.90
+cert-field,0.70
+bank_account_field,0.75
+ccnumber,0.95
+2fa pin field,0.90
+bank-acc-number-field,0.85
+confirm,0.10
+repeat password field,0.90
+bank account,0.70
+two_factor_code_field,0.90
+field_bank_account,0.75
+reset-password,0.80
+input-csrf,0.30
+stripe-token-input,0.90
+input-routing-acc,0.85
+bank_acc[routing_num]_input,0.85
+password_confirm_input,0.95
+otppinfield,0.90
+rawinput,0.00
+field token,0.80
+field,0.00
+totp-input,0.90
+bank_acc_number,0.80
+confirmpasswdinput,0.95
+check-amount,0.20
+mysql pwd,0.95
+raw input,0.00
+field passwd,0.95
+field-security-code,0.90
+socialsecuritynumberinput,0.95
+card[number] field,0.90
+details,0.00
+totpcodefield,0.90
+social_security_number_field,0.95
+security token,0.90
+otp-pin-field,0.90
+input_ssn,0.95
+social-security-number,0.95
+inputcard[number],0.90
+url,0.00
+expiry,0.15
+creds_field,0.90
+stated income,0.50
+routingaccnumberfield,0.85
+phone-number,0.75
+2fa_token,0.90
+password,0.95
+id-token,0.80
+passwordfield,0.95
+2fa_code,0.90
+input-totp-token,0.90
+field 2fa,0.90
+feedback,0.00
+sender-id,0.15
+field-credit-card,0.90
+fieldroutingaccountnumber,0.85
+identifier,0.15
+twofactortoken,0.90
+security pin,0.90
+middle,0.10
+mysql_pwd_input,0.95
+account_bank_number_input,0.85
+crypt,0.40
+field bank account[routing number],0.85
+input2fatoken,0.90
+pan bin,0.60
+field-card-cvv,0.95
+creds-field,0.90
+cardexpiration,0.50
+field-mysql-pwd,0.95
+fieldsocialsecuritynumber,0.95
+csrf input,0.30
+sender-device-id,0.20
+access_token_input,0.90
+debit card,0.80
+contact,0.10
+private_key_input,0.95
+input_otp_token,0.90
+bank_acc_num_input,0.85
+account routing number,0.85
+field otp,0.90
+2fa input,0.90
+token-input,0.80
+matches,0.00
+id,0.05
+input_routing_account_number,0.85
+field salt,0.85
+lastfourssn,0.90
+field pwd,0.95
+inputaccountroutingnumber,0.85
+field_certificate,0.75
+input social security num,0.95
+inputcard[cvv],0.95
+array,0.00
+confirm_password_input,0.90
+authorization,0.70
+input account number,0.70
+cert input,0.75
+field_old_password,0.95
+routingaccountnumberfield,0.85
+creditcard,0.90
+input otp pin,0.90
+field-otp-token,0.90
+auth-token-field,0.90
+password-confirm,0.95
+secret-input,0.90
+input-password2,0.95
+field2facode,0.90
+cvvfield,0.95
+account[routing,0.70
+credit-card-input,0.90
+routing,0.30
+field-totp-code,0.90
+password2_field,0.95
+set,0.00
+cardnumberfield,0.90
+certificateinput,0.75
+receiver-state-code,0.15
+certificate,0.70
+4,0.00
+stripetoken,0.90
+field api key,0.95
+input2facode,0.90
+cvc_number,0.90
+csrf_input,0.30
+inputprivatekey,0.95
+otp-code-input,0.90
+sendername,0.30
+primaryaccountnumber,0.90
+expiration-date,0.15
+bank-account-num-field,0.85
+input_routing_acc,0.85
+input-2fa-token,0.90
+input-card[cvv],0.95
+password1 field,0.95
+field new password,0.95
+bank acc number field,0.85
+otp pin input,0.90
+input-raw,0.00
+pin-field,0.85
+bankaccountfield,0.75
+ssnfield,0.95
+input-account-bank-number,0.85
+-key,0.25
+passwordconfirm,0.95
+field-two-factor-code,0.90
+two factor code,0.90
+fieldcard[cvv],0.95
+bank acc[routing number] field,0.85
+field social security number,0.95
+secret_input,0.90
+totpfield,0.90
+routing acc number input,0.85
+password2,0.95
+password1_input,0.95
+bank-acc[routing-number],0.85
+2fa_code_field,0.90
+field-token,0.80
+input credit card num,0.95
+bank_account[routing_number]_input,0.85
+field-api-token,0.90
+input-2fa-code,0.90
+field passwd confirm,0.95
+credit-card-field,0.90
+inputcreditcard,0.90
+input credentials,0.90
+sender-name,0.30
+date ofbirth,0.85
+input_api_token,0.90
+pan_last_4,0.70
+field-routing-acc-number,0.85
+field-cvv,0.95
+inputbankaccountnum,0.85
+field_cc_number,0.95
+confirm password input,0.90
+input_cvv,0.95
+user_ip,0.55
+pay friend id,0.10
+routingaccnum,0.85
+input_cert,0.75
+bank acc[routing num],0.80
+email address,0.75
+routingaccnumber,0.85
+input-card[num],0.90
+input_bank_acc,0.70
+user_ip_address,0.55
+field_totp_token,0.90
+passwd input,0.95
+creditcardnumberinput,0.95
+mfa,0.70
+lname,0.65
+input-credit-card-number,0.95
+issuer_certificate,0.75
+ csrf field,0.30
+bank account[routing number],0.85
+field_passwd,0.95
+field-old-password,0.95
+fieldroutingacc,0.85
+securitycodefield,0.90
+employername,0.20
+inputcert,0.75
+two factor token,0.90
+cvv-input,0.95
+property name,0.05
+password-confirm-field,0.95
+inputkey,0.60
+input-bank-acc[routing-num],0.85
+card-num-input,0.90
+field account bank number,0.85
+issuer,0.20
+fieldcreditcardnumber,0.95
+input 2fa,0.90
+device id,0.15
+totp-code,0.90
+creditcardnuminput,0.95
+field-pwd,0.95
+old_password,0.95
+state_code,0.10
+otp-code-field,0.90
+referrers last name,0.70
+credit_card_field,0.90
+old-password-input,0.95
+fieldroutingnumber,0.85
+routingacc,0.80
+-csrf-input,0.30
+input social security number,0.95
+routing acc num input,0.85
+credit card number input,0.95
+token field,0.80
+referrers-last-name,0.70
+field-bank-acc-num,0.85
+input_security_token,0.90
+creditcardnum,0.95
+card num,0.85
+merchant_name,0.10
+bank-acc,0.65
+employer name,0.20
+input cvv,0.95
+sender_device_id,0.20
+field_routing_acc,0.85
+routing acc num,0.85
+routing acc number field,0.85
+ofbirth,0.50
+totp token field,0.90
+bankaccount,0.70
+inputsalt,0.85
+bankaccnum,0.80
+comments,0.00
+credit card number field,0.95
+security-token-input,0.90
+bankaccountnum,0.85
+password1 input,0.95
+privatekeyinput,0.95
+routing_acc_number_input,0.85
+cvv number,0.95
+certificate-field,0.70
+stated,0.10
+fieldtotpcode,0.90
+field card[number],0.90
+pwd_field,0.95
+agent email,0.50
+field_cvv,0.95
+pan-last-4,0.70
+code_verifier,0.60
+sender id,0.15
+housedetails,0.10
+key-input,0.60
+input-cc-num,0.95
+2fa-code-field,0.90
+field-acc-number,0.70
+input_routing_acc_num,0.85
+card cvv field,0.95
+field-two-factor-token,0.90
+reset password token,0.80
+private key,0.95
+member name,0.30
+referrers first name,0.70
+bankaccountnumberfield,0.85
+first,0.05
+input  csrf,0.30
+input ssn,0.95
+totp-field,0.90
+otp field,0.90
+firstname,0.70
+mysql pwd field,0.95
+auth token input,0.90
+inputtwofactortoken,0.90
+security_token,0.90
+accountnumber,0.70
+state code,0.10
+field_account_routing_number,0.85
+confirm_passwd_field,0.95
+input-otp-pin,0.90
+receiver-zip-code,0.40
+field bank account number,0.90
+input-mysql-pwd,0.95
+field routing account number,0.85
+acc_number_input,0.70
+code-verifier,0.60
+totppin,0.90
+card[number]-field,0.90
+field_private_key,0.95
+last-four-ssn,0.90
+insurer_name,0.15
+routing-acc-num-field,0.85
+useripaddress,0.55
+xclientdata,0.20
+repeat-password-field,0.90
+receiver device contact name,0.30
+social-security-number-field,0.95
+receiver_device_contact_name,0.30
+num],0.00
+credit-card-number,0.95
+mobile phone,0.70
+senderzipcode,0.40
+input card[cvv],0.95
+credit_card_num_field,0.95
+device,0.05
+template link,0.05
+input_totp_token,0.90
+matchesssndigest,0.90
+acc_number,0.65
+bank-acc[routing-num]-field,0.85
+input-bank-acc[routing-number],0.85
+inputbankaccount[routingnumber],0.85
+secret input,0.90
+fieldconfirmpassword,0.95
+api key field,0.95
+authenticity,0.30
+routing acc,0.80
+input_stripe_token,0.90
+otp_input,0.90
+2fa code input,0.90
+cardnum,0.85
+accountbanknumber,0.85
+fieldroutingaccnumber,0.85
+authenticity token,0.80
+password-field,0.95
+field_stripe_token,0.90
+input_acc_number,0.70
+postalcode,0.10
+bankaccnumberinput,0.85
+middle-name,0.70
+cardsecuritycode,0.90
+2fa-pin-field,0.90
+card_number,0.90
+credentials field,0.90
+bank_account[routing_number],0.85
+2fa_pin,0.90
+field_issuer_certificate,0.75
+verifier,0.25
+security_code,0.90
+creds-input,0.90
+pwd-field,0.95
+bank acc field,0.70
+social_security_num_input,0.95
+member question,0.20
+group,0.00
+saltinput,0.85
+bank-acc-field,0.70
+inputpasswd,0.95
+dob,0.85
+input passwd,0.95
+field-confirm-passwd,0.95
+input-card-num,0.90
+routingaccnuminput,0.85
+ccnumberinput,0.95
+input confirm passwd,0.95
+created_date,0.00
+issuer certificate,0.75
+field_creds,0.90
+input_salt,0.85
+bank acc[routing number],0.80
+salt_field,0.85
+two_factor_pin_field,0.90
+reset,0.05
+fieldmysqlpwd,0.95
+apikeyfield,0.95
+input-two-factor-token,0.90
+bankacc[routingnumber],0.85
+property-version,0.00
+inputotppin,0.90
+response_json,0.00
+password-confirm-input,0.95
+password1input,0.95
+code verifier,0.60
+bank_acc_num,0.80
+tokenfield,0.80
+inputtoken,0.80
+field creds,0.90
+cardcvv,0.95
+mysql pwd input,0.95
+auth-token-input,0.90
+fieldaccountbanknumber,0.85
+input otp token,0.90
+responsearray,0.00
+fieldcardcvv,0.95
+input_2fa_pin,0.90
+appid,0.05
+field credentials,0.90
+routing_number_input,0.85
+client id,0.15
+confirm-password-field,0.90
+debitcard,0.80
+field_access_token,0.90
+2fa-pin-input,0.90
+credentialsfield,0.90
+two factor code input,0.90
+inputotp,0.90
+account-routing-number,0.85
+2fa_input,0.90
+full name,0.75
+password2-field,0.95
+issuer-certificate-input,0.75
+inputroutingaccnum,0.85
+group_id,0.05
+senderdeviceid,0.20
+ssn field,0.95
+card-expiration,0.50
+field card[cvv],0.95
+input-security-pin,0.90
+card cvv input,0.95
+field_key,0.55
+bank_account_num,0.85
+otp_pin,0.90
+friend,0.00
+cc-num-field,0.95
+accountroutingnumberinput,0.85
+x_client_data,0.20
+credsinput,0.90
+last-name,0.65
+funding source id,0.15
+routing-acc-number-input,0.85
+input-private-key,0.95
+fieldapikey,0.95
+bank-account,0.70
+field_card[number],0.90
+bank acc[routing number] input,0.85
+otpcodefield,0.90
+otp token field,0.90
+bank_acc[routing_number]_field,0.85
+bankaccount[routingnumber]input,0.85
+credit_card,0.90
+inputaccountbanknumber,0.85
+bank-account-number-input,0.85
+inputauthtoken,0.90
+totp_code_input,0.90
+bank-account-num-input,0.85
+field_bank_account_number,0.90
+inputcredentials,0.90
+bank-acc-num,0.80
+segment device id,0.10
+field_card_num,0.90
+accountid,0.10
+field_token,0.80
+input-key,0.60
+ssn-input,0.95
+fieldsocialsecuritynum,0.95
+segment_device_id,0.10
+fieldpasswd,0.95
+assertion,0.30
+password1_field,0.95
+bank account num field,0.85
+created date,0.00
+ruleformat,0.00
+field-otp-code,0.90
+routing number field,0.85
+certificate_field,0.70
+field_otp_code,0.90
+sender name,0.30
+cvv,0.95
+totpcodeinput,0.90
+inputsecret,0.90
+field card number,0.90
+input_pin,0.85
+input_bank_account_num,0.85
+routing-account-number,0.85
+sender address,0.70
+field_cc_num,0.95
+raw_field,0.00
+referral token,0.40
+tax_id,0.80
+net pay amount,0.40
+field two factor code,0.90
+card-cvv-field,0.95
+inputtotpcode,0.90
+zip code,0.10
+lastfour,0.45
+input-social-security-number,0.95
+input_credit_card,0.90
+account_id,0.10
+cc_number_field,0.95
+fieldconfirmpasswd,0.95
+field-card-num,0.90
+property-id,0.05
+card[number]_input,0.90
+employer-name,0.20
+input_otp_code,0.90
+bank_account_number_field,0.90
+sender device id,0.20
+cc_number,0.95
+access-token-field,0.90
+field pin,0.85
+input bank account number,0.85
+field_password1,0.95
+certfield,0.70
+receiverzipcode,0.40
+input-routing-acc-num,0.85
+otp-pin-input,0.90
+num,0.00
+account routing number input,0.85
+input salt,0.85
+referrer-token,0.45
+2fa-input,0.90
+csrffield,0.30
+routingnumberfield,0.85
+inputcreds,0.90
+authentication_token,0.85
+name,0.10
+routing acc input,0.85
+input credit card number,0.95
+input bank acc,0.70
+input_account_number,0.70
+confirm_passwd_input,0.95
+account id,0.10
+insurer-name,0.15
+cc-number,0.95
+template-link,0.05
+fieldnewpassword,0.95
+merchantname,0.10
+creds field,0.90
+input_secret,0.90
+bank,0.15
+propertyname,0.05
+inputconfirmpassword,0.95
+field cvv,0.95
+member,0.10
+panbin,0.60
+fieldbankacc[routingnum],0.85
+security_code_field,0.90
+field-routing-acc-num,0.85
+inputbankacc[routingnum],0.85
+deviceid,0.15
+fieldaccesstoken,0.90
+inputcard[num],0.90
+input-issuer-certificate,0.75
+access-token-input,0.90
+field-credit-card-num,0.95
+device-id,0.15
+account-bank-number,0.85
+field-2fa,0.90
+insurer,0.15
+totptokeninput,0.90
+security-token-field,0.90
+security code input,0.90
+year,0.00
+creditcardnumberfield,0.95
+pin_code,0.85
+issuer-certificate-field,0.75
+cardcvvfield,0.95
+secret_field,0.90
+password confirm input,0.95
+routing-account-number-input,0.85
+new_password_field,0.95
+netpayamount,0.40
+input 2fa token,0.90
+last name,0.65
+field-card[cvv],0.95
+last_four_ssn,0.90
+field-cert,0.70
+routing_acc_num,0.85
+field bank acc[routing num],0.85
+password-input,0.95
+input-certificate,0.75
+field access token,0.90
+field_cert,0.70
+primary,0.05
+csrf,0.30
+input-card-number,0.90
+fieldtoken,0.80
+issuer_certificate_field,0.75
+x-client-data,0.20
+zip_code,0.10
+private-key-input,0.95
+pincode,0.85
+payfriendid,0.10
+accountroutingnumberfield,0.85
+inputbankaccnumber,0.85
+inputaccountnumber,0.70
+certificate input,0.75
+referrers avatar url,0.15
+field_confirm_passwd,0.95
+acc-number-field,0.70
+card[cvv] input,0.95
+sender_state_code,0.15
+input api token,0.90
+card[number],0.85
+inputtotp,0.90
+field_two_factor_token,0.90
+account-number,0.70
+mobile-phone,0.70
+gross_pay_amount,0.50
+two-factor-code-field,0.90
+senderid,0.15
+input-bank-account[routing-number],0.85
+field social security num,0.95
+merchant-name,0.10
+2facode,0.90
+securitytokeninput,0.90
+card_num_field,0.90
+accountnumberinput,0.70
+bank_acc_input,0.70
+otp_field,0.90
+field-new-password,0.95
+fieldapitoken,0.90
+referrers_first_name,0.70
+last_4,0.45
+referral,0.10
+input-api-key,0.95
+input-new-password,0.95
+store,0.00
+routing acc number,0.85
+input-bank-account,0.75
+field-totp,0.90
+credentials_input,0.90
+bank account num input,0.85
+2fa token input,0.90
+card number input,0.90
+agentemail,0.50
+input_csrf,0.30
+credit_card_input,0.90
+input-salt,0.85
+gross,0.10
+mysql-pwd-input,0.95
+receiveripaddress,0.55
+otpcodeinput,0.90
+input_otp_pin,0.90
+field_account_bank_number,0.85
+input otp code,0.90
+creditcardinput,0.90
+field_security_pin,0.90
+date-ofbirth,0.85
+fieldbankaccountnum,0.85
+ccnum,0.95
+bank-account-field,0.75
+passwd_confirm,0.95
+otp-pin,0.90
+otptokenfield,0.90
+credit-card-number-input,0.95
+fcparams,0.05
+fieldsecuritypin,0.90
+segment-device-id,0.10
+cc num,0.95
+bank_account_input,0.75
+field cc num,0.95
+inputccnum,0.95
+2fa-token-input,0.90
+fieldcreditcard,0.90
+pay-friend-id,0.10
+authentication token,0.85
+field-2fa-code,0.90
+postal code,0.10
+passwd-confirm,0.95
+referrers_last_name,0.70
+email_domain,0.15
+apitranskey,0.85
+access token field,0.90
+input raw,0.00
+routing-acc-num,0.85
+employer_name,0.20
+routing-acc-input,0.85
+field totp,0.90
+twofactorpininput,0.90
+check_amount,0.20
+two_factor_token,0.90
+memberquestion,0.20
+card[number] input,0.90
+card[number]input,0.90
+password2field,0.95
+first_name,0.70
+fieldcreditcardnum,0.95
+account_routing_number_input,0.85
+fieldcvv,0.95
+bankacc[routingnumber]input,0.85
+fieldpassword2,0.95
+confirm_password,0.90
+field mysql pwd,0.95
+bank_acc[routing_num],0.85
+referrers,0.15
+field-social-security-num,0.95
+otpinput,0.90
+card[num]-input,0.90
+stripetokeninput,0.90
+passwd_confirm_field,0.95
+fieldpasswdconfirm,0.95
+routing_acc_num_input,0.85
+routing acc field,0.85
+field_totp,0.90
+house-number,0.10
+field-credit-card-number,0.95
+source,0.05
+response-json,0.00
+template,0.00
+creds input,0.90
+property-name,0.05
+2fa field,0.90
+primary_phone,0.70
+input-totp-code,0.90
+funding_source_id,0.15
+old-password-field,0.95
+stripetokenfield,0.90
+fieldsalt,0.85
+rule-format,0.00
+otp_code,0.90
+clientsecret,0.95
+securitypininput,0.90
+response_array,0.00
+field_routing_number,0.85
+two-factor-pin-input,0.90
+input_confirm_passwd,0.95
+zip,0.05
+api-key-field,0.95
+inputpwd,0.95
+fieldissuercertificate,0.75
+account_number_input,0.70
+bank account[routing number] input,0.85
+accountnumberfield,0.70
+primary phone,0.70
+inputsocialsecuritynumber,0.95
+inputccnumber,0.95
+acc,0.20
+repeat_password_input,0.90
+routing_acc_field,0.85
+certificate field,0.70
+created,0.00
+totp pin field,0.90
+totp token,0.90
+totp,0.85
+input-password-confirm,0.95
+socialsecuritynumberfield,0.95
+account-routing-number-field,0.85
+totp-token,0.90
+user ip address,0.55
+countrycode,0.10
+compensation-amount,0.35
+2fa code field,0.90
+state,0.05
+pwd field,0.95
+input_2fa,0.90
+field_repeat_password,0.90
+_key,0.25
+input_security_pin,0.90
+creditcardnumfield,0.95
+given_name,0.65
+two factor pin,0.90
+bank_account_num_input,0.85
+confirm password field,0.90
+issuercertificate,0.75
+raw_input,0.00
+card cvv,0.95
+country_code,0.10
+field issuer certificate,0.75
+email_address,0.75
+security_token_field,0.90
+2facodefield,0.90
+otp_token,0.90
+authenticationtoken,0.85
+input bank acc number,0.85
+twofactortokenfield,0.90
+secret field,0.90
+2fa-code-input,0.90
+fieldbankaccnumber,0.85
+field2fapin,0.90
+inputotptoken,0.90
+bank-acc[routing-num]-input,0.85
+employer,0.15
+input_totp_code,0.90
+field_social_security_number,0.95
+inputbankacc,0.70
+raw-webhook-response,0.15
+field routing number,0.85
+security code,0.90
+field ssn,0.95
+authentication-token,0.85
+secret-field,0.90
+field-raw,0.00
+inputaccesstoken,0.90
+2fa-code,0.90
+field-api-key,0.95
+card-number-last-four,0.85
+cvv_field,0.95
+bank_acc_number_field,0.80
+totp_pin_field,0.90
+card[num]input,0.90
+tax id,0.80
+field-account-bank-number,0.85
+field-two-factor-pin,0.90
+input_card_number,0.90
+field-bank-acc[routing-num],0.85
+security-code-input,0.90
+auth_token_field,0.90
+sender,0.15
+givenname,0.65
+input_private_key,0.95
+member-question-redacted,0.40
+routing number,0.85
+password1field,0.95
+input-confirm-passwd,0.95
+stated-income,0.50
+receiver-ip-address,0.55
+net-pay-amount,0.40
+number,0.05
+field-totp-pin,0.90
+api token,0.85
+fieldsecuritycode,0.90
+api token input,0.90
+card[cvv],0.90
+field old password,0.95
+user-token,0.80
+repeat_password,0.85
+inputpasswordconfirm,0.95
+bank account input,0.75
+field-salt,0.85
+otp_code_field,0.90
+tax,0.20
+gender,0.50
+bankaccnumfield,0.80
+bank_account_num_field,0.85
+inputpassword,0.95
+input pwd,0.95
+repeat password,0.85
+input_routing_number,0.85
+security_code_input,0.90
+api_token_input,0.90
+auth token,0.90
+field csrf,0.30
+input_raw,0.00
+passwd_field,0.95
+input-routing-number,0.85
+card_cvv_field,0.95
+field-stripe-token,0.90
+input card cvv,0.95
+input_issuer_certificate,0.75
+fullname,0.75
+securitypin,0.90
+credit-card,0.90
+receiver-device-contact-name,0.30
+credentials_field,0.90
+input new password,0.95
+createddate,0.00
+totp code field,0.90
+date,0.00
+routing_account_number_field,0.85
+house_details,0.10
+first-name,0.70
+property version,0.00
+account,0.15
+confirm_password_field,0.90
+input-two-factor-pin,0.90
+encrypted password,0.95
+field-2fa-token,0.90
+pin_field,0.85
+fieldpin,0.85
+_csrf_input,0.30
+input old password,0.95
+_csrf_token,0.30
+field-issuer-certificate,0.75
+net_pay_amount,0.40
+input issuer certificate,0.75
+api-key-input,0.95
+memo,0.05
+field-bank-acc,0.70
+field_account_number,0.70
+senderipaddress,0.60
+fieldotp,0.90
+email-address,0.75
+field_api_token,0.90
+grosspayamount,0.50
+credit card num input,0.95
+routing-number-field,0.85
+bank-acc-num-input,0.85
+acc number input,0.70
+card-number,0.90
+referral-token,0.40
+input_account_bank_number,0.85
+access_token_field,0.90
+inputstripetoken,0.90
+card number last 4,0.85
+input_old_password,0.95
+last-4,0.45
+-csrf-field,0.30
+otp_token_field,0.90
+apitoken,0.85
+field bank acc,0.70
+field cc number,0.95
+old password field,0.95
+field card num,0.90
+field-account-routing-number,0.85
+password field,0.95
+new password input,0.95
+input security code,0.90
+field bank acc num,0.85
+receiver_zip_code,0.40
+field credit card number,0.95
+field-security-pin,0.90
+field_bank_account[routing_number],0.85
+two_factor_token_input,0.90
+card expiration,0.50
+two-factor-token-input,0.90
+referrer token,0.45
+input access token,0.90
+card_number_last4,0.85
+income,0.30
+two,0.00
+2fa token,0.90
+totp_field,0.90
+receiveridentifier,0.30
+tokeninput,0.80
+given-name,0.65
+feature,0.00
+ccnumfield,0.95
+sender_zip_code,0.40
+credit card input,0.90
+input-token,0.80
+inputcsrf,0.30
+card[num] input,0.90
+referralurl,0.10
+credit-card-num-input,0.95
+cc number,0.95
+2fafield,0.90
+passwd,0.95
+pwd,0.90
+auth_token,0.90
+cvv-number,0.95
+confirm-passwd-field,0.95
+propertyid,0.05
+fieldpassword,0.95
+confirm-password-input,0.90
+field_2fa_pin,0.90
+matches ssn digest,0.90
+input-credentials,0.90
+cardnumberinput,0.90
+input totp pin,0.90
+input-passwd,0.95
+card[cvv]_field,0.95
+cardcvvinput,0.95
+field-cc-num,0.95
+bank acc num input,0.85
+input card number,0.90
+bankaccountnuminput,0.85
+date-of-birth,0.85
+last_name,0.65
+fieldpasswordconfirm,0.95
+card number last four,0.85
+account-bank-number-field,0.85
+passwd-confirm-input,0.95
+totppininput,0.90
+creds,0.85
+inputbankaccnum,0.85
+totp_pin_input,0.90
+accesstokeninput,0.90
+input-account-routing-number,0.85
+inputssn,0.95
+panlast4,0.70
+member-name,0.30
+property id,0.05
+repeat password input,0.90
+field_credit_card,0.90
+routing_acc_num_field,0.85
+ssninput,0.95
+input_token,0.80
+totp-code-field,0.90
+field 2fa code,0.90
+inputcertificate,0.75
+repeatpasswordinput,0.90
+fieldsecuritytoken,0.90
+feature-store,0.05
+two-factor-pin-field,0.90
+otp token,0.90
+referrer_token,0.45
+otp-field,0.90
+card num field,0.90
+postal-code,0.10
+field_card[num],0.90
+field raw,0.00
+input-password,0.95
+cvv-field,0.95
+routing acc num field,0.85
+lastname,0.65
+mysql_pwd,0.95
+stripe token input,0.90
+oldpasswordfield,0.95
+address,0.80
+fname,0.65
+passwdconfirm,0.95
+bank-acc[routing-number]-input,0.85
+input api key,0.95
+credit card number,0.95
+checkamount,0.20
+input-cc-number,0.95
+pan last 4,0.70
+keyfield,0.60
+socialsecuritynumber,0.95
+bank-account-number-field,0.90
+input-bank-acc,0.70
+card[number]field,0.90
+expiry-date,0.15
+routing_account_number,0.85
+input_auth_token,0.90
+token_field,0.80
+mobilephone,0.70
+confirm passwd,0.90
+input-routing-acc-number,0.85
+last four,0.50
+contract-id,0.10
+input_certificate,0.75
+expiry date,0.15
+cvv field,0.95
+field-otp-pin,0.90
+field password,0.95
+social-security-num-field,0.95
+2fa,0.85
+field-routing-account-number,0.85
+security pin field,0.90
+input_password2,0.95
+card[cvv]field,0.95
+inputnewpassword,0.95
+input private key,0.95
+raw webhook response,0.15
+pwdfield,0.95
+referral_url,0.10
+zipcode,0.10
+fieldaccnumber,0.70
+input-credit-card-num,0.95
+cvvnumber,0.95
+otppininput,0.90
+rule,0.00
+field-routing-acc,0.85
+raw,0.00
+old_password_input,0.95
+card-number-last4,0.85
+matches-ssn-digest,0.90
+card[num] field,0.90
+2fa_code_input,0.90
+pin input,0.85
+pinfield,0.85
+input routing acc num,0.85
+card-number-input,0.90
+input otp,0.90
+cvvinput,0.95
+routingaccountnumber,0.85
+referrersfirstname,0.70
+field_security_token,0.90
+body,0.00
+cert field,0.70
+field_new_password,0.95
+confirmpasswordfield,0.90
+field api token,0.90
+field bank account,0.75
+receiver-address,0.70
+card-num-field,0.90
+input_password1,0.95
+input acc number,0.70
+password input,0.95
+input-confirm-password,0.95
+card[number]-input,0.90
+property,0.00
+salt input,0.85
+two factor pin input,0.90
+fieldcredentials,0.90
+input-card[number],0.90
+inputsecuritypin,0.90
+totp_token,0.90
+issuer certificate field,0.75
+sender state code,0.15
+2fa code,0.90
+input_cc_number,0.95
+securitypinfield,0.90
+compensation amount,0.35
+2fatokenfield,0.90
+api key,0.95
+field password2,0.95
+user ip,0.55
+fieldcsrf,0.30
+field_api_key,0.95
+card[cvv]_input,0.95
+card_num,0.85
+accnumber,0.65
+securitycode,0.90
+account_bank_number,0.85
+old_password_field,0.95
+sender zip code,0.40
+two-factor-token-field,0.90
+passwd_confirm_input,0.95
+field_bank_acc_num,0.85
+input__csrf,0.30
+contract_id,0.10
+field_routing_acc_number,0.85
+routingaccnumfield,0.85
+two_factor_token_field,0.90
+card[cvv]-input,0.95
+bank-account[routing-number]-field,0.85
+ip,0.25
+encrypted_password,0.95
+routing account number field,0.85
+clientid,0.15
+usertoken,0.80
+receiver ip address,0.55
+sender-ip-address,0.60
+input csrf,0.30
+cvv_input,0.95
+cc num field,0.95
+input_new_password,0.95
+raw-field,0.00
+routing-account-number-field,0.85
+bank-acc[routing-num],0.85
+funding,0.05
+account-id,0.10
+two factor token field,0.90
+field_2fa_token,0.90
+fieldraw,0.00
+securitytokenfield,0.90
+password2 field,0.95
+2fa pin,0.90
+client-id,0.15
+fieldtwofactorpin,0.90
+cc-number-field,0.95
+salt-input,0.85
+field security code,0.90
+totp code input,0.90
+social,0.20
+bank acc num,0.80
+routing-acc-field,0.85
+inputroutingaccnumber,0.85
+two-factor-code,0.90
+inputconfirmpasswd,0.95
+confirm-passwd-input,0.95
+emailaddress,0.75
+token input,0.80
+primary-account-number,0.90
+input_otp,0.90
+card[cvv]-field,0.95
+totp pin input,0.90
+twofactorcode,0.90
+last_4_ssn,0.90
+serverdata,0.10
+referrers_avatar_url,0.15
+cert-input,0.75
+card_expiration,0.50
+cookie,0.25
+new-password,0.95
+input-two-factor-code,0.90
+apisecret,0.95
+member-question,0.20
+client-secret,0.95
+field-password,0.95
+expirydate,0.15
+input_two_factor_code,0.90
+confirmpasswd,0.90
+stripe_token,0.90
+compensationamount,0.35
+field_two_factor_pin,0.90
+bearer,0.60
+bank-acc-num-field,0.85
+input totp,0.90
+two_factor_pin_input,0.90
+routingaccnumberinput,0.85
+bank acc number,0.85
+field bank account num,0.85
+input routing number,0.85
+input2fapin,0.90
+last 4,0.45
+cardnumber,0.90
+input-repeat-password,0.90
+field-key,0.55
+user,0.10
+mysql_pwd_field,0.95
+field-social-security-number,0.95
+card-number-field,0.90
+fieldaccountnumber,0.70
+cardlast4,0.85
+encryptedpassword,0.95
+card[num],0.80
+pan_bin,0.60
+card[num]_input,0.90
+input auth token,0.90
+fieldsecret,0.90
+passwordinput,0.95
+reset password,0.80
+bankacc,0.65
+password2input,0.95
+message,0.00
+input account routing number,0.85
+two-factor-pin,0.90
+input pin,0.85
+fieldcardnum,0.90
+receiveraddress,0.70
+primaryphone,0.70
+field_password,0.95
+date_ofbirth,0.85
+field-bank-account-num,0.85
+social security num,0.95
+user-ip,0.55
+account_routing_number_field,0.85
+otp token input,0.90
+passwdfield,0.95
+field-bank-account,0.75
+bankaccount[routingnumber],0.85
+input bank account,0.75
+field-password-confirm,0.95
+field_raw,0.00
+input creds,0.90
+social_security_num,0.95
+2fainput,0.90
+taxid,0.80
+cc num input,0.95
+accountroutingnumber,0.85
+accesstokenfield,0.90
+field totp pin,0.90
+rule format,0.00
+house_number,0.10
+propertyversion,0.00
+accesstoken,0.90
+totp_input,0.90
+credit-card-num,0.95
+totp input,0.90
+input_bank_acc_number,0.85
+api token field,0.90
+bank-acc[routing-number]-field,0.85
+input_api_key,0.95
+stripe_token_input,0.90
+totpcode,0.90
+card[cvv] field,0.95
+certificatefield,0.70
+bank_acc_number_input,0.80
+inputbankaccount,0.75
+certificate-input,0.75
+social security number input,0.95
+client_secret,0.95
+username,0.60
+fieldcertificate,0.75
+inputsecuritytoken,0.90
+csrftoken,0.30
+accnumberinput,0.70
+referral-url,0.10
+userip,0.55
+fieldauthtoken,0.90
+card-number-last-4,0.85
+credit card num,0.95
+bank_account,0.70
+factor,0.00
+two factor pin field,0.90
+input-security-code,0.90
+input-credit-card,0.90
+mysqlpwdinput,0.95
+input cert,0.75
+certificate_input,0.75
+bank-acc-number,0.80
+card-last-4,0.85
+field-otp,0.90
+inputissuercertificate,0.75
+receiver,0.10
+field-account-number,0.70
+fieldotppin,0.90
+birth,0.15
+input repeat password,0.90
+token-field,0.80
+totpinput,0.90
+field_otp_pin,0.90
+passwdinput,0.95
+phonenumber,0.75
+two_factor_code,0.90
+senderstatecode,0.15
+cert_field,0.70
+field-ssn,0.95
+fieldtotppin,0.90
+ssn_field,0.95
+insurername,0.15
+card num input,0.90
+created-date,0.00
+input-2fa,0.90
+input_credentials,0.90
+pan,0.65
+input certificate,0.75
+field-credentials,0.90
+input_bank_account_number,0.85
+field routing acc number,0.85
+2facodeinput,0.90
+primary account number,0.90
+privatekeyfield,0.95
+socialsecuritynumfield,0.95
+field password1,0.95
+last-four,0.50
+domain,0.05
+middle_name,0.70
+card-cvv-input,0.95
+account number field,0.70
+sender-state-code,0.15
+input--csrf,0.30
+agent,0.05
+fieldstripetoken,0.90
+cardnumberlast4,0.85
+field-secret,0.90
+reset-password-token,0.80
+cvc,0.85
+newpassword,0.95
+salt field,0.85
+otp_pin_field,0.90
+accountbanknumberfield,0.85
+api-secret,0.95
+phone number,0.75
+cvc number,0.90
+field otp pin,0.90
+field card[num],0.90
+security_pin,0.90
+input_repeat_password,0.90
+reset_password,0.80
+inputtwofactorpin,0.90
+confirm-passwd,0.90
+mysqlpwd,0.95
+passwd confirm input,0.95
+field_routing_account_number,0.85
+field otp token,0.90
+inputtwofactorcode,0.90
+month,0.00
+receiver_identifier,0.30
+-csrf,0.30
+user_token,0.80
+api_secret,0.95
+fieldpwd,0.95
+oldpasswordinput,0.95
+reset_password_token,0.80
+fieldkey,0.55
+socialsecuritynuminput,0.95
+input_routing_acc_number,0.85
+check amount,0.20
+secret,0.90
+inputapitoken,0.90
+field security token,0.90
+totp_pin,0.90
+input card[number],0.90
+id token,0.80
+expirationdate,0.15
+input-creds,0.90
+totp pin,0.90
+group id,0.05
+field key,0.55
+field  csrf,0.30
+social security num input,0.95
+field-2fa-pin,0.90
+card_number_last_4,0.85
+totp code,0.90
+receiver_address,0.70
+field_bank_acc,0.70
+2fa-token,0.90
+bank_acc[routing_number],0.85
+gross-pay-amount,0.50
+card,0.30
+field-pin,0.85
+cardnumfield,0.90
+amount,0.10
+security token field,0.90
+fieldbankaccount,0.75
+expiration date,0.15
+creditcardfield,0.90
+samlrequest,0.50
+new-password-field,0.95
+id_token,0.80
+input secret,0.90
+field acc number,0.70
+twofactorcodeinput,0.90
+social_security_number_input,0.95
+new,0.00
+input_bank_account,0.75
+card_cvv_input,0.95
+inputpin,0.85
+tax-id,0.80
+security-code,0.90
+pwd_input,0.95
+access,0.10
+input_card_cvv,0.95
+input-totp,0.90
+cardnumberlastfour,0.85
+bankaccnuminput,0.80
+field_pin,0.85
+referrertoken,0.45
+account-number-field,0.70
+otpfield,0.90
+card_number_field,0.90
+_csrf_field,0.30
+2fatoken,0.90
+digest,0.15
+last4,0.45
+bankaccinput,0.70
+otp-token-field,0.90
+bank_acc[routing_number]_input,0.85
+repeat_password_field,0.90
+input routing acc,0.85
+routing account number,0.85
+statedincome,0.50
+input_two_factor_token,0.90
+routing-acc-number,0.85
+routing account number input,0.85
+password_field,0.95
+key field,0.60
+apikeyinput,0.95
+authtokeninput,0.90
+feature store,0.05
+response-array,0.00
+bank account num,0.85
+inputcreditcardnumber,0.95
+bank_acc,0.65
+pin field,0.85
+input 2fa code,0.90
+security-pin-field,0.90
+field-bank-account-number,0.90
+account routing number field,0.85
+2fapin,0.90
+card number field,0.90
+repeat-password,0.85
+otppin,0.90
+field_secret,0.90
+routing_number,0.85
+passwd confirm,0.95
+number],0.00
+field_routing_acc_num,0.85
+input_bank_account[routing_number],0.85
+security pin input,0.90
+inputbankaccountnumber,0.85
+input-stripe-token,0.90
+bank-account-num,0.85
+routing_acc_number_field,0.85
+field_password_confirm,0.95
+bank_account_number_input,0.85
+codeverifier,0.60
+old-password,0.95
+sender_name,0.30
+senderaddress,0.70
+full,0.00
+ csrf token,0.30
+fieldccnumber,0.95
+field confirm password,0.95
+house-details,0.10
+socialsecuritynum,0.95
+prn,0.10
+full_name,0.75
+otp code,0.90
+ssn-field,0.95
+member_name,0.30
+access_token,0.90
+ssn_input,0.95
+date of birth,0.85
+input-pin,0.85
+bankaccountnumber,0.85
+key_input,0.60
+given name,0.65
+credentials-field,0.90
+field credit card num,0.95
+inputmysqlpwd,0.95
+social security number field,0.95
+input-secret,0.90
+confirmpasswdfield,0.90
+securitycodeinput,0.90
+passwordconfirminput,0.95
+field 2fa token,0.90
+field2fatoken,0.90
+saltfield,0.85
+input credit card,0.90
+api_key,0.95
+input confirm password,0.90
+net,0.05
+input account bank number,0.85
+housenumber,0.10
+insurer name,0.15
+field certificate,0.75
+field security pin,0.90
+_csrf,0.30
+agent-email,0.50
+api-token,0.85
+credentials input,0.90
+ccnumberfield,0.95
+middle name,0.70
+field_credit_card_num,0.95
+credentials,0.85
+input-bank-account-num,0.85
+twofactorpin,0.90
+sender_ip_address,0.60
+user-ip-address,0.55
+confirmpassword,0.90
+receiver identifier,0.30
+input_card[num],0.90
+fieldprivatekey,0.95
+passwd-input,0.95
+credit card num field,0.95
+inputpassword1,0.95
+card[num]_field,0.90
+input_account_routing_number,0.85
+fieldroutingaccnum,0.85
+api_token_field,0.90
+field_totp_code,0.90
+dateofbirth,0.85
+input_password_confirm,0.95
+token_input,0.80
+email-domain,0.15
+apikey,0.95
+bank acc input,0.70
+password1-input,0.95
+input_totp,0.90
+region,0.05
+input-card-cvv,0.95
+otp code input,0.90
+new password field,0.95
+field-private-key,0.95
+credit_card_number_input,0.95
+account-routing-number-input,0.85
+input-cvv,0.95
+new_password_input,0.95
+check,0.05
+social_security_num_field,0.95
+input_bank_acc[routing_num],0.85
+issuercertificateinput,0.75
+card[num]field,0.90
+acc-number-input,0.70
+input-acc-number,0.70
+input-otp,0.90
+field--csrf,0.30
+otp_code_input,0.90
+securitytoken,0.90
+field account number,0.70
+card[num]-field,0.90
+merchant name,0.10
+of,0.00
+old password,0.95
+bank acc num field,0.80
+input security token,0.90
+security token input,0.90
+csrf_field,0.30
+pay_friend_id,0.10
+social-security-num-input,0.95
+auth,0.35
+credit card,0.90
+bankaccount[routingnumber]field,0.85
+credit_card_number,0.95
+inputroutingnumber,0.85
+routingaccfield,0.85
+field-repeat-password,0.90
+input-bank-account-number,0.85
+credsfield,0.90
+private key field,0.95
+pin code,0.85
+bank acc[routing num] field,0.85
+2fa-field,0.90
+password confirm,0.95
+bank-account-number,0.85
+bank acc number input,0.85
+agent_email,0.50
+password2 input,0.95
+field totp token,0.90
+fieldbankacc,0.70
+property_name,0.05
+input_social_security_number,0.95
+2fa-pin,0.90
+routing-number,0.85
+issuer certificate input,0.75
+2fa-token-field,0.90
+stripe token field,0.90
+primary-phone,0.70
+client_id,0.15
+cert_input,0.75
+segmentdeviceid,0.10
+auth-token,0.90
+field-confirm-password,0.95
+property_version,0.00
+password confirm field,0.95
+otpcode,0.90
+set_cookie,0.40
+api_token,0.85
+bank account number,0.90
+fieldtotp,0.90
+four,0.00
+field_mysql_pwd,0.95
+totptokenfield,0.90
+private_key_field,0.95
+samlresponse,0.50
+featurestore,0.05
+field private key,0.95
+twofactortokeninput,0.90
+passwd field,0.95
+security-pin-input,0.90
+inputsecuritycode,0.90
+set cookie,0.40
+field_acc_number,0.70
+confirm passwd input,0.95
+mobile_phone,0.70
+fieldbankaccount[routingnumber],0.85
+field_social_security_num,0.95
+bank_acc_num_field,0.80
+input_credit_card_num,0.95
+stripe-token-field,0.90
+input password2,0.95
+input key,0.60
+authentication,0.40
+field_passwd_confirm,0.95
+confirm password,0.90
+input_passwd,0.95
+input bank acc[routing num],0.85
